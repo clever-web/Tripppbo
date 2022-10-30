@@ -1,0 +1,437 @@
+@media(min-width: 1400px){
+    /* select accommodation */
+        .grid_accommodation_packs {
+            grid-template-columns: repeat(3, 1fr);
+            padding-right: 0;
+        }
+}
+
+@media(max-width: 1200px){
+    /* activities */
+        .wrap_date_input_sign_in2{
+            flex: none;
+            width: calc(50% - 5px);
+            margin-bottom: 10px;
+        }
+        .wrap_date_input_sign_in2 .wrap_inputs{
+            width: 100% !important;
+            margin-right: 0 !important;
+            margin-bottom: 0 !important;
+        }
+        .activities_girds{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    /* review holiday */
+        .stay_summary_middle2 {
+            padding-left: 40px;
+            padding-right: 30px;
+            width: fit-content;
+            transform: translateX(-5%);
+            -webkit-transform: translateX(-5%);
+            -moz-transform: translateX(-5%);
+            -ms-transform: translateX(-5%);
+            -o-transform: translateX(-5%);
+        }
+        .r_holiday_package_img {
+            width: 26%;
+        }
+        .r_holiday_package_text_content {
+            border-right: 0;
+        }
+        .r_holiday_txt_icon_arrow {
+            width: 100%;
+            margin: auto;
+            border-top: 1px solid var(--silver_border);
+            border-left: 0;
+            padding: 0;
+            padding-top: 10px;
+            margin-top: 15px;
+        }
+        .r_holiday_package_img_wrapper_2 {
+            width: 30%;
+        }
+        .r_holiday_package_content_wrapper_2 {
+            width: 65%;
+        }
+    /* check availability */
+        .box_check_4_left{
+            margin-bottom: 20px;
+        }
+        .box_check_4_left,
+        .box_check_4_right{
+            width: 100%;
+            min-height: fit-content;
+        }
+    /* choose check in date */
+        .box_check_4_right_inner {
+            min-height: fit-content;
+            padding-bottom: 20px;
+        }
+    /* check availbility search */
+        .view_availability_popup{
+            right: 0;
+            left: auto;
+            transform: translateX(0);
+            -webkit-transform: translateX(0);
+            -moz-transform: translateX(0);
+            -ms-transform: translateX(0);
+            -o-transform: translateX(0);
+        }
+    /* select accommodation */
+        .grid_accommodation_packs {
+            grid-template-columns: repeat(3, 1fr);
+            padding-right: 4%;
+        }
+}
+
+@media(max-width: 992px){
+    /* review activity */
+        .check_your_activity{
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .c_y_a_inner{
+            max-width: unset;
+            width: 32%;
+            margin-right: 0;
+        }
+        .r_a_reviews_top_left {
+            max-width: 250px;
+        }
+        .r_a_reviews_bottom_left{
+            top: 30px !important;
+            left: -50px;
+            z-index: 999;
+            transform: translateX(0) !important;
+            -webkit-transform: translateX(0) !important;
+            -moz-transform: translateX(0) !important;
+            -ms-transform: translateX(0) !important;
+            -o-transform: translateX(0) !important;
+        }
+        .r_a_reviews_bottom_left .child_flight_sidebar_hotel{
+            padding: 20px !important;
+            border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+        }
+        .r_a_reviews_bottom_left.flight_sidebar_active{
+            left: -24px !important;
+            max-width: unset;
+            width: calc(100% + 48px);
+        } 
+    /* booking details */
+        .myplan_box_right {
+            width: 270px;
+        }
+        .review_activity_sec_grid_wrapper {
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 20px;
+        }
+        .addToCard_wrapper_review_2{
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+    /* activities */    
+        .activities_girds{
+            grid-template-columns: repeat(3, 1fr);
+        }
+    /* review holiday */
+        .r_holiday_package_img {
+            width: 100%;
+        }
+        .r_holiday_package_text_content {
+            width: 100%;
+            padding: 20px 0;
+        }
+        .r_holiday_package_img_wrapper_2 {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+        .r_holiday_package_content_wrapper_2 {
+            width: 100%;
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .mt_n_10 {
+            margin-top: 15px;
+        }
+        .r_holiday_package_img_2 > img {
+            aspect-ratio: unset;
+        }
+        .flight_price_text{
+            transform: translateY(0);
+            -webkit-transform: translateY(0);
+            -moz-transform: translateY(0);
+            -ms-transform: translateY(0);
+            -o-transform: translateY(0);
+        }
+        .review_holiday_package_d2{
+            min-width: 80px;
+        }
+    /* select accommodation */
+        .grid_accommodation_packs {
+            grid-template-columns: repeat(3, 1fr);
+            padding-right: 0;
+        }
+}
+
+@media(max-width: 900px){
+    /* review activity */
+        .check_your_activity{
+            padding-bottom: 0 !important;
+        }
+        .c_y_a_inner{
+            width: 48%;
+            margin-bottom: 30px;
+        }
+        .wrap_calendar_3 {
+            right: 0;
+            left: auto;
+            width: 400px;
+        }
+}
+
+@media(max-width: 850px){
+    /* booking details */
+        .myplan_box{
+            flex-direction: column;
+        }
+        .myplan_box_left{
+            margin-left: 0 !important;
+        }
+        .myplan_box_right{
+            padding-bottom: 15px;
+        }
+}
+
+@media(max-width: 800px){
+    /* review activity */
+        .r_a_reviews_top_left {
+            max-width: 220px;
+        }
+    /* review holiday */
+        .review_holiday_package_btns {
+            padding-right: 0;
+            border-right: 0;
+        }  
+        .review_holiday_package_btns:first-child {
+            border-right: 0;
+            padding-right: 0;
+            margin-bottom: 20px;
+        }
+        .review_holiday_package_btns:last-child {
+            padding-left: 0;
+        }
+}
+
+@media(max-width: 768px){
+    /* review activity */
+        .experience_location{
+            min-height: 350px;
+        }
+        .r_a_reviews_top_left {
+            max-width: unset;
+            width: fit-content;
+            padding-right: 7%;
+        }
+        .r_a_reviews_bottom_desc {
+            padding-right: 0;
+        }
+        .r_a_reviews_middle{
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    /* activities */    
+        .activities_girds{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    /* check availbility search */
+        .view_availability_popup{
+            right: auto;
+            left: 50%;
+            transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+            -moz-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            -o-transform: translateX(-50%);
+        }
+    /* select accommodation */
+        .grid_accommodation_packs {
+            grid-template-columns: repeat(2, 1fr);
+            padding-right: 4%;
+        }
+    /* select flight */
+        .select_flight_top {
+            margin-left: 8vw;
+        }
+    /* REVIEW AND PAY */
+        .review_and_pay_top_img > img {
+            border-radius: 20px 20px 0 0;
+            -webkit-border-radius: 20px 20px 0 0;
+            -moz-border-radius: 20px 20px 0 0;
+            -ms-border-radius: 20px 20px 0 0;
+            -o-border-radius: 20px 20px 0 0;
+        }
+}
+
+@media(max-width: 630px){
+    /* review activity */
+        .c_y_a_inner{
+            width: 100%;
+        }
+        .wrap_calendar_3 {
+            width: 100%;
+        }
+        .trip_date {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        .r_a_reviews_top_left {
+            width: 100%;
+            padding-right: 0;
+            border-right: 0;
+        }
+        .r_a_reviews_top_right {
+            width: 100%;
+            padding-left: 0 !important;
+            padding-top: 30px;
+        }
+        .row_review_summary2 .progress {
+            width: 40vw;
+        }
+    /* select flight */ 
+        .select_flight_top{
+            margin-left: 0;
+            width: 100%;
+            justify-content: center;
+            margin-top: 15px;
+        }
+}
+
+@media(max-width: 567px){
+    /* review activity */
+        .experience_location{
+            min-height: 300px;
+        }
+        .myplan_box_right{
+            margin-left: auto;
+            margin-right: auto;
+        }
+    /* activities */
+        .wrap_date_input_sign_in2{
+            width: 100%;
+            margin-bottom: 25px;
+        }
+        .activities_search_input{
+            margin-right: 0 !important;
+        }    
+        .activities_girds{
+            grid-template-columns: repeat(1, 1fr);
+        }
+    /* check availability search */
+        .view_availability_popup {
+            width: 80vw;
+            left: -20vw;
+            transform: translateX(0);
+            -webkit-transform: translateX(0);
+            -moz-transform: translateX(0);
+            -ms-transform: translateX(0);
+            -o-transform: translateX(0);
+        }
+    /* u */
+        .nice_select_sm_right .nice-select .nice-select-dropdown{
+            left: auto !important;
+            right: 0 !important;
+        }
+}
+
+@media(max-width: 550px){
+    /* select accommodation */
+        .grid_accommodation_packs {
+            grid-template-columns: repeat(1, 1fr);
+            padding-right: 0;
+        }
+}
+
+@media(max-width: 480px){
+    /* review activity */
+        .experience_location{
+            min-height: 250px;
+        }
+        .search_review{
+            max-width: unset;
+            width: 96%;
+        }
+        .r_a_reviews_middle{
+            margin-top: 30px;
+            padding-top: 0 !important;
+            border-top: 1px solid var(--light_secondary);
+        }
+        .r_a_reviews_middle .select_box{
+            width: fit-content;
+        }
+        .myplan_box_right{
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    /* review holiday */
+        .stay_summary_middle2 {
+            padding-left: 30px;
+            padding-right: 20px;
+            width: fit-content;
+            transform: translateX(-5%);
+            -webkit-transform: translateX(-5%);
+            -moz-transform: translateX(-5%);
+            -ms-transform: translateX(-5%);
+            -o-transform: translateX(-5%);
+        }
+    /* check availability search */
+            .view_availability_popup {
+                left: -25vw;
+            }
+    /* select accommodation */
+        .r_experience_desc2 {
+            flex-grow: unset !important;
+            width: 78% !important;
+        }
+        
+}
+
+@media(max-width: 450px){
+    /* review holiday */
+        .stay_summary_middle2 {
+            padding-left: 20px;
+            padding-right: 20px;
+            width: fit-content;
+            background: transparent;
+            transform: translateX(0);
+            -webkit-transform: translateX(0);
+            -moz-transform: translateX(0);
+            -ms-transform: translateX(0);
+            -o-transform: translateX(0);
+        }
+}
+
+@media(max-width: 430px){
+    .select_box2{
+        width: fit-content;
+    }
+}
+
+@media(max-width: 400px){
+    .choose_check_date_box{
+        padding-right: 0 !important;
+        flex: none;
+        width: 100%;
+    }
+    /* check availability search */
+        .view_availability_popup {
+            left: -28vw;
+        }
+}

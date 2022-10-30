@@ -1,0 +1,88 @@
+:root {
+    --radio-btn-size: 18px;
+    --radio-btn-border: 1px;
+    --radio-btn-color: #fe2f70;
+}
+.report-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    width: 60%;
+    margin: 0 auto;
+}
+.report-grid > div {
+    display: -ms-flexbox;
+    display: flex;
+}
+.report-grid > div > div:nth-of-type(1) {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.custom-radio-btn {
+    display: inline-block;
+    width: var(--radio-btn-size);
+    height: var(--radio-btn-size);
+    margin-bottom: 0;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.custom-radio-btn input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+}
+.custom-radio-btn:hover input ~ .checkmark {
+	border: var(--radio-btn-border) solid var(--radio-btn-color);
+}
+.custom-radio-btn input:checked ~ .checkmark {
+	background-color: #ffffff;
+	border: var(--radio-btn-border) solid var(--radio-btn-color);
+}
+.custom-radio-btn input:checked ~ .checkmark:after {
+  display: block;
+}
+.custom-radio-btn .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: var(--radio-btn-size);
+    height: var(--radio-btn-size);
+    border: var(--radio-btn-border) solid #ccc;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.custom-radio-btn .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+    width: calc(var(--radio-btn-size) * 0.6);
+    height: calc(var(--radio-btn-size) * 0.6);
+    border-radius: 50%;
+    background-color: var(--radio-btn-color);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@media (max-width: 768px) { 
+
+
+}
+
+@media (min-width: 769px) {
+    
+   
+}

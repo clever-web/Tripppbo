@@ -1,0 +1,279 @@
+.bg-hero {
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    background-position: left;
+}
+.portfolio-1 {
+    display: grid;
+    grid-template-columns: auto;
+}
+.portfolio-1 > div a {
+    text-decoration: none;
+    color: inherit;
+}
+.portfolio-1 figure {
+    margin: 0;
+    position: relative;
+    border: 1px solid transparent;
+}
+.portfolio-1 figure > div, .portfolio-1 figure > figcaption {
+    border: 1px solid #ddd;
+    padding: 5px;
+    position: relative;
+}
+.portfolio-1 figure > div {
+    border-bottom-style: none;
+    padding-bottom: 1rem;
+}
+.portfolio-1 figure > figcaption {
+    padding: 1rem;
+    border-top-style: dashed;
+
+}
+.portfolio-1 figure > figcaption > span, .portfolio-1 figure > div > span {
+    background-color:#fff;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+}
+.portfolio-1 figure > div > span.bl {
+    left: -1px;
+    bottom: -1px;
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-radius: 0px 10px 0px 0px;
+}
+.portfolio-1 figure > div > span.br {
+    right: -1px;
+    bottom: -1px;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-radius: 10px 0px 0px 0px;
+}
+.portfolio-1 figure > figcaption > span.tl {
+    left: -1px;
+    top: -1px;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-radius: 0px 0px 10px 0px;
+}
+.portfolio-1 figure > figcaption > span.tr {
+    right: -1px;
+    top: -1px;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-radius: 0px 0px 0px 10px;
+}
+.portfolio-1 figure > div > div {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+.portfolio-1 figure > div > div > img {
+    height: 20px;
+}
+.portfolio-1 figure:hover {
+    border: 1px solid #fe2f70;
+}
+.portfolio-1 figcaption {
+    padding: 5px;
+}
+.portfolio-1 img.arrow {
+    height: 20px;
+}
+.portfolio-dots {
+    margin: 1rem 0 !important;
+}
+.portfolio-dots .portfolio-dot {
+    background: gray;
+    border: 0;
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    margin: 0 .25rem;
+    outline: 0;
+    padding: 0;
+    transition: background-color .2s ease;
+    width: 10px;
+}
+.portfolio-dots .portfolio-dot.is-active {
+    background: #000941;
+}
+.portfolio-dots .portfolio-dot:hover, .portfolio-dot.is-active {
+    transform: scale(1.4);
+    transform-origin: center center;
+    background-color: #000941;
+}
+div.portfolio-1-navigation button {
+    cursor: pointer;
+    width: auto;
+    padding: 2px 9px;
+    background-color: #000941;
+    font-weight: bold;
+    transition: 0.6s ease;
+    user-select: none;
+    border-color: #000941;
+}
+div.portfolio-1-navigation button:disabled {
+    opacity: .3;
+}
+div.portfolio-1-navigation > div:not(:last-child) {
+    margin-right: 5px;
+}
+div.portfolio-1-navigation button > i {
+    color: white;
+    font-size: 12px;
+}
+.grid-1 > div > div.grid-1-card {
+    padding: 20px 10px 20px 20px;
+    background-color: #d2d2d241;
+    position: relative;
+}
+.grid-1 > div > div.grid-1-card > span.grid-1-badge {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    padding: 5px 10px;
+    background-color: #fe2f70;
+    color: white;
+    font-size: 26px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    line-height: normal;
+}
+@media (max-width: 768px) {
+
+    .bg-hero {
+        background-image: url("../../image/64367.png");
+        width: 100vw;
+        height: calc(100vh - 80px);
+        background-size: cover;
+        background-position:center;
+    }
+    .section-1 > div {
+        width: 100%;
+    }
+    .section-1 > div:nth-of-type(1) {
+        margin-bottom: 1rem;
+    }
+    .portfolio-1 {
+        grid-gap: 10px;
+    }
+    .portfolio-1 figure > img {
+        width: 100%;
+    }
+    .grid-1 {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+    }
+    .grid-1 > div {
+        border: 1px solid #ddd;
+        padding: 10px;
+    }
+    .grid-1 > div > div.grid-1-card > .tr, .grid-1 > div > div.grid-1-card > .br, .grid-1 > div > div.grid-1-card > .tl, .grid-1 > div > div.grid-1-card > .bl {
+        display: none;
+    }
+
+}
+
+@media (min-width: 769px) {
+    .bg-hero {
+        background-image: url("../../image/63277.png");
+        height: 400px;
+    }
+    .section-1 > div {
+        width: 25%;
+    }
+    .portfolio-1 {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        column-gap: 10px;
+    }
+    .portfolio-1 figure > img {
+        height: 185px;
+        width: 100%;
+    }
+    .grid-1 {
+        display: grid;
+        grid-template-columns: 25% auto auto auto;
+    }
+    .grid-1 > div {
+        padding: 10px;
+        border: 1px solid #ddd;
+    }
+    .grid-1 > div:nth-of-type(1) {
+        grid-column: 1 / span 1;
+        border-right-style: dashed;
+    }
+    .grid-1 > div:nth-of-type(2) {
+        grid-column: 2 / span 3;
+        border-left-style: none;
+    }
+    .grid-1 > div:nth-of-type(2) > img {
+        height: 100%;
+    }
+    .grid-1 > div {
+        position: relative;
+    }
+    /* left column */
+    .grid-1 > div > span {
+        background-color:#fff;
+        height: 15px;
+        width: 15px;
+        position: absolute;
+    }
+    .grid-1 > div > span.tr {
+        right: -1px;
+        top: -1px;
+        border-left: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        border-radius: 0px 0px 0px 15px;
+    }
+    .grid-1 > div > span.br {
+        right: -1px;
+        bottom: -1px;
+        border-top: 1px solid #ddd;
+        border-left: 1px solid #ddd;
+        border-radius: 15px 0px 0px 0px;
+    }
+    /* right column */
+    .grid-1 > div > span {
+        background-color:#fff;
+        height: 15px;
+        width: 15px;
+        position: absolute;
+    }
+    .grid-1 > div > span.tl {
+        left: -1px;
+        top: -1px;
+        border-bottom: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+        border-radius: 0px 0px 15px 0px;
+    }
+    .grid-1 > div > span.bl {
+        left: -1px;
+        bottom: -1px;
+        border-right: 1px solid #ddd;
+        border-top: 1px solid #ddd;
+        border-radius: 0px 15px 0px 0px;
+    }
+    .grid-1 > div > div.grid-1-card > .corner {
+        background-color:#fff;
+        height: 15px;
+        width: 15px;
+        position: absolute;
+    }
+    .grid-1 > div > div.grid-1-card > .tr {
+        right: 0px;
+        top: 0px;
+        border-radius: 0px 0px 0px 15px;
+    }
+    .grid-1 > div > div.grid-1-card > .br {
+        right: 0px;
+        bottom: 0px;
+        border-radius: 15px 0px 0px 0px;
+    }
+
+}

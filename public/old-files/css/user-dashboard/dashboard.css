@@ -1,0 +1,176 @@
+.trippbo-dashboard-aside {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+	box-shadow: 0px 3px 6px #00000029;
+}
+.trippbo-dashboard-aside > li {
+}
+.trippbo-dashboard-aside > li:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
+.trippbo-dashboard-aside > li:first-child {
+    padding: .75rem 1.25rem .75rem 0;
+}
+.trippbo-dashboard-aside > li > a {
+	font-family: 'Gilroy-medium';
+	text-decoration: none;
+    display: block;
+    padding: 1rem 1.25rem 1rem 0;
+    background-color: #fff;
+	color: #1f2223;
+	border-right: 5px solid white;
+}
+.trippbo-dashboard-aside > li > a.trippbo-dashboard-aside-active {
+	color: #fe2f70;
+	border-right: 5px solid #fe2f70;
+}
+.trippbo-dashboard-aside > li > a:hover {
+	color: #fe2f70;
+}
+.trippbo-dashboard-main {
+	padding: 16px;
+	box-shadow: 0px 3px 6px #00000029;
+	background-color: #fafafa;
+}
+.trippbo-asset-card {
+	display: none;
+}
+.trippbo-asset-card.visible-card {
+	display: block;
+}
+.trippbo-dashboard-main-card {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-gap: 10px;
+}
+.trippbo-dashboard-main-card > li {
+	background-color: white;
+	box-shadow: 0px 3px 6px #00000029;
+	border-radius: 8px;	
+}
+.trippbo-dashboard-main-card > li > header {
+	display: -ms-flexbox;
+	display: flex;	
+	-ms-flex-direction: row;
+    flex-direction: row;	
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding: 15px;	
+}
+.trippbo-dashboard-main-card > li > header p {
+	color: #000941;
+}
+.trippbo-dashboard-main-card > li > header span {
+	color: white;
+	background-color: #56D18F;
+	padding: 5px;
+	border-radius: 5px;
+}
+.trippbo-dashboard-main-card > li > figure {
+	position: relative;
+    margin-bottom: 0;
+}
+.trippbo-dashboard-main-card > li > figure img {
+	width: 100%;
+}
+.trippbo-dashboard-main-card > li > figure figcaption {
+    width: 100%;
+    color: #fff;
+    padding: 16px 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+	background-image: linear-gradient(180deg, #00000000 0%, #000000 100%);
+
+}
+.trippbo-dashboard-main-card > li > footer {
+	padding: 15px;
+	background-color: white;
+	text-align: left!important;
+}
+.trippbo-dashboard-main-card > li > footer > div {
+	margin-bottom: 10px;
+}
+.trippbo-dashboard-main-card > li > footer p {
+	color: black!important;
+	padding: 0;
+}
+.trippbo-dashboard-main-card > li > footer p > span {
+	color: #1f222348;
+}
+@media (max-width: 768px) {
+
+.hero-image-container {
+    padding: 20px;
+}
+.hero-image-container main > h4 {
+	font-size: 1rem!important;
+	color: black;
+	padding: 15px;
+}
+.hero-image-container > div {
+	display: grid;
+	grid-template-areas: 'aside' 'main';		
+}
+.hero-image-container > div > aside {
+	grid-area: aside;		
+}
+.hero-image-container > div > main {
+	grid-area: main;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 21;
+    top: 0;
+    right: 100%;
+    bottom: 0;
+    overflow-x: hidden;
+    transition: 0.4s;
+    background-color: white;
+
+}
+.trippbo-dashboard-aside {
+	padding: 16px;
+}
+.trippbo-dashboard-main-card {
+    grid-template-columns: auto;
+}
+
+}
+
+@media (min-width: 769px) {
+
+.hero-image-container {
+    background-image: url("../../image/black.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 170px 125px 50px 125px;
+}
+.hero-image-container > div {
+	display: grid;
+	grid-template-areas: 'aside main main';
+	grid-gap: 20px;			
+}
+.hero-image-container > div > aside {
+	grid-area: aside;		
+}
+.hero-image-container > div > main {
+	grid-area: main;			
+}
+.hero-image-container main > h4 {
+	font-size: 2.125rem!important;
+	margin-bottom: 3rem;
+	color: white;
+}
+.trippbo-dashboard-aside {
+	padding: 16px 0px 0px 32px;
+}
+.trippbo-dashboard-main-card {
+    grid-template-columns: 50% 50%;
+    width: 85%;
+}
+
+}

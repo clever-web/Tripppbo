@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="53" height="53" viewBox="0 0 53 53">
+  <defs>
+    <filter id="Rectangle_80" x="0" y="0" width="53" height="53" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_63644" data-name="Group 63644" transform="translate(8.544 6)">
+    <g transform="matrix(1, 0, 0, 1, -8.54, -6)" filter="url(#Rectangle_80)">
+      <rect id="Rectangle_80-2" data-name="Rectangle 80" width="35" height="35" rx="17.5" transform="translate(9 6)" fill="#fff"/>
+    </g>
+    <path id="Icon_ionic-ios-airplane" data-name="Icon ionic-ios-airplane" d="M18.584,11.671c-.148,0-.643,0-.783.013l-2.822.074a.081.081,0,0,1-.074-.039l-4.23-6.335a.7.7,0,0,0-.587-.322H9.058c-.243,0-.326.243-.239.47L11,11.741a.085.085,0,0,1-.078.117L5.6,11.936A.35.35,0,0,1,5.31,11.8L3.7,9.845a.69.69,0,0,0-.548-.265h-.73a.173.173,0,0,0-.165.23L3.123,12.8a.709.709,0,0,1,0,.517L2.258,16.3a.173.173,0,0,0,.165.23h.726a.7.7,0,0,0,.548-.265L5.336,14.28a.356.356,0,0,1,.287-.135l5.291.117a.086.086,0,0,1,.078.117L8.815,20.593c-.087.226,0,.47.239.47h1.03a.693.693,0,0,0,.587-.322l4.235-6.33a.085.085,0,0,1,.074-.039l2.822.074c.143.009.635.013.783.013,1.926,0,3.143-.622,3.143-1.391S20.515,11.671,18.584,11.671Z" transform="translate(6.012 3.938)" fill="#c8c8c8"/>
+  </g>
+</svg>

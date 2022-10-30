@@ -1,0 +1,39 @@
+.main-homepage
+{
+    background-image: url("../img/carousel1.png");
+    background-size:cover;
+
+}
+.main-homepage-item
+{
+    padding:10px;
+    margin:10px;
+}
+.tabs-link
+{
+    color: white;
+}
+.tabs-link:hover
+{
+    color:white;
+    text-decoration: underline;
+}
+.cursor-pointer
+{
+    cursor: pointer !important;
+}
+
+.item1 { grid-area: textitem1; }
+.item2 { grid-area: inputitem1; }
+.item3 { grid-area: textitem2; }
+.item4 { grid-area: inputitem2; }
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'textitem1 inputitem1'
+     'textitem2 inputitem2';
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}

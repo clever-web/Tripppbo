@@ -1,0 +1,115 @@
+
+/* 
+=========== Footer CSS Start ===========
+*/
+.footer-area {
+  min-height: 575px;
+  background-color: #000941;
+  position: relative;
+  padding: 80px 30px 50px 30px;
+}
+#particles-js {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+.footer-col {
+  margin-bottom: 90px;
+}
+.footer-social-col {
+
+}
+.footer-social-col ul {
+  margin-top: 30px;
+}
+.footer-social-col ul li {
+  display: inline-block;
+  margin-right: 25px;
+}
+.footer-social-col ul li a {
+  width: 56px;
+  height: 56px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  text-align: center;
+  display: block;
+  position: relative;
+}
+.footer-social-col ul li a:hover {
+  background-color: #FE2F70;
+  border-color: #FE2F70;
+}
+.footer-social-col ul li a img {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  transform: translateY(-50%);
+  margin: 0 auto;
+}
+.footer-col h4 {
+  font-size: 26px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+.footer-menu-col ul li {
+  margin-bottom: 15px;
+}
+.footer-menu-col ul li a {
+  color: #ffffff;
+  font-size: 14px;
+}
+.footer-menu-col ul li a:hover {
+  color: #FE2F70;
+}
+.footer-citys-col {
+  max-width: 240px;
+}
+.footer-citys-col ul li {
+  display: inline-block;
+  min-width:  115px;
+  margin-bottom: 15px;
+}
+.footer-citys-col ul li a {
+  color: #ffffff;
+  font-size: 14px;
+}
+.footer-citys-col ul li a:hover {
+  color: #FE2F70;
+}
+.subscribe-row {
+
+}
+.subscribe-row .input-group {
+  max-width: 512px;
+}
+.subscribe-row .input-group .form-control {
+  min-height: 50px;
+  background-color: #202857;
+  border: none;
+  color: #ffffff;
+}
+.subscribe-row .input-group .input-group-text {
+  padding: 0;
+  border: none;
+}
+.subscribe-row .input-group .input-group-text .btn-primary {
+  background-color: #FE2F70;
+  width: 160px;
+  height: 100%;
+  border-radius: 0;
+  border: none;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+}
+.subscribe-col p {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+}

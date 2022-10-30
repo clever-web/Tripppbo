@@ -1,0 +1,307 @@
+.grid-2 > div > div.grid-2-card {
+    padding: 20px;
+    background-color: #000941;
+    position: relative;
+}
+.grid-2 > div > div.grid-2-card > span.grid-2-badge {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    padding: 5px 10px;
+    background-color: #fe2f70;
+    color: white;
+    font-size: 26px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    line-height: normal;
+}
+.grid-2 > div:nth-of-type(2) {
+    position: relative;
+}
+div.grid-2-dropdown {
+    position: relative;
+    display: inline-block;
+}
+div.grid-2-dropdown > div {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    min-width: 170px;
+    z-index: 1;
+}
+div.grid-2-dropdown > div > div {
+    background-color: white;
+    margin-right: 15px;
+    padding: 5px;
+    position: relative;
+    box-shadow: 0px 0px 6px #00000029;
+}
+div.grid-2-dropdown > div > div::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 5px;
+    width: 0;
+    z-index: 1;
+    right: -5px;
+    border: medium solid white;
+    border-width: 5px 0 5px 5px;
+    border-color: transparent transparent transparent white;
+}
+div.grid-2-dropdown > div > div > a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+}
+div.grid-2-dropdown:hover > div {
+    display: block;
+}
+div.grid-2-dropdown > div > div > a:hover {
+    color: white;
+    background-color: #000941;
+}
+div.portfolio-1-navigation button {
+    cursor: pointer;
+    width: auto;
+    padding: 2px 9px;
+    background-color: #000941;
+    font-weight: bold;
+    transition: 0.6s ease;
+    user-select: none;
+    border-color: #000941;
+}
+.portfolio-1-navigation button:disabled {
+    opacity: .3;
+}
+div.portfolio-1-navigation > div:not(:last-child) {
+    margin-right: 5px;
+}
+div.portfolio-1-navigation button > i {
+    color: white;
+    font-size: 12px;
+}
+.portfolio-1 > div a {
+    text-decoration: none;
+    color: inherit;
+}
+.portfolio-1 figure {
+    margin: 0;
+    position: relative;
+    border: 1px solid transparent;
+}
+.portfolio-1 figure > div, .portfolio-1 figure > figcaption {
+    border: 1px solid #ddd;
+    padding: 5px;
+    position: relative;
+}
+.portfolio-1 figure > div {
+    border-bottom-style: none;
+}
+.portfolio-1 figure > figcaption {
+    padding: 20px 10px;
+    border-top-style: none;
+    position: relative;
+
+}
+.portfolio-1 figure > div > div {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.portfolio-1 figure > div > div > span {
+    box-shadow: 0px 0px 6px #00000029;
+}
+.portfolio-1 figure:hover {
+    border: 1px solid #fe2f70;
+}
+.portfolio-1 img.arrow {
+    height: 20px;
+}
+.fa-stack { font-size: 1em; }
+.fa-stack > i { vertical-align: middle; }
+.portfolio-dots {
+    margin: 1rem 0 !important;
+}
+.portfolio-dots .portfolio-dot {
+    background: gray;
+    border: 0;
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    margin: 0 .25rem;
+    outline: 0;
+    padding: 0;
+    transition: background-color .2s ease;
+    width: 10px;
+}
+.portfolio-dots .portfolio-dot.is-active {
+    background: #000941;
+}
+.portfolio-dots .portfolio-dot:hover, .portfolio-dot.is-active {
+    transform: scale(1.4);
+    transform-origin: center center;
+    background-color: #000941;
+}
+div.progress-card {
+    background-color: #f9f9f9;
+    padding: 1rem;
+}
+#myProgress {
+    width: 100%;
+    background-color: white;
+    border: 0.5px solid lightgray;
+	padding: 2px;
+    overflow: hidden;
+}
+#myProgress > div {
+    height: 10px;
+    background-color: #56D18F;
+}
+.trippbo-checkbox {
+	display: block;
+	position: relative;
+	padding-left: 30px;
+	margin-bottom: 0;
+	cursor: pointer;
+	font-size: 12px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.trippbo-checkbox > input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+.trippbo-checkbox > span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 15px;
+	width: 15px;
+	background-color: #fff;
+	border: 1px solid #000941;
+}
+.trippbo-checkbox:hover > input ~ span {
+	background-color: #fff;
+}
+.trippbo-checkbox > input:checked ~ span {
+	background-color: #000941;
+}
+.trippbo-checkbox > span:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+.trippbo-checkbox > input:checked ~ span:after {
+  display: block;
+}
+.trippbo-checkbox > span:after {
+	left: 4px;
+	top: 1px;
+	width: 5px;
+	height: 9px;
+	border: solid white;
+	border-width: 0 2px 2px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}.icon-right > span {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.grid-1 {
+    display: grid;
+    grid-template-columns: 50% auto;
+    column-gap: 10px;
+}
+@media (max-width: 768px) {
+    .grid-2 {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+    }
+    .grid-2 > div {
+        border: 1px solid #ddd;
+        padding: 10px;
+    }
+    .portfolio-1 {
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 10px;
+    }
+    .portfolio-1 figure > div > img {
+        width: 100%;
+    }
+    .grid-3 {
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 20px;
+    }
+    .grid-4 {
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 10px;
+    }
+
+}
+
+@media (min-width: 769px) {
+
+    .grid-2 {
+        display: grid;
+        grid-template-columns: 30%;
+        padding: 5px;
+        border: 1px solid #ddd;
+    }
+    .grid-2 > div:nth-of-type(1) {
+        grid-column: 1 / span 1;
+    }
+    .grid-2 > div:nth-of-type(2) {
+        grid-column: 2 / span 3;
+        border-left-style: none;
+    }
+    .grid-2 > div:nth-of-type(2) > img {
+        height: 100%;
+    }
+    .grid-2 > div {
+        position: relative;
+    }
+    .portfolio-1 {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        column-gap: 5px;
+        row-gap: 5px;
+    }
+    .portfolio-1 figure > div > img {
+        height: 185px;
+        width: 100%;
+    }
+    .grid-3 {
+        display: grid;
+        grid-template-columns: 50% auto;
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+    .grid-4 {
+        display: grid;
+        grid-template-columns: 50% auto;
+        column-gap: 10px;
+    }
+
+
+}
+
+
+
+
+
+

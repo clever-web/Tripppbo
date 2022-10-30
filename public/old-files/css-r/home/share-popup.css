@@ -1,0 +1,42 @@
+
+/* Oops sign in Required  end */
+.social-grid > div:not(:last-child) {
+    margin-right: 1rem;
+}
+.social-grid img {
+    height: 60px;
+}
+.clipboard-grid {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+}
+.clipboard-grid input {
+    padding: 10px 50px 10px 20px;
+    width: 100%;
+    background-color: #f8f8f8;
+    border: 0;
+}
+.clipboard-grid button {
+    position: absolute;
+    width: auto;
+    padding: 5px 10px;
+    background-color: transparent;
+    color: #fe2f70;
+    transition: 0.6s ease;
+    user-select: none;
+    border-color: #fe2f70;
+    border: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+@media (max-width: 768px) { 
+
+
+}
+
+@media (min-width: 769px) {
+    
+   
+}

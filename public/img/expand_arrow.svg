@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 0L16 0L16 16L0 16L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="download">
+    <path d="M0 0L16 0L16 16L0 16L0 0Z" id="Background" fill="none" fill-rule="evenodd" stroke="none" />
+    <g clip-path="url(#mask_1)">
+      <path d="M1.64601 4.64601C1.73981 4.55197 1.86718 4.49911 2.00001 4.49911C2.13284 4.49911 2.2602 4.55197 2.35401 4.64601L8.00001 10.293L13.646 4.64601C13.8415 4.45052 14.1584 4.4505 14.3539 4.64595C14.5495 4.8414 14.5495 5.15833 14.3541 5.35389L8.35401 11.354C8.26021 11.4481 8.13284 11.5009 8.00001 11.5009C7.86718 11.5009 7.73981 11.4481 7.64601 11.354L1.64601 5.35401C1.55197 5.2602 1.49911 5.13284 1.49911 5.00001C1.49911 4.86718 1.55197 4.73981 1.64601 4.64601L1.64601 4.64601Z" id="Shape" fill="#000941" fill-rule="evenodd" stroke="none" />
+    </g>
+  </g>
+</svg>

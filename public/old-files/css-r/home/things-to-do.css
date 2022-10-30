@@ -1,0 +1,113 @@
+:root {
+    --checkbox-size: 15px;
+    --check-size: calc(var(--checkbox-size) / 3);
+    --check-color: white;
+    --checkbox-color: #000941;
+}
+.trippbo-checkbox {
+    display: block;
+    position: relative;
+    margin-bottom: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    height: var(--checkbox-size);
+    width: var(--checkbox-size);
+}
+.trippbo-checkbox > input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: var(--checkbox-size);
+    width: var(--checkbox-size);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.trippbo-checkbox > span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: var(--checkbox-size);
+	width: var(--checkbox-size);
+	background-color: #fff;
+    border: 1px solid var(--checkbox-color);
+}
+.trippbo-checkbox:hover > input ~ span {
+	background-color: #fff;
+}
+.trippbo-checkbox > input:checked ~ span {
+	background-color: var(--checkbox-color);
+}
+.trippbo-checkbox > input:checked ~ span:after {
+  display: block;
+}
+.trippbo-checkbox > span:after {
+    content: "";
+	position: absolute;
+	display: none;
+    top: 50%;
+    left: 50%;
+    width: var(--check-size);
+    height: calc(var(--check-size) * 1.8);
+    border: calc(var(--check-size) * 0.5) solid var(--check-color);
+    border-width: 0 calc(var(--check-size) * 0.5) calc(var(--check-size) * 0.5) 0;
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+    -ms-transform: translate(-50%, -50%) rotate(45deg);
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+ul.list-1 {
+    font-family: "Gilroy-Regular";
+    padding-left: 15px;
+}
+ul.list-1 > li {
+    margin-bottom: 0.75rem;
+    font-size: 14px;
+}
+@media (max-width: 768px) { 
+	
+    .grid-1 {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .grid-2 {
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+    .grid-3 {
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 10px;
+    }
+    .grid-4 {
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 10px;
+    }
+
+}
+
+@media (min-width: 769px) {           
+
+    .grid-1 {
+        display: grid;
+        grid-template-columns: 70% 30%;
+    }
+    .grid-2 {
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+    .grid-3 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 10px;
+    }
+    .grid-4 {
+        display: grid;
+        grid-template-columns: 65% auto;
+        column-gap: 25px;
+    }
+
+}

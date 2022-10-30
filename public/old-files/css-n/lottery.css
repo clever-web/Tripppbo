@@ -1,0 +1,617 @@
+/*
+===========  General CSS ===========
+*/
+
+body {
+    font-family: 'Gilroy';
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: normal;
+    color: #23242C;
+    background: #ffffff;
+    overflow-x: hidden;
+}
+
+
+/* Custom Container */
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1616px;
+    }
+}
+
+
+/* Common CSS */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Gilroy';
+    color: #23242C;
+    line-height: 1.3;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Placeholder CSS */
+
+ ::-moz-placeholder {
+    color: #333333 !important;
+}
+
+ ::-o-placeholder {
+    color: #333333 !important;
+}
+
+ :-ms-input-placeholder {
+    color: #333333 !important;
+}
+
+input:-moz-placeholder {
+    color: #333333 !important;
+}
+
+::-webkit-input-placeholder {
+    color: #333333 !important;
+}
+
+.subscribe-row ::-moz-placeholder {
+    color: #ffffff !important;
+    opacity: 0.45;
+}
+
+.subscribe-row ::-o-placeholder {
+    color: #ffffff !important;
+    opacity: 0.45;
+}
+
+.subscribe-row :-ms-input-placeholder {
+    color: #ffffff !important;
+    opacity: 0.45;
+}
+
+.subscribe-row input:-moz-placeholder {
+    color: #ffffff !important;
+    opacity: 0.45;
+}
+
+.subscribe-row ::-webkit-input-placeholder {
+    color: #ffffff !important;
+    opacity: 0.45;
+}
+
+
+/* Selection CSS */
+
+ ::-moz-selection {
+    color: #ffffff;
+    background: #00c0d6;
+}
+
+ ::selection {
+    color: #ffffff;
+    background: #00c0d6;
+}
+
+
+/* Form CSS */
+
+.form-control {
+    height: 45px;
+    margin-bottom: 30px;
+    box-shadow: none;
+    border: 1px solid #e4e4e4;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+
+.form-control:focus {
+    border-color: #666666;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+
+
+/* Overlay CSS */
+
+.overlay-black {
+    position: relative;
+}
+
+.overlay-black:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: rgba(34, 34, 34, 0.8);
+}
+
+.overlay-white {
+    position: relative;
+}
+
+.overlay-white:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+/* Theme btn CSS */
+
+.my-btn {
+    font-family: 'Merriweather', serif;
+    position: relative;
+    z-index: 0;
+    padding: 18px 60px 15px;
+    background: #cda248;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: capitalize;
+    height: 60px;
+    overflow: hidden;
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.my-btn:hover {
+    border: none;
+    color: #ffffff;
+    background: #cda248;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.my-btn:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: -1;
+    width: 80%;
+    height: 1px;
+    background: #ffffff;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.my-btn:after {
+    content: "";
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    z-index: -1;
+    width: 80%;
+    height: 1px;
+    background: #ffffff;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.my-btn:hover:before {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.my-btn:hover:after {
+    right: 50%;
+    -webkit-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    -o-transform: translateX(50%);
+    transform: translateX(50%);
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+    box-shadow: none;
+}
+
+
+/* Title CSS */
+
+.my-title {
+    margin-top: -10px;
+    margin-bottom: 60px;
+}
+
+.my-title h2 {
+    color: #1b1a17;
+    font-size: 40px;
+    line-height: 55px;
+    margin-bottom: 20px;
+}
+
+.my-title p {
+    color: #1b1a17;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+
+/*.animated{
+  opacity:1;
+}*/
+
+
+/* Back to top */
+
+#back-to-top {
+    position: fixed;
+    bottom: 50%;
+    right: 60px;
+    z-index: 9999;
+    width: 66px;
+    height: 66px;
+    text-align: center;
+    line-height: 62px;
+    background: #000941;
+    color: #ffffff;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    text-decoration: none;
+    opacity: 0;
+    -webkit-transition: all .8s ease-out;
+    -moz-transition: all .8s ease-out;
+    transition: all .8s ease-out;
+}
+
+#back-to-top:hover {
+    background-color: #FE2F70;
+    border-color: #FE2F70;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+#back-to-top.show {
+    opacity: 1;
+    bottom: 80px;
+    -webkit-transition: all .8s ease-out;
+    -moz-transition: all .8s ease-out;
+    transition: all .8s ease-out;
+}
+
+
+/* Pagination CSS */
+
+.my-pagination {
+    margin-bottom: 30px;
+    float: right;
+}
+
+.my-pagination ul li a {
+    display: inline-block;
+    background: transparent;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 5px;
+    border: 1px solid transparent;
+    width: 50px;
+    height: 48px;
+    line-height: 32px;
+    font-size: 21px;
+    color: #23242C;
+}
+
+.my-pagination ul li a:hover,
+.my-pagination ul li a.active {
+    background: #FFE5EE;
+    border: 1px solid #FE2F70;
+    color: #FE2F70;
+}
+
+.my-pagination .page-item.disabled .page-link {
+    border-color: transparent;
+}
+
+.container-fluid {
+    padding: 0 60px;
+}
+
+
+/* 
+=========== Lottery Banner CSS Start ===========
+*/
+
+.lottery-banner-area {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.lottery-banner-col {
+    display: flex;
+    align-items: center;
+    min-height: 451px;
+    padding-left: 120px;
+    position: relative;
+}
+
+.lottery-banner-col h2 {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: normal;
+    text-shadow: 3px 0px 6px rgba(0, 0, 0, 0.16);
+    text-transform: uppercase;
+}
+
+.lottery-banner-col h3 {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.plane-img {
+    position: absolute;
+    left: 70px;
+    top: 90px;
+    z-index: 0;
+}
+
+.custom-container-fluid {
+    padding: 0 65px;
+}
+
+
+/* Pulse animation CSS*/
+
+.hvr-pulse {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-animation-name: hvr-pulse;
+    animation-name: hvr-pulse;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes hvr-pulse {
+    25% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    75% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+
+@keyframes hvr-pulse {
+    25% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    75% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+
+
+/* 
+=========== LotteryCSS Start ===========
+*/
+
+.lottery-area {
+    padding: 50px 0 70px;
+}
+
+.lottery-heading {
+    margin-bottom: 30px;
+}
+
+.lottery-heading h2 {
+    margin-bottom: 0;
+    font-size: 55px;
+    font-weight: normal;
+}
+
+.lottery-col {
+    margin-bottom: 30px;
+    position: relative;
+    padding: 10px;
+    border: 1px solid #D2D2D2;
+}
+
+.lottery-img {
+    position: relative;
+}
+
+.lottery-img img {
+    width: 100%;
+}
+
+.lottery-img img.trippbo-logo {
+    width: auto;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 0;
+}
+
+.lottery-content {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin: 0 20px;
+    margin-top: 30px;
+    border-top: 1px dashed #D2D2D2;
+    position: relative;
+}
+
+.lottery-content span {
+    font-size: 14px;
+}
+
+.lottery-content h3 {
+    font-size: 29px;
+    margin-bottom: 15px;
+    color: #FE2F70;
+}
+
+.lottery-content h3 span {
+    font-size: 29px;
+    float: right;
+}
+
+.lottery-content a {
+    font-size: 22px;
+    color: #000941;
+    font-weight: 500;
+}
+
+.lottery-content a img {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.lottery-content a:hover img {
+    margin-left: 10px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.half-round-left,
+.half-round-right {
+    position: absolute;
+    top: -12px;
+    z-index: 1;
+}
+
+.half-round-left {
+    left: -31px;
+}
+
+.half-round-right {
+    right: -31px;
+}
+
+.lottery-heading .form-control {
+    max-width: 284px;
+    height: 68px;
+    float: right;
+}
+
+.dis-block-1199 {
+    display: none;
+}
+
+.lottery-banner-area {
+    min-height: 252px;
+}

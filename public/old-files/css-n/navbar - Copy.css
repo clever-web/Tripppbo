@@ -1,0 +1,108 @@
+/*
+=========== Header CSS ===========
+*/
+.header-area {
+    min-height: 90px;
+    background-color: #000941;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.header-left-col {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.theme-logo {
+    margin-right: 40px;
+}
+.header-nav ul li {
+    display: inline-block;
+}
+.header-nav ul li a {
+    margin-right: 70px;
+    font-size: 16px;
+    color: #ffffff;
+    padding-bottom: 32px;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+}
+.header-nav ul li a:hover {
+    color: #FE2F70;
+    border-bottom: 3px solid #FE2F70;
+}
+.header-nav ul li.active a {
+    color: #FE2F70;
+    border-bottom: 3px solid #FE2F70;
+}
+.header-nav ul li.active a span {
+    padding: 4px 12px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #FE2F70;
+    margin-left: 10px;
+}
+.header-area .navbar {
+    padding: 0;
+}
+.header-area .navbar-brand {
+    margin-right: 90px;
+}
+
+
+.user-col {
+    position: relative;
+    text-align: right;
+    padding-right: 68px;
+}
+.user-col .user-img {
+    position: absolute;
+    top: 18px;
+    right: 0;
+    z-index: 0;
+}
+.user-col select {
+    width: 90px;
+    margin-top: 34px;
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    position: relative;
+    /*overflow: hidden;
+    overflow: -moz-hidden-unscrollable;
+    background: url(../images/icons/top-arrow.png) no-repeat right;*/
+}
+.user-col select:focus {
+    outline: none;
+    box-shadow: none;
+}
+.user-col select option {
+    background-color: #000941;
+}
+
+
+
+
+
+
+@media only screen and (max-width:1199px) {
+
+}
+
+.page-item.active .page-link.pagination-active
+{
+    color: #FE2F70;
+    background-color: #F50057;
+    background-color: rgba(245, 0, 87,0.1);
+    border-color: rgba(245, 0, 87, 0.25);
+}
+.page-item .page-link.pagination-inactive
+{
+    color:#23242C;
+    border:none;
+}
+
+

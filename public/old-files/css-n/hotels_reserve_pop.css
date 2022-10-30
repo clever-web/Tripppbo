@@ -1,0 +1,229 @@
+
+
+/*
+===========  General CSS ===========
+*/
+ body {
+  font-family: 'Gilroy';
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #23242C;
+  background: #ffffff;
+  overflow-x: hidden;
+}
+
+/* Custom Container */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1616px;
+  }
+}
+
+/* Common CSS */
+ h1, h2, h3, h4, h5, h6 {
+  font-family: 'Gilroy';
+  color: #23242C;
+  line-height: 1.3;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  text-transform: capitalize;
+}
+h1{
+  font-size:60px;
+}
+
+h2{
+  font-size:40px;
+}
+
+h3{
+  font-size:32px;
+}
+
+h4{
+  font-size:24px;
+}
+
+h5{
+  font-size:20px;
+}
+
+h6{
+  font-size:16px;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+a:focus, a:hover {
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+.popup-btn {
+  text-align: center;
+  padding-top: 200px;
+}
+.popup-btn a {
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #FE2F70;
+  border-radius: 5px;
+  text-align: center;
+  padding: 12px 30px;
+}
+
+
+
+/* Report Modal CSS */
+.report-modal {
+
+}
+.report-modal .modal-header {
+  display: block;
+  position: relative;
+  border-bottom: none;
+}
+.report-modal .modal-header .modal-title {
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 500;
+  color: #1F2223;
+}
+.report-modal .modal-header .close {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  z-index: 0;
+  margin: 0;
+  transform: translateY(-50%);
+}
+.report-modal .modal-body {
+  padding: 30px 20px 70px;
+}
+.cancelation-box {
+  display: flex;
+  align-items: center;
+  padding: 25px 20px;
+  background-color: #FAFAFA;
+  margin-bottom: 40px;
+}
+.cancelation-box-text {
+  padding-left: 15px;
+}
+.cancelation-box-text p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.cancelation-box-text span {
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+}
+.pay-row {
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #D2D2D2;
+}
+.pay-row h4 {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.pay-row h4 span {
+  float: right;
+  color: #FE2F70;
+  font-size: 24px;
+  line-height: 32px;
+}
+.pay-row ul li {
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 20px;
+  position: relative;
+  padding-left: 20px;
+}
+.pay-row ul li:before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #1F2223;
+  position: absolute;
+  top: 8px;
+  left: 0;
+  z-index: 0;
+}
+.price-col {
+  text-align: right;
+}
+.price-col span {
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 5px;
+  opacity: 0.5;
+}
+.pay-row .btn-primary {
+  font-size: 16px;
+  line-height: 37px;
+  width: 254px;
+  height: 51px;
+  border-radius: 0;
+  border: none;
+  color: #ffffff;
+  background-color: #FE2E70;
+  margin-top: 10px;
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(254, 47, 112, 0.5);
+  -moz-box-shadow: 0px 5px 20px 0px rgba(254,47,112, 0.5)
+  box-shadow: 0px 5px 20px 0px rgba(254, 47, 112, 0.5);
+}
+
+
+
+
+@media only screen and (max-width: 991px) {
+  
+}
+@media only screen and (max-width: 575px) {
+  
+}

@@ -1,0 +1,302 @@
+/*
+===========  General CSS ===========
+*/
+
+body {
+    font-family: 'Gilroy';
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: normal;
+    color: #23242C;
+    background: #ffffff;
+    overflow-x: hidden;
+}
+
+
+/* Custom Container */
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1616px;
+    }
+}
+
+
+/* Common CSS */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Gilroy';
+    color: #23242C;
+    line-height: 1.3;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.popup-btn {
+    text-align: center;
+    padding-top: 200px;
+}
+
+.popup-btn a {
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #FE2F70;
+    border-radius: 5px;
+    text-align: center;
+    padding: 12px 30px;
+}
+
+
+/* trip-solo-popup CSS */
+
+.tripsolo-popup-body {
+    padding: 10px 20px 40px;
+}
+
+.tripmember {
+    position: relative;
+    min-height: 90px;
+    background-color: #F9F9F9;
+    margin-bottom: 10px;
+    padding-left: 90px;
+}
+
+.tripmember img {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    z-index: 0;
+    max-width: 68px;
+    max-height: 68px;
+    border-radius: 3px;
+    border: 1px solid #dddddd;
+    transform: translateY(-50%);
+}
+
+.tripmember p {
+    font-size: 20px;
+    color: #FE2F70;
+    padding-top: 20px;
+}
+
+.tripmember span {
+    font-size: 14px;
+}
+
+.input-group-usd .form-control {
+    height: 51px;
+    border-radius: 0;
+    border: 1px solid #D2D2D2;
+    border-right: none;
+}
+
+.input-group-usd .form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.input-group-usd .input-group-text {
+    background-color: transparent;
+    border: 1px solid #D2D2D2;
+    border-left: none;
+    padding-right: 20px;
+}
+
+.cardnumber-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardselect {
+    min-width: 8%;
+}
+
+.cardselect .custom-control-input:checked~.custom-control-label::before {
+    background: #FE2E6F;
+    border-color: #FE2E6F;
+}
+
+.tripsolo-popup-body form .custom-control-inline {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.tripsolo-popup-body form .custom-control-inline .custom-control-input:checked~.custom-control-label::before {
+    background: #FE2E6F;
+    border-color: #FE2E6F;
+}
+
+.tripsolo-popup-body form .custom-control-inline .custom-control-label {
+    color: #FE2F70;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.cardnumber-box .custom-control-input {
+    position: relative;
+}
+
+.cardnumber-box .custom-control-label {
+    margin-top: 14px;
+}
+
+.tripsolo-popup-body form p {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.cardinputfield {
+    min-width: 92%;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.cardinputfield .form-control {
+    height: 51px;
+    border-radius: 0;
+    border: 1px solid #D2D2D2;
+    text-align: right;
+    padding-left: 120px;
+    font-size: 14px;
+}
+
+.cardinputfield .form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.cardinputfield img {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    z-index: 0;
+    transform: translateY(-50%);
+}
+
+.mycardnumberfield .form-control {
+    height: 51px;
+    border-radius: 0;
+    border: 1px solid #D2D2D2;
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.mycardnumberfield .form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.mycardnumberfield .custom-checkbox .custom-control-label {
+    font-size: 14px;
+}
+
+.mycardnumberfield .custom-checkbox .custom-control-label::before {
+    border-radius: 0;
+}
+
+.mycardnumberfield .custom-control-input:checked~.custom-control-label::before {
+    background: #FE2E6F;
+    border-color: #FE2E6F;
+}
+
+.mycardnumberfield .btn-block {
+    text-align: left;
+    height: 51px;
+    background-color: #FE2E6F;
+    border-radius: 0;
+    color: #ffffff;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    margin-top: 70px;
+}
+
+.mycardnumberfield .btn-block span.to-right {
+    float: right;
+}
+
+@media only screen and (max-width: 991px) {
+    .cardnumber-box .custom-control-label {
+        margin-top: -10px;
+    }
+}
+
+@media only screen and (max-width: 575px) {}

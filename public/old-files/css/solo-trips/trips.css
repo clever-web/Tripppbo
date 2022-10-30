@@ -1,0 +1,30 @@
+.nav-item  .nav-link.active
+{
+    border-width: 0 0 5px 0;
+    border-color: #FE2F70;
+    border-style: solid;
+    color: #FE2F70;
+}
+
+.nav-item .nav-link
+{
+    color: #23242C;
+}
+.trip-title
+{
+    font-family: GilroyExtraBold;
+    font-size: 25px;
+}
+.trip-description
+{
+    font-family: GilroyLight;
+    font-size: 18px;
+}
+@media screen and (max-width: 600px) {
+    .nav-item .nav-link
+    {
+        padding: 10px 5px;
+        margin: 0px;
+        font-size: 1rem;
+    }
+}

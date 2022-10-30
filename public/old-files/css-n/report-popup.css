@@ -1,0 +1,113 @@
+.popup-btn {
+    text-align: center;
+    padding-top: 200px;
+}
+
+.popup-btn a {
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #FE2F70;
+    border-radius: 5px;
+    text-align: center;
+    padding: 12px 30px;
+}
+
+
+/* Report Modal CSS */
+
+.report-modal {}
+
+.report-modal .modal-header {
+    display: block;
+    position: relative;
+    border-bottom: none;
+}
+
+.report-modal .modal-header .modal-title {
+    font-size: 35px;
+    line-height: 47px;
+    text-align: center;
+    display: block;
+    font-weight: 500;
+}
+
+.report-modal .modal-header .close {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    z-index: 0;
+    margin: 0;
+    transform: translateY(-50%);
+}
+
+.report-modal .modal-body {
+    padding-bottom: 60px;
+}
+
+.modal-body-radios {
+    padding: 0 150px;
+}
+
+.modal-body-radios .custom-control-inline {
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+
+.modal-body-radios .custom-control-input:checked~.custom-control-label::before {
+    background-color: #FE2F70;
+    border-color: #FE2F70;
+}
+
+.report-modal-buttons {
+    margin: 0 70px;
+    text-align: center;
+}
+
+.report-modal-buttons .btn-block {
+    border: 1px solid #D2D2D2;
+    height: 53px;
+    border-radius: 0;
+    background-color: #F8F8F8;
+    color: #23242C;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.report-modal-buttons .btn-primary {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #FE2F70;
+    border-radius: 0;
+    border: none;
+    width: 283px;
+    min-height: 53px;
+    margin: 0 auto;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(254, 47, 112, 1);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(254, 47, 112, 1);
+    box-shadow: 0px 0px 15px 0px rgba(254, 47, 112, 1);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+@media only screen and (max-width: 991px) {
+    .modal-dialog {
+        min-width: 80%;
+    }
+    .modal-body-radios {
+        padding: 0;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .report-modal-buttons {
+        margin: 0;
+    }
+    .report-modal-buttons .btn-primary {
+        width: 100%;
+    }
+}

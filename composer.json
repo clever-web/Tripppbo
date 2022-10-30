@@ -1,0 +1,94 @@
+{
+    "name": "laravel/laravel",
+    "type": "project",
+    "description": "The Laravel Framework.",
+    "keywords": [
+        "framework",
+        "laravel"
+    ],
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./nova"
+        },
+        {
+            "type": "path",
+            "url": "./nova-components/CreateTicketLottery"
+        },
+        {
+            "type": "path",
+            "url": "./nova-components/FlightMarkup"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "algolia/algoliasearch-client-php": "^3.3",
+        "algolia/scout-extended": "^2.0",
+        "fruitcake/laravel-cors": "^2.0.5",
+        "guzzlehttp/guzzle": "^7.4",
+        "laravel/cashier": "^13.8",
+        "laravel/framework": "^9.0",
+        "laravel/nova": "*",
+        "laravel/scout": "^9.4",
+        "laravel/socialite": "^5.5",
+        "laravel/tinker": "^2.7",
+        "laravel/ui": "^3.4",
+        "laravel/vonage-notification-channel": "^3.0",
+        "league/flysystem-aws-s3-v3": "^3.0",
+        "pusher/pusher-php-server": "^7.0",
+        "trippbo/create-ticket-lottery": "*",
+        "trippbo/flight-markup": "*"
+    },
+    "require-dev": {
+        "fakerphp/faker": "^1.9.1",
+        "laravel/breeze": "^1.8",
+        "laravel/sail": "^1.13",
+        "mockery/mockery": "^1.4.4",
+        "nunomaduro/collision": "^6.1",
+        "phpunit/phpunit": "^9.5.10",
+        "spatie/laravel-ignition": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover --ansi"
+        ],
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "@php artisan key:generate --ansi"
+        ],
+        "post-update-cmd": [
+            "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": []
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "resolutions": {
+        "image-webpack-loader/imagemin-pngquant": "5.0.1"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

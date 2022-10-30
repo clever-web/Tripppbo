@@ -1,0 +1,190 @@
+.list-1, .list-2, .list-3 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.list-1 > li {
+	border-bottom: 1px solid #d2d2d2;
+}
+.list-1 > li > button {
+    font-family: 'Gilroy-Medium';
+    display: block;
+    color: #000941;
+    border: 0;
+    width: 100%;
+    text-align: left;
+    background-color: transparent;
+    padding: 1rem;
+    font-size: 16px;
+}
+.list-1 > li.list-1-active > button, .list-1 > li > button:hover {
+    color: #000941;
+    background-color: rgb(0, 9, 65, 0.04);
+    border-right: 5px solid #000941;
+    font-weight: 600;
+}
+.list-1 > li > button > img {
+    height: 20px;
+    margin-right: 0.25rem;
+}
+.trippbo-booking-main {
+	background-color: white;
+}
+.list-2 > li:not(:last-child)  {
+    margin-right: 0.5rem;
+}
+.list-2 > li > span  {
+    font-family: "Gilroy-Regular";
+    font-size: 14px;
+    background-color: rgb(0, 9, 65, 0.15);
+    border-radius: 16px;
+    color: #000941;
+    display: inline-block;
+    padding: 2px 10px;
+    text-align: center;
+}
+.grid-3 {
+    margin-bottom: 2rem;
+}
+.panel {
+    padding: 0.01em 16px;
+    border-left: 6px solid #fe2f70;
+    background-color: white;
+
+}
+.panel > h2 {
+    font-family: "Gilroy-Regular";
+    font-size: 40px;
+    color: #fe2f70;
+}
+.accordion {
+    font-family: "Gilroy-Bold";
+    background-color: white;
+    border: 1px solid #d2d2d2;
+    color: #000941;
+    cursor: pointer;
+    padding: 10px 20px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 14px;
+}
+.accordion-active, .accordion:hover, .accordion:hover:after {
+    background-color: #000941;
+    color: white;
+}
+.accordion::after {
+    font-family: "FontAwesome";
+    content: '\f107';
+    color: #000941;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+.accordion-active::after {
+    content: "\f106";
+    color: white;
+}
+.accordion-panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border-left: 1px solid #d2d2d2;
+    border-right: 1px solid #d2d2d2;
+    border-bottom: 1px solid #d2d2d2;
+}
+.accordion-panel:not(:last-child) {
+    margin-bottom: 1rem;
+}
+.list-3 > li > button {
+    font-family: 'Gilroy-Medium';
+    font-size: 12px;
+    width: 51px;
+    height: 34px;
+    color: #1f2223;
+    border: 1px solid #707070;
+    text-align: center;
+    background-color: white;
+    text-transform: capitalize;
+    padding: 0;
+}
+.list-3 > li > button:hover {
+    color: white;
+    background-color: #000941;
+}
+.grid-2 > div {
+    display: flex;
+    align-items: center;
+    background: white;
+    box-shadow: 0px 3px 15px #0000001C;
+    padding: 0.5rem;
+}
+.grid-2 > div > img {
+    height: 40px;
+    margin-right: 1rem;
+}
+.grid-2 > div > p {
+    font-family: 'Gilroy-Bold';
+    font-size: 16px;
+    color: #1f2223;
+    margin-bottom: 0;
+}
+@media (max-width: 768px) {
+   
+.grid-1 {
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 20px;		
+}    
+.grid-1 > main {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 21;
+    top: 0;
+    right: 100%;
+    bottom: 0;
+    overflow-x: hidden;
+    transition: 0.4s;
+    background-color: white;
+}
+.grid-1 > aside {
+    border: 1px solid #d2d2d2;	
+}
+.grid-2 {
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 10px;						
+}
+.grid-3 {
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 20px;			
+}
+
+}
+@media (min-width: 769px) {
+
+.grid-1 > aside {
+    border: 1px solid #d2d2d2;
+    min-height: 650px;		
+}
+.grid-1 > main {
+    min-height: 650px;		
+}
+.grid-1, .grid-3 {
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-column-gap: 20px;			
+}
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 40px;
+    width: 80%;
+    margin: 0 auto 1rem auto;						
+}
+
+}

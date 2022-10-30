@@ -1,0 +1,287 @@
+@media(min-width: 1700px){
+    /* HEADER */
+        .hero h1 {
+            margin: 12px 0;
+        } 
+        .navbar_brand {
+            width: 150px;
+        }
+        .navbar_nav li:not(:last-child){
+            margin-right: 15px;
+        }
+        .navbar_nav li a {
+            font-size: 18px;
+        }
+
+    /* SECTION FORM */
+        .sec_form{
+            background-size: cover;
+        }  
+}
+
+@media(min-width: 1500px){
+    /* ______HEADER__________ */
+        header{
+            display: flex;
+            align-items: center;
+            background-position: right center;
+        }
+        .hero{
+            margin-bottom: 200px;
+        }
+        .hero h1 {
+            font-size: 4rem;
+            margin-bottom: .5rem;
+            margin-top: .5rem;
+        }
+}
+
+@media(max-width: 1499px){
+    /* ______HEADER__________ */
+        header{
+            background-size: cover;
+            background-position: right center;
+            display: flex;
+            align-items: center;
+        }
+        .hero{
+            margin-bottom: 250px;
+        }
+}
+
+@media(max-width: 1200px){
+    /* ______HEADER__________ */
+        header{
+            height: 650px;
+            background-size: cover;
+            background-position: right bottom;
+            align-items: flex-start;
+        }
+        .hero{
+            margin-bottom: 0;
+        }
+
+}
+
+@media(max-width: 991px){
+    /* ___________utility classes__________ */
+        .section_padding{
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+    /* ______HEADER__________ */
+        header{
+            /* min-height: 100vh; */
+            background-size: cover;
+            background-position: 75% bottom;
+        }
+        .navbar_nav{
+            background: var(--light);
+            overflow: hidden;
+            border-radius: 3px;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            -ms-border-radius: 3px;
+            -o-border-radius: 3px;
+        }
+        .navbar_nav li a{
+            color: var(--dark) !important;
+            padding: 8px 10px !important;
+            text-shadow: 0 0 var(--dark);
+        }
+        .navbar_nav li a::after{
+            display: none;
+        }
+        .navbar_nav li a:hover{
+            background: #ff7e1d;
+            color: var(--light) !important;
+        }
+
+    /* SECTION GRIDS */
+        .sec_grids{
+            padding-top: 25px;
+            padding-bottom: 10px;
+        }
+        .box_grid {
+            padding: 20px 22px;
+            margin-bottom: 12px;
+            transition: var(--transition_3);
+            -webkit-transition: var(--transition_3);
+            -moz-transition: var(--transition_3);
+            -ms-transition: var(--transition_3);
+            -o-transition: var(--transition_3);
+            position: relative;
+        }
+
+    /* SECTION FORM */
+        .sec_form{
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        .form_right{
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .form_right .input-group {
+            width: 85%;
+            margin-right: auto;
+        }
+        .form_left{
+            text-align: center;
+        }
+
+}
+
+@media(max-width: 768px){
+    /* ___________utility classes__________ */
+        .section_padding{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+    /* HEADER */
+        header{
+            background: linear-gradient(rgba(0, 0, 0, 0.158), rgba(0, 0, 0, 0.158)), url("../img/banner.png") no-repeat;
+            background-size: cover;
+            background-position: 75% bottom;
+        }
+
+    /* SECTION GRIDS */
+        .sec_grids .container-fluid{
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .box_grids{
+            display: flex;
+            flex-flow: row wrap;
+            max-height: none;
+        }
+        .box_grid{
+            width: 100%;
+            margin: 0;
+            margin-bottom: 12px;
+        }
+        .box_grid_5{
+            order: 2;
+        }
+        .box_grid_2{
+            order: 3;
+        }
+        .box_grid_6{
+            order: 4;
+        }
+        .box_grid_3{
+            order: 5;
+        }
+        .box_grid_7{
+            order: 6;
+        }
+        .box_grid_4{
+            order: 7;
+        }
+        .box_grid_8{
+            order: 8;
+        }
+
+    /* testimonial_section */
+        .owl-item{
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .testimonial_section {
+            padding: 50px 20px;
+        }
+        .testimonial_section .owl-nav > button.owl-prev {
+            left: 0;
+        }
+        .testimonial_section .owl-nav > button.owl-next {
+            right: 0;
+        }
+}
+
+@media(max-width: 600px){
+    /* testimonial_section */
+        .owl-nav{
+            display: none;
+        }
+}
+
+@media(max-width: 576px){
+    /* testimonial_section */
+        .testimonial_section {
+            padding: 50px 20px;
+        }
+}
+
+@media(max-width: 480px){
+    /* ___________utility classes__________ */
+        .section_padding{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .box_grid_child h1,
+        .box_grid_child h2,
+        .box_grid_child h3,
+        .box_grid_child h4,
+        .box_grid_child h5,
+        .box_grid_child h6,
+        .box_grid_child h1.fw_normal,
+        .box_grid_child h2.fw_normal,
+        .box_grid_child h3.fw_normal,
+        .box_grid_child h4.fw_normal,
+        .box_grid_child h5.fw_normal,
+        .box_grid_child h6.fw_normal{
+            margin-bottom: 3px;
+        }
+
+    /* SECTION GRIDS */
+        .sec_grids{
+            padding: 20px 15px;
+        }
+        .sec_grids .container-lg {
+            padding-right: 0;
+            padding-left: 0;
+        }
+
+    /* SECTION FORM */
+        .form_right .input-group {
+            width: 100%;
+            margin-right: auto;
+        }
+
+    /* FOOTER */
+        footer{
+            padding-bottom: 25px;
+        }
+        footer .container-fluid{
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .footer_grid{
+            width: 100%;
+            padding: 0;
+            margin-bottom: 25px;
+        }
+        .footer_grid:not(:first-child){
+            border-top: 1px solid rgb(175, 175, 175);
+            padding-top: 20px;
+        }
+        .footer_grid_2{
+            order: 1;
+        }
+
+}
+
+@media(max-width: 400px){
+    /* SECTION GRIDS */
+        h2.grid_h2 {
+            font-size: 2rem !important;
+        }
+        .box_grid {
+            min-height: 300px;
+        }
+}

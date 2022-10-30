@@ -1,0 +1,721 @@
+{
+    "Filter": {
+        "MinPrice": 19187.22,
+        "MaxPrice": 62981.03,
+        "Stop": "1,Mixed,2",
+        "Airline": "Indigo,AirIndia"
+    },
+    "FlightResults": [
+        {
+            "ServiceIdentifier": "OB3|IB2|$$#$$|bd6281cc-8865-41f9-a080-2bbecef57742|$$#$$|637170180311584450Flight|$$#$$|11956|9194",
+            "OptionalToken": "H4sIAAAAAAAEAO1YX28aRxA/DByY2G1dJbFjuy5p3JcWUc7gmEjrKgXXDYr/IEB9sRBZH2NYee8O7d1RU0V962Ne+tiqUtWnqB+gUj9JPkW/QtvZA2zMHa1TOZEteU/s3e3vN7OzM7NzK5SQoih/Y5N32WamsNuvspbJTtJVEF2mg53+0nSYw8BOJb8GYTPL3NTSGXmlkkWXO66ATRNcR1CeSpbdQ870p9CrWcdgbpou5zNhVLo7rvQJ8A6I/6kyKg1OT7JzOIJ33RXM6Qt+hiJzDdsRzGxVoUMFdSxh3ydlYXVZE0TRFQJMvff5caNRoPox0rYZ8OYSKVpmt2/lOJYkBcuSb5OEV07VlwVaNA4vn8I1ejIOfjBUHii6QgarrPU6UGr6Ldtitm65pvNFp8MZ+AgrZJeKY7czAf4IV20YzJarnkC5gxTb8Y9WgfPx0XlSbAex5XgQ/x6pup2OXNo4suDNGuCuBW/iAOC+J7HvtDHGbSpaYPsZUvTfGOgOaupIog46pOLyIArOPYjJFjiUcR9liWzDZKxk6tyV/g6wb3T2Gpz4/PgxqQnaRQaIPY9EOea936vbwjK2qOPz6jypWUHji+SJ5QDfo4YPekB2h8lbagJuvSMQfsOHlCpQobf9ebo8TOOgKRYR9DLQL3eP7FitChz5kSWyyzjIEE2QakEzSKqP1Jh/FYukQG2QWgOiVrBM156A4eINKxD7kOwfob88LCiey0Ruul4FvqEiYG97FclkWHEAM8qnfYVUoAlglKlwTP96bpPyTtG/fQprRSyyPmWLg+TDicYhNaTIQuz9hi0cDmM/MtAnRPAX7bcfp6o92wEjXbQwX3WZrXb6K0BDmZ7eYbbzTDs4uAjlv8q/b8umkpf8aavXU0kDy6zg7PBMRe6iKg43Nui6vv5Qe5TNQSb/qF5/8bZ8g7XqGrjjh7fljtO6fPV9MjuLeygU/ST4QIXmuob96bn9L89foag82k1HsFOj2IVLe5WQpqqDx/haJp/V0poWyWn5zOmbGpOieRVNxTZ2iyN2xpwefUsk1IQ8T6q3sPNUqjPDp0Rielaa8o7s3sUOye/hbaq0pzx+8dez31/Flce5l9//8SqeUOcQmN0vZJ+vrj5YXX1eKqwh+30cXHiY3dA2Mqgvq2nr+VxuPbPNWavtJLCFMvJKKKFM9E883b6Gq2S1inUpd6HRUOLhwbFYapqLDCqdelty0KDv0KCIXMpNQZucrdKFaoPh0u1ow2bfQrwxOEsj8lvounjloB6PT99RzlpEpu9Ntb54rH++lFi/IUd44b07Gl5ZmG6+Pq8Z418vJcZv0hteoOdHAh3zNvXw/4/wy2tTkWJ3zxn+01XeXrH5c7b+cuXT5NY/DjdN3xoTAAA=",
+            "ProviderName": "TravelBoutiqueOnline",
+            "FlightProviderSearchId": "",
+            "FlightMProviderIdentifer": "",
+            "SearchKey": "R$E$2$0$0$IN$INR$1$~1362|1324|2020-02-21|2020-02-25$NAG-IXB-6E-5h15m-2$NAG|2020-02-21 09:10:00|1|IXB|2020-02-2114:25:00|2018$IXB|2020-02-2515:00:00|1|NAG|2020-02-2520:10:00|6132$6E~2018~J$6E~5033~L$6E~6132~P$6E~404~P",
+            "flightName": "Indigo",
+            "flightCode": "6E",
+            "AirlineCode": "6E",
+            "Origin": "NAG",
+            "Destination": "IXB",
+            "DepartureTime": "2/21/2020 9:10:00AM",
+            "ArrivalTime": "2/21/2020 2:25:00PM",
+            "StopCount": "1",
+            "BaseFare": 16935.47,
+            "Tax": 4180,
+            "YQTax": 2000,
+            "PGCharge": 0,
+            "OtherCharges": 0,
+            "TransactionFee": 0,
+            "BookingFee": 0,
+            "TotalSSRFee": 0,
+            "WOTax": 0,
+            "INTax": 0,
+            "JNTax": 0,
+            "YRTax": 0,
+            "IGSTTax": 0,
+            "CGSTTax": 0,
+            "SGSTTax": 0,
+            "UGSTTax": 0,
+            "PublishedFare": 21150,
+            "OfferedFare": 20831.11,
+            "IsMapped": true,
+            "Currency": "INR",
+            "GstAllowed": true,
+            "IsGstMandatory": false,
+            "Source": "6",
+            "ResultIndex": "OB3|IB2",
+            "Charges": {
+                "Currency": "INR",
+                "Discount": 0,
+                "CommissionEarned": 176.71,
+                "PLBEarned": 0,
+                "IncentiveEarned": 0,
+                "OfferedFare": 11779.29,
+                "TdsOnCommission": 8.84,
+                "TdsOnPLB": 0,
+                "TdsOnIncentive": 0,
+                "ServiceFee": 0,
+                "TotalBaggageCharges": 0,
+                "TotalSpecialServiceCharges": 0
+            },
+            "Segments": [
+                {
+                    "Segments": [
+                        {
+                            "Baggage": "15 KG",
+                            "CabinBaggage": "7 KG",
+                            "TripIndicator": 1,
+                            "SegmentIndicator": 1,
+                            "Airline": {
+                                "AirlineCode": "6E",
+                                "AirlineName": "Indigo",
+                                "FlightNumber": "2018",
+                                "FareClass": "J",
+                                "OperatingCarrier": ""
+                            },
+                            "NoOfSeatAvailable": 9,
+                            "Origin": {
+                                "Airport": {
+                                    "AirportCode": "NAG",
+                                    "AirportName": "Sonegaon",
+                                    "Terminal": "",
+                                    "CityCode": "NAG",
+                                    "CityName": "Nagpur",
+                                    "CountryCode": "IN",
+                                    "CountryName": "India"
+                                },
+                                "DepTime": "2020-02-21T09:10:00"
+                            },
+                            "Destination": {
+                                "Airport": {
+                                    "AirportCode": "DEL",
+                                    "AirportName": "Indira GandhiAirport",
+                                    "Terminal": "2",
+                                    "CityCode": "DEL",
+                                    "CityName": "Delhi",
+                                    "CountryCode": "IN",
+                                    "CountryName": "India"
+                                },
+                                "ArrTime": "2020-02-21T10:55:00"
+                            },
+                            "AccumulatedDuration": 0,
+                            "Duration": 105,
+                            "GroundTime": 0,
+                            "Mile": 0,
+                            "StopOver": false,
+                            "FlightInfoIndex": "",
+                            "StopPoint": "",
+                            "StopPointArrivalTime": "0001-01-01T00:00:00",
+                            "StopPointDepartureTime": "0001-01-01T00:00:00",
+                            "Craft": "321",
+                            "IsETicketEligible": true,
+                            "FlightStatus": "Confirmed",
+                            "Status": "",
+                            "DurationTime": "1h 45m",
+                            "ShowLayover": true,
+                            "ConnectingTime": "1h 30m",
+                            "ConnectingAirportCode": "DEL",
+                            "ConnectingAirportName": "IndiraGandhi Airport"
+                        },
+                        {
+                            "Baggage": "15 KG",
+                            "CabinBaggage": "7 KG",
+                            "TripIndicator": 1,
+                            "SegmentIndicator": 2,
+                            "Airline": {
+                                "AirlineCode": "6E",
+                                "AirlineName": "Indigo",
+                                "FlightNumber": "5033",
+                                "FareClass": "L",
+                                "OperatingCarrier": ""
+                            },
+                            "NoOfSeatAvailable": 9,
+                            "Origin": {
+                                "Airport": {
+                                    "AirportCode": "DEL",
+                                    "AirportName": "Indira GandhiAirport",
+                                    "Terminal": "3",
+                                    "CityCode": "DEL",
+                                    "CityName": "Delhi",
+                                    "CountryCode": "IN",
+                                    "CountryName": "India"
+                                },
+                                "DepTime": "2020-02-21T12:25:00"
+                            },
+                            "Destination": {
+                                "Airport": {
+                                    "AirportCode": "IXB",
+                                    "AirportName": "Bagdogra",
+                                    "Terminal": "",
+                                    "CityCode": "IXB",
+                                    "CityName": "Bagdogra",
+                                    "CountryCode": "IN",
+                                    "CountryName": "India"
+                                },
+                                "ArrTime": "2020-02-21T14:25:00"
+                            },
+                            "AccumulatedDuration": 315,
+                            "Duration": 120,
+                            "GroundTime": 90,
+                            "Mile": 0,
+                            "StopOver": false,
+                            "FlightInfoIndex": "",
+                            "StopPoint": "",
+                            "StopPointArrivalTime": "0001-01-01T00:00:00",
+                            "StopPointDepartureTime": "0001-01-01T00:00:00",
+                            "Craft": "320",
+                            "IsETicketEligible": true,
+                            "FlightStatus": "Confirmed",
+                            "Status": "",
+                            "DurationTime": "2h 0m",
+                            "ShowLayover": false,
+                            "ConnectingTime": "",
+                            "ConnectingAirportCode": "",
+                            "ConnectingAirportName": ""
+                        }
+                    ],
+                    "AirlineName": "Indigo",
+                    "ArrivalTime": "2/21/2020 2:25:00 PM",
+                    "DepartureTime": "2/21/2020 9:10:00AM",
+                    "DepartureText": "NAG - IXB",
+                    "ArrivalAirportCode": "IXB",
+                    "ArrivalAirportName": "Bagdogra",
+                    "DepartureAirportCode": "NAG",
+                    "DepartureAirportName": "Sonegaon",
+                    "Stops": 1,
+                    "TotalDuraionTime": "5h 15m",
+                    "stopWithDurations": [
+                        {
+                            "StopName": "DEL",
+                            "Duration": "1h 30m"
+                        }
+                    ],
+                    "DepartureDate": "2/21/2020"
+                },
+                {
+                    "Segments": [
+                        {
+                            "Baggage": "15 KG",
+                            "CabinBaggage": "7 KG",
+                            "TripIndicator": 1,
+                            "SegmentIndicator": 1,
+                            "Airline": {
+                                "AirlineCode": "6E",
+                                "AirlineName": "Indigo",
+                                "FlightNumber": "6132",
+                                "FareClass": "P",
+                                "OperatingCarrier": ""
+                            },
+                            "NoOfSeatAvailable": 6,
+                            "Origin": {
+                                "Airport": {
+                                    "AirportCode": "IXB",
+                                    "AirportName": "Bagdogra",
+                                    "Terminal": "",
+                                    "CityCode": "IXB",
+                                    "CityName": "Bagdogra",
+                                    "CountryCode": "IN",
+                                    "CountryName": "India"
+                                },
+                                "DepTime": "2020-02-25T15:00:00"
+                            },
+                            "Destination": {
+                                "Airport": {
+                                    "AirportCode": "CCU",
+                                    "AirportName": "Calcutta",
+                                    "Terminal": "",
+                                    "CityCode": "CCU",
+                                    "CityName": "Kolkata",
+                                    "CountryCode": "IN",
+                                    "CountryName": "India"
+                                },
+                                "ArrTime": "2020-02-25T16:05:00"
+                            },
+                            "AccumulatedDuration": 0,
+                            "Duration": 65,
+                            "GroundTime": 0,
+                            "Mile": 0,
+                            "StopOver": false,
+                            "FlightInfoIndex": "",
+                            "StopPoint": "",
+                            "StopPointArrivalTime": "0001-01-01T00:00:00",
+                            "StopPointDepartureTime": "0001-01-01T00:00:00",
+                            "Craft": "320",
+                            "IsETicketEligible": true,
+                            "FlightStatus": "Confirmed",
+                            "Status": "",
+                            "DurationTime": "1h 5m",
+                            "ShowLayover": true,
+                            "ConnectingTime": "2h 5m",
+                            "ConnectingAirportCode": "CCU",
+                            "ConnectingAirportName": "Calcutta"
+                        },
+                        {
+                            "Baggage": "15 KG",
+                            "CabinBaggage": "7 KG",
+                            "TripIndicator": 1,
+                            "SegmentIndicator": 2,
+                            "Airline": {
+                                "AirlineCode": "6E",
+                                "AirlineName": "Indigo",
+                                "FlightNumber": "404",
+                                "FareClass": "P",
+                                "OperatingCarrier": ""
+                            },
+                            "NoOfSeatAvailable": 6,
+                            "Origin": {
+                                "Airport": {
+                                    "AirportCode": "CCU",
+                                    "AirportName": "Calcutta",
+                                    "Terminal": "",
+                                    "CityCode": "CCU",
+                                    "CityName": "Kolkata",
+                                    "CountryCode": "IN",
+                                    "CountryName": "India"
+                                },
+                                "DepTime": "2020-02-25T18:10:00"
+                            },
+                            "Destination": {
+                                "Airport": {
+                                    "AirportCode": "NAG",
+                                    "AirportName": "Sonegaon",
+                                    "Terminal": "",
+                                    "CityCode": "NAG",
+                                    "CityName": "Nagpur",
+                                    "CountryCode": "IN",
+                                    "CountryName": "India"
+                                },
+                                "ArrTime": "2020-02-25T20:10:00"
+                            },
+                            "AccumulatedDuration": 310,
+                            "Duration": 120,
+                            "GroundTime": 125,
+                            "Mile": 0,
+                            "StopOver": false,
+                            "FlightInfoIndex": "",
+                            "StopPoint": "",
+                            "StopPointArrivalTime": "0001-01- 01T00:00:00",
+                            "StopPointDepartureTime": "0001-01-01T00:00:00",
+                            "Craft": "320",
+                            "IsETicketEligible": true,
+                            "FlightStatus": "Confirmed",
+                            "Status": "",
+                            "DurationTime": "2h 0m",
+                            "ShowLayover": false,
+                            "ConnectingTime": "",
+                            "ConnectingAirportCode": "",
+                            "ConnectingAirportName": ""
+                        }
+                    ],
+                    "AirlineName": "Indigo",
+                    "ArrivalTime": "2/25/2020 8:10:00 PM",
+                    "DepartureTime": "2/25/2020 3:00:00PM",
+                    "DepartureText": "IXB - NAG",
+                    "ArrivalAirportCode": "NAG",
+                    "ArrivalAirportName": "Sonegaon",
+                    "DepartureAirportCode": "IXB",
+                    "DepartureAirportName": "Bagdogra",
+                    "Stops": 1,
+                    "TotalDuraionTime": "5h 10m",
+                    "stopWithDurations": [
+                        {
+                            "StopName": "CCU",
+                            "Duration": "2h 5m"
+                        }
+                    ],
+                    "DepartureDate": "2/25/2020"
+                }
+            ],
+            "IsLCC": true,
+            "DurationTime": "5h15m",
+            "DisplayForCart": [
+                {
+                    "OriginName": "Nagpur",
+                    "OriginAirportCode": "NAG",
+                    "OriginAirportName": "Sonegaon",
+                    "OriginCode": "NAG",
+                    "OriginDateAndTime": "2020-02-21T09:10:00",
+                    "DestinationName": "Bagdogra",
+                    "DestinationAirportCode": "IXB",
+                    "DestinationAirportName": "Bagdogra",
+                    "DestinationCode": "IXB",
+                    "DestinationDateAndTime": "2020-02-21T14:25:00",
+                    "Stops": 1,
+                    "FlightNumber": "2018",
+                    "AirlineName": "Indigo"
+                },
+                {
+                    "OriginName": "Bagdogra",
+                    "OriginAirportCode": "IXB",
+                    "OriginAirportName": "Bagdogra",
+                    "OriginCode": "IXB",
+                    "OriginDateAndTime": "2020-02-25T15:00:00",
+                    "DestinationName": "Nagpur",
+                    "DestinationAirportCode": "NAG",
+                    "DestinationAirportName": "Sonegaon",
+                    "DestinationCode": "NAG",
+                    "DestinationDateAndTime": "2020-02-25T20:10:00",
+                    "Stops": 1,
+                    "FlightNumber": "6132"
+
+                }
+            ],
+            "IsDomestic": true
+        },
+        {
+            "ServiceIdentifier": "OB4|IB3|$$#$$|bd6281cc-8865-41f9-a080-2bbecef57742|$$#$$|637170180311584450Flight|$$#$$|11956|9194",
+            "OptionalToken": "fawfwafwaawfwaf",
+            "ProviderName": "TravelBoutiqueOnline",
+            "FlightProviderSearchId": "",
+            "FlightMProviderIdentifer": "",
+            "SearchKey": "asffasfasfas",
+            "flightName": "Indigo",
+            "flightCode": "6E",
+            "AirlineCode": "6E",
+            "Origin": "NAG",
+            "Destination": "IXB",
+            "DepartureTime": "2/21/2020 9:10:00 AM",
+            "ArrivalTime": "2/21/2020 4:05:00 PM",
+            "StopCount": "1",
+            "BaseFare": 16935.47,
+            "Tax": 4180,
+            "YQTax": 2000,
+            "PGCharge": 0,
+            "OtherCharges": 0,
+            "TransactionFee": 0,
+            "BookingFee": 0,
+            "TotalSSRFee": 0,
+            "WOTax": 0,
+            "INTax": 0,
+            "JNTax": 0,
+            "YRTax": 0,
+            "IGSTTax": 0,
+            "CGSTTax": 0,
+            "SGSTTax": 0,
+            "UGSTTax": 0,
+            "PublishedFare": 21150,
+            "OfferedFare": 20831.11,
+            "IsMapped": true,
+            "Currency": "INR",
+            "GstAllowed": true,
+            "IsGstMandatory": false,
+            "Source": "6",
+            "ResultIndex": "OB4|IB3",
+            "Charges": {
+                "Currency": "INR",
+                "Discount": 0,
+                "CommissionEarned": 176.71,
+                "PLBEarned": 0,
+                "IncentiveEarned": 0,
+                "OfferedFare": 11779.29,
+                "TdsOnCommission": 8.84,
+                "TdsOnPLB": 0,
+                "TdsOnIncentive": 0,
+                "ServiceFee": 0,
+                "TotalBaggageCharges": 0,
+
+                "TotalSpecialServiceCharges": 0
+            },
+            "Segments": [
+                {
+                    "Segments": [
+                        {
+                            "Baggage": "15 KG",
+                            "CabinBaggage": "7 KG",
+                            "TripIndicator": 1,
+                            "SegmentIndicator": 1,
+                            "Airline": {
+                                "AirlineCode": "6E",
+                                "AirlineName": "Indigo",
+                                "FlightNumber": "2018",
+                                "FareClass": "J",
+                                "OperatingCarrier": ""
+                            },
+                            "NoOfSeatAvailable": 9,
+                            "Origin": {
+                                "Airport": {
+                                    "AirportCode": "NAG",
+                                    "AirportName": "Sonegaon",
+                                    "Terminal": "",
+                                    "CityCode": "NAG",
+                                    "CityName": "Nagpur",
+                                    "CountryCode": "IN",
+                                    "CountryName": "India"
+                                },
+                                "DepTime": "2020-02-21T09:10:00"
+                            },
+                            "Destination": {
+                                "Airport": {
+                                    "AirportCode": "DEL",
+                                    "AirportName": "Indira GandhiAirport","Terminal": "2",
+                                    "CityCode": "DEL",
+                                    "CityName": "Delhi",
+                                    "CountryCode": "IN",
+                                    "CountryName": "India"
+                                },
+                                "ArrTime": "2020-02-21T10:55:00"
+                            },
+                            "AccumulatedDuration": 0,
+                            "Duration": 105,
+                            "GroundTime": 0,
+                            "Mile": 0,
+                            "StopOver": false,
+                            "FlightInfoIndex": "",
+                            "StopPoint": "",
+                            "StopPointArrivalTime": "0001-01-01T00: 00: 00","StopPointDepartureTime": "0001-01-01T00: 00: 00","Craft": "321",
+                            "IsETicketEligible": true,
+                            "FlightStatus": "Confirmed",
+                            "Status": "",
+                            "DurationTime": "1h 45m",
+                            "ShowLayover": true,
+                            "ConnectingTime": "3h 10m",
+                            "ConnectingAirportCode": "DEL",
+                            "ConnectingAirportName": "IndiraGandhi Airport"
+                        },
+                        {
+                            "Baggage": "15 KG",
+                            "CabinBaggage": "7 KG",
+                            "TripIndicator": 1,
+                            "SegmentIndicator": 2,
+                            "Airline": {
+                                "AirlineCode": "6E",
+                                "AirlineName": "Indigo",
+                                "FlightNumber": "5023",
+                                "FareClass": "L",
+                                "OperatingCarrier": ""
+                            },
+                            "NoOfSeatAvailable": 9,
+                            "Origin": {
+                                "Airport": {
+                                    "AirportCode": "DEL",
+                                    "AirportName": "Indira GandhiAirport","Terminal": "3",
+                                    "CityCode": "DEL",
+                                    "CityName": "Delhi",
+                                    "CountryCode": "IN",
+                                    "CountryName": "India"
+                                },
+                                "DepTime": "2020-02-21T14:05:00"
+                            },
+                            "Destination": {
+                                "Airport": {
+                                    "AirportCode": "IXB",
+                                    "AirportName": "Bagdogra",
+                                    "Terminal": "",
+                                    "CityCode": "IXB",
+                                    "CityName": "Bagdogra",
+                                    "CountryCode": "IN",
+                                    "CountryName": "India"
+                                },
+                                "ArrTime": "2020-02-21T16:05:00"
+                            },
+                            "AccumulatedDuration": 415,
+                            "Duration": 120,
+                            "GroundTime": 190,
+                            "Mile": 0,
+                            "StopOver": false,
+                            "FlightInfoIndex": "",
+                            "StopPoint": "",
+                            "StopPointArrivalTime": "0001-01-01T00: 00: 00","StopPointDepartureTime": "0001-01-01T00: 00: 00","Craft": "320",
+                            "IsETicketEligible": true,
+                            "FlightStatus": "Confirmed",
+                            "Status": "",
+                            "DurationTime": "2h 0m",
+                            "ShowLayover": false,
+                            "ConnectingTime": "",
+                            "ConnectingAirportCode": "",
+                            "ConnectingAirportName": ""
+                        }
+                    ],
+                    "AirlineName": "Indigo",
+                    "ArrivalTime": "2/21/2020 4:05:00 PM",
+                    "DepartureTime": "2/21/2020 9:10:00AM","DepartureText": "NAG - IXB",
+                    "ArrivalAirportCode": "IXB",
+                    "ArrivalAirportName": "Bagdogra",
+                    "DepartureAirportCode": "NAG",
+                    "DepartureAirportName": "Sonegaon",
+                    "Stops": 1,
+                    "TotalDuraionTime": "6h 55m",
+                    "stopWithDurations": [
+                        {
+                            "StopName": "DEL",
+                            "Duration": "3h 10m"
+                        }
+                    ],
+                    "DepartureDate": "2/21/2020"
+                },
+                {
+                    "Segments": [
+                        {
+                            "Baggage": "15 KG",
+                            "CabinBaggage": "7 KG",
+                            "TripIndicator": 1,
+                            "SegmentIndicator": 1,
+                            "Airline": {
+                                "AirlineCode": "6E",
+                                "AirlineName": "Indigo",
+                                "FlightNumber": "6132",
+                                "FareClass": "P",
+                                "OperatingCarrier": ""
+                            },
+                            "NoOfSeatAvailable": 6,
+                            "Origin": {
+                                "Airport": {
+                                    "AirportCode": "IXB",
+                                    "AirportName": "Bagdogra",
+                                    "Terminal": "",
+                                    "CityCode": "IXB",
+                                    "CityName": "Bagdogra",
+                                    "CountryCode": "IN",
+                                    "CountryName": "India"
+                                },
+                                "DepTime": "2020-02-25T15:00:00"
+                            },
+                            "Destination": {
+                                "Airport": {
+                                    "AirportCode": "CCU",
+                                    "AirportName": "Calcutta",
+                                    "Terminal": "",
+                                    "CityCode": "CCU",
+                                    "CityName": "Kolkata",
+                                    "CountryCode": "IN",
+                                    "CountryName": "India"
+                                },
+                                "ArrTime": "2020-02-25T16:05:00"
+                            },
+                            "AccumulatedDuration": 0,
+                            "Duration": 65,
+                            "GroundTime": 0,
+                            "Mile": 0,
+                            "StopOver": false,
+                            "FlightInfoIndex": "",
+                            "StopPoint": "",
+                            "StopPointArrivalTime": "0001-01-01T00: 00: 00","StopPointDepartureTime": "0001-01-01T00: 00: 00","Craft": "320",
+                            "IsETicketEligible": true,
+                            "FlightStatus": "Confirmed",
+                            "Status": "",
+                            "DurationTime": "1h 5m",
+                            "ShowLayover": true,
+                            "ConnectingTime": "3h 55m",
+                            "ConnectingAirportCode": "CCU",
+                            "ConnectingAirportName": "Calcutta"
+                        },
+                        {
+                            "Baggage": "15 KG",
+                            "CabinBaggage": "7 KG",
+                            "TripIndicator": 1,
+                            "SegmentIndicator": 2,
+                            "Airline": {
+                                "AirlineCode": "6E",
+                                "AirlineName": "Indigo",
+                                "FlightNumber": "663",
+                                "FareClass": "P",
+                                "OperatingCarrier": ""
+                            },
+                            "NoOfSeatAvailable": 6,
+                            "Origin": {
+                                "Airport": {
+                                    "AirportCode": "CCU",
+                                    "AirportName": "Calcutta",
+                                    "Terminal": "",
+                                    "CityCode": "CCU",
+                                    "CityName": "Kolkata",
+                                    "CountryCode": "IN",
+                                    "CountryName": "India"
+                                },
+                                "DepTime": "2020-02-25T20:00:00"
+                            },
+                            "Destination": {
+                                "Airport": {
+                                    "AirportCode": "NAG",
+                                    "AirportName": "Sonegaon",
+                                    "Terminal": "",
+                                    "CityCode": "NAG",
+                                    "CityName": "Nagpur",
+                                    "CountryCode": "IN",
+                                    "CountryName": "India"
+                                },
+                                "ArrTime": "2020-02-25T21:55:00"
+                            },
+                            "AccumulatedDuration": 415,
+                            "Duration": 115,
+                            "GroundTime": 235,
+                            "Mile": 0,
+                            "StopOver": false,
+                            "FlightInfoIndex": "",
+                            "StopPoint": "",
+                            "StopPointArrivalTime": "0001-01-01T00: 00: 00","StopPointDepartureTime": "0001-01-01T00: 00: 00","Craft": "320","IsETicketEligible": true,
+                            "FlightStatus": "Confirmed",
+                            "Status": "",
+                            "DurationTime": "1h 55m",
+                            "ShowLayover": false,
+                            "ConnectingTime": "",
+                            "ConnectingAirportCode": "",
+                            "ConnectingAirportName": ""
+                        }
+                    ],
+                    "AirlineName": "Indigo",
+                    "ArrivalTime": "2/25/2020 9:55:00 PM",
+                    "DepartureTime": "2/25/2020 3:00:00PM","DepartureText": "IXB - NAG",
+                    "ArrivalAirportCode": "NAG",
+                    "ArrivalAirportName": "Sonegaon",
+                    "DepartureAirportCode": "IXB",
+                    "DepartureAirportName": "Bagdogra",
+                    "Stops": 1,
+                    "TotalDuraionTime": "6h 55m",
+                    "stopWithDurations": [
+                        {
+                            "StopName": "CCU",
+                            "Duration": "3h 55m"
+                        }
+                    ],
+                    "DepartureDate": "2/25/2020"
+                }
+            ],
+            "IsLCC": true,
+            "DurationTime": "6h55m","DisplayForCart": [
+                {
+                    "OriginName": "Nagpur",
+                    "OriginAirportCode": "NAG",
+                    "OriginAirportName": "Sonegaon",
+                    "OriginCode": "NAG",
+                    "OriginDateAndTime": "2020-02-21T09: 10: 00","DestinationName": "Bagdogra",
+                    "DestinationAirportCode": "IXB",
+                    "DestinationAirportName": "Bagdogra",
+                    "DestinationCode": "IXB",
+                    "DestinationDateAndTime": "2020-02-21T16: 05: 00","Stops": 1,
+                    "FlightNumber": "2018"
+
+                },
+                {
+                    "OriginName": "Bagdogra",
+                    "OriginAirportCode": "IXB",
+                    "OriginAirportName": "Bagdogra",
+                    "OriginCode": "IXB",
+                    "OriginDateAndTime": "2020-02-25T15: 00: 00","DestinationName": "Nagpur",
+                    "DestinationAirportCode": "NAG",
+                    "DestinationAirportName": "Sonegaon",
+                    "DestinationCode": "NAG",
+                    "DestinationDateAndTime": "2020-02-25T21: 55: 00","Stops": 1,
+                    "FlightNumber": "6132"
+
+                }
+            ],
+            "IsDomestic": true
+        }
+    ],
+    "TotalPages": 22,
+    "CurrentPage": 1,
+    "TotalFlights": 216,
+    "IsMultiCity": false,
+    "IsReturn": true,
+    "IsDomestic": true,
+    "Authenticated": "True",
+    "SessionId": "637170180311584450Flight",
+    "LogReferenceId": "ba1c7a5732f2448ea671e6d6f3b73ed6",
+    "ClientCode": "INDXXX09",
+    "EntityId": 10,
+    "ClientId": "6",
+    "LanguageLocale": "en-US",
+    "LanguageName": "English(United States)"
+}

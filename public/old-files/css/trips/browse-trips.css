@@ -1,0 +1,59 @@
+#main-header-body
+{
+    background-image: url("../../img/trips/home.png");
+    background-size: cover;
+}
+.main-header-title
+{
+    color: white;
+    font-size: 5rem;
+    font-weight: bolder;
+}
+.main-header-hr
+{
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 12px;
+}
+.main-header-text
+{
+    color: white;
+    font-size: 22px;
+}
+.main-header-button
+{
+    background: #56D18F 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #0000004D;
+    border-radius: 36px;
+    width: 283px;
+    height: 72px;
+    color: white;
+    outline: none;
+    transition: background-color linear 0.1s;
+}
+.relevant-trips
+{
+    font-size:2.5rem;
+    color: #000941;
+    font-weight: bold;
+    font-family: 'GilroyLight';
+}
+.main-header-button:hover
+{
+    color:white;
+    text-decoration: none;
+    background-color: green;
+}
+@media screen and (max-width: 600px)
+{
+    .main-header-title
+    {
+        font-size: 2rem;
+    }
+    .relevant-trips
+    {
+        font-size:2rem;
+
+    }
+}

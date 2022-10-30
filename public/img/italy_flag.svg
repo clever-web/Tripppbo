@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="34" viewBox="0 0 34 34">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_122" data-name="Ellipse 122" cx="17" cy="17" r="17" transform="translate(1012.5 2234)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_3" data-name="Mask Group 3" transform="translate(-1012.5 -2234)" clip-path="url(#clip-path)">
+    <g id="icons8_italy_1" transform="translate(1012.5 2234)">
+      <path id="Path_593" data-name="Path 593" d="M10.767,5.1H23.233V28.9H10.767Z" fill="#f2faff"/>
+      <path id="Path_594" data-name="Path 594" d="M22.667,5.667V28.333H11.333V5.667H22.667M23.8,4.533H10.2V29.467H23.8V4.533Z" fill="#a3b7cc"/>
+      <path id="Path_595" data-name="Path 595" d="M.567,5.1h10.2V28.9H.567Z" fill="#99c99e"/>
+      <path id="Path_596" data-name="Path 596" d="M10.2,5.667V28.333H1.133V5.667H10.2m1.133-1.133H0V29.467H11.333V4.533Z" fill="#5e9c76"/>
+      <g id="Group_758" data-name="Group 758">
+        <path id="Path_597" data-name="Path 597" d="M23.233,5.1h10.2V28.9h-10.2Z" fill="#f78f8f"/>
+        <path id="Path_598" data-name="Path 598" d="M32.867,5.667V28.333H23.8V5.667h9.067M34,4.533H22.667V29.467H34V4.533Z" fill="#c74343"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,952 @@
+.zero {
+	position: absolute;
+    top: -20px;
+    right: -20px;
+}
+.zero-pink {
+	position: relative;
+}
+.zero-pink::after {
+	content: 'o';
+	font-family: 'Gilroy-SemiBold';
+	position: absolute;
+	font-size: 18px;
+	color: #fe2f70;
+	top: 0;
+	right: -12px;
+}
+
+.trippbo-booking-aside {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+	box-shadow: 0px 3px 6px #00000029;
+}
+.trippbo-booking-aside > li:first-child > a {
+	padding: 2rem;
+}
+.trippbo-booking-aside > li:not(:first-child) {
+	padding: 0 0 0 2rem;
+}
+.trippbo-booking-aside > li:not(:first-child) > a, .trippbo-booking-aside > li:not(:first-child) > button {
+	padding: 1.25rem 0;
+	border-top: 1px solid #ddd;
+}
+.trippbo-booking-aside > li > a, .trippbo-booking-aside > li > button {
+	font-family: 'Gilroy-Medium';
+	text-decoration: none;
+    display: block;
+    background-color: #fff;
+	color: #1f2223;
+}
+.trippbo-booking-aside > li:not(:first-child) > a {
+	border-right: 5px solid white;
+}
+.trippbo-booking-aside > li.trippbo-booking-aside-active > a {
+	color: #fe2f70;
+	border-right: 5px solid #fe2f70;
+}
+.trippbo-booking-aside > li > a:hover {
+	color: #fe2f70;
+}
+.trippbo-booking-main {
+	background-color: white;
+}
+.container-all-booking {
+	padding: 0;
+	border: 1px solid #d2d2d2;
+}
+.container-all-booking > div {
+    padding: 1.5rem;
+    background-color: #fafafa;
+}
+.container-all-booking > div > div {
+    box-shadow: 0px 3px 6px #00000029;
+	background-color: white;
+}
+.grid-2 {
+	display: grid;
+	grid-template-columns: auto auto;
+	padding: 10px;
+	grid-gap: 10px;
+}
+.grid-2 > div:nth-of-type(1) {
+	grid-column: 1 / span 2;
+}
+.grid-2 > div:nth-of-type(2) {
+	grid-column: 1 / span 2;
+}
+.grid-2 > div:nth-of-type(3) {
+	grid-column: 1 / span 1;
+}
+.grid-2 > div:nth-of-type(4) {
+	grid-column: 2 / span 1;
+}
+.grid-2 > div:nth-of-type(5) {
+	grid-column: 1 / span 2;
+}
+.rent-a-car-card > div > div:not(:last-child) {
+	margin-bottom: .5rem;
+}
+ul.list-1 {
+    list-style-type: none;
+    padding: 8px;
+    margin: 0;
+}
+ul.list-1 > li {
+    padding: 8px;
+}
+ul.list-1 > li:not(:last-child) {
+    border-bottom: 1px dashed #ddd;
+}
+ul.list-2 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul.list-2 > li {
+    padding: 8px;
+}
+ul.list-2 > li:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
+ul.list-3 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul.list-3 > li {
+    padding: 12px 8px;
+}
+ul.list-3 > li:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
+ul.list-4 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul.list-4 > li {
+    padding: 12px 8px;
+}
+ul.list-4 > li:not(:last-child) {
+    border-right: 1px solid #ddd;
+}
+ul.list-4 > li .temperature-value::after {
+	content: 'o';
+	font-family: 'Gilroy-Medium';
+	position: absolute;
+	font-size: 10px;
+	color: #000941;
+	top: -2px;
+	right: -6px;
+}
+ul.list-4 > li .temperature-value {
+	position: relative;
+}
+.timeline {
+	display: -ms-flexbox;
+    display: flex;
+	ms-flex-direction: column;
+    flex-direction: column;
+}
+.timeline > div:not(:last-child), .transferred > div:not(:last-child) {
+	margin-bottom: 0.5rem;
+}
+.timeline div.timeline-container,
+.transferred div.transferred-container {
+	display: grid;
+	grid-template-columns: 15% 12px auto;
+	column-gap: 15px;
+}
+.timeline div.timeline-container > div:nth-of-type(1),
+.transferred div.transferred-container > div:nth-of-type(1) {
+	display: -ms-flexbox;
+    display: flex;
+	ms-flex-direction: column;
+    flex-direction: column;
+	-ms-flex-align: end;
+    align-items: flex-end;
+}
+.timeline div.timeline-container > div:nth-of-type(2),
+.transferred div.transferred-container > div:nth-of-type(2) {
+	position: relative;
+}
+.timeline > div:not(:last-child) > div.timeline-container > div:nth-of-type(2)::before {
+    content: '';
+    position: absolute;
+    background-color: transparent;
+    width: 2px;
+    border-right: 2px solid #000941;
+    top: 0;
+    height: calc(100% + 1.5rem);
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.transferred > div:not(:last-child) > div.transferred-container > div:nth-of-type(2)::before {
+    content: '';
+    position: absolute;
+    background-color: transparent;
+    width: 2px;
+    border-right: 2px dashed #000941;
+    top: 0;
+    height: calc(100% + 1.5rem);
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.transferred > div:last-child > div.transferred-container > div:nth-of-type(2)::before {
+    content: '';
+    position: absolute;
+    background-color: transparent;
+    width: 2px;
+    border-right: 2px solid #000941;
+    top: 0;
+    height: calc(100% + 1.5rem);
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.timeline > div:first-child > div.timeline-container > div:nth-of-type(2)::after,
+.timeline > div:last-child > div.timeline-container > div:nth-of-type(2)::before {
+	content: '';
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	border: 2px solid #000941;
+	border-radius: 50%;
+	background-color: white;
+	top: 0;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+	display: -ms-flexbox;
+    display: flex;
+    ms-flex-pack: center;
+    justify-content: center;
+	-ms-flex-align: end;
+    align-items: flex-end;
+	z-index: 2;
+}
+.transferred > div:first-child > div.transferred-container > div:nth-of-type(2)::after {
+	content: '';
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	border: 2px solid #000941;
+	border-radius: 50%;
+	background-color: white;
+	top: 0;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+	display: -ms-flexbox;
+    display: flex;
+    ms-flex-pack: center;
+    justify-content: center;
+	-ms-flex-align: end;
+    align-items: flex-end;
+	z-index: 2;
+}
+.transferred > div:last-child > div.transferred-container > div:nth-of-type(2)::after {
+	content: '';
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	border: 2px solid #000941;
+	border-radius: 50%;
+	background-color: white;
+	top: 0;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+	display: -ms-flexbox;
+    display: flex;
+    ms-flex-pack: center;
+    justify-content: center;
+	-ms-flex-align: end;
+    align-items: flex-end;
+	z-index: 2;
+}
+.timeline-accordion {
+	background-color: white;
+	box-shadow: 0px 3px 12px rgb(0, 0, 0, 0.2);
+	position: relative;
+}
+.timeline-accordion > button {
+	background-color: transparent;
+	cursor: pointer;
+	padding: 10px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 14px;
+}
+.timeline-accordion > button::before {
+	font-family: "FontAwesome";
+	content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: -10px;
+    border: medium solid white;
+    border-width: 8px 10px 8px 0;
+    border-color: transparent white transparent transparent;
+}
+.timeline-accordion > button::after {
+	font-family: "FontAwesome";
+	content: "\f107";
+	color: #fe2f70;
+	font-size: 14px;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+}
+.timeline-accordion > button.timeline-accordion-active:after {
+	content:"\f106";
+}
+.timeline-accordion > div {
+	padding: 0 18px;
+	background-color: white;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+}
+.trippbo-tabcontent {
+	display: none;
+	opacity: 1;
+	animation: fadeIn 1s;
+}
+ul.list-5 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul.list-5 > li {
+    padding: 12px 8px;
+	background-color: white;
+	box-shadow: 0px 3px 6px #00000029;
+	padding: 1rem;
+	border-radius: 0.3rem;
+	position: relative;
+}
+ul.list-5 > li::after {
+    font-family: "FontAwesome";
+    content: "\f105";
+    color: #fe2f70;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+ul.list-5 > li:not(:last-child) {
+	margin-bottom: 1rem;
+}
+ul.list-6 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul.list-6 > li > button {
+    font-family: 'Gilroy-Bold';
+	font-size: 12px;
+	padding: 8px 32px;
+	background-color: #00094112;
+	position: relative;
+	color: #000941;
+}
+ul.list-6 > li > button:hover {
+	background-color: #000941;
+	color: white;
+}
+ul.list-6 > li > button:hover::after {
+	color: white;
+}
+ul.list-6 > li:not(:last-child) {
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+ul.list-6 > li > button::after {
+	font-family: "FontAwesome";
+	content: "\f105";
+	color: #000941;
+	font-size: 14px;
+	font-weight: bold;
+	position: absolute;
+	right: 10px;
+}
+.grid-4 {
+	display: grid;
+	grid-template-columns: 15% auto;
+	grid-column-gap: 20px;
+	grid-row-gap: 0px;
+}
+ul.list-7 {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+ul.list-7 > li > button {
+    font-family: 'Gilroy-Bold';
+	font-size: 18px;
+	padding: 6px 18px;
+	background-color: white;
+	color: #000941;
+	border: 1px solid #000941;
+	display: -ms-flexbox;
+    display: flex;
+	ms-flex-align: center;
+    align-items: center;
+}
+ul.list-7 > li > button span {
+    padding-right: 0.75rem;
+    margin-right: 0.75rem;
+	border-right: 1px dashed #000941;
+}
+ul.list-7 > li > button:hover {
+	background-color: #000941;
+	color: white;
+}
+ul.list-7 > li > button:hover span {
+	border-color: white;
+}
+ul.list-7 > li:not(:last-child) {
+    margin-bottom: 0.5rem;
+}
+.bordered-image {
+    background-image: url('../image/border-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.pressed {
+    padding: 8px 24px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #56d18f;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px #3abc76;
+}
+.trippbo-checkbox {
+	display: block;
+	position: relative;
+	padding-left: 30px;
+	margin-bottom: 0;
+	cursor: pointer;
+	font-size: 12px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.trippbo-checkbox > input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+.trippbo-checkbox > span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 15px;
+	width: 15px;
+	background-color: #fff;
+	border: 1px solid #000941;
+}
+.trippbo-checkbox:hover > input ~ span {
+	background-color: #fff;
+}
+.trippbo-checkbox > input:checked ~ span {
+	background-color: #000941;
+}
+.trippbo-checkbox > span:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+.trippbo-checkbox > input:checked ~ span:after {
+  display: block;
+}
+.trippbo-checkbox > span:after {
+	left: 4px;
+	top: 1px;
+	width: 5px;
+	height: 9px;
+	border: solid white;
+	border-width: 0 2px 2px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.timeline-flight-change {
+	display: -ms-flexbox;
+    display: flex;
+	ms-flex-direction: column;
+    flex-direction: column;
+	position: relative;
+}
+.timeline-flight-change::after {
+    content: '';
+    position: absolute;
+    background-color: #000941;
+    width: 2px;
+    height: 85%;
+    top: 0;
+    left: calc(5% + 5px);
+}
+.timeline-flight-change > div:not(:last-child) {
+	margin-bottom: 3rem;;
+}
+.timeline-flight-change > div > div.timeline-container {
+	display: grid;
+	grid-template-columns: 5% 12px auto;
+	column-gap: 10px;
+}
+.timeline-flight-change > div > div.timeline-container > div:nth-of-type(1) {
+	display: -ms-flexbox;
+    display: flex;
+	ms-flex-direction: column;
+    flex-direction: column;
+	-ms-flex-align: end;
+    align-items: flex-end;
+}
+.timeline-flight-change > div:first-child > div.timeline-container > div:nth-of-type(2)::after {
+    content: '';
+    position: absolute;
+    background-color: #000941;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #000941;
+    border-radius: 50%;
+    background-color: white;
+    top: 0;
+    left: calc(5% + 0px);
+    z-index: 2;
+}
+.timeline-flight-change > div:last-child > div.timeline-container > div:nth-of-type(2)::before {
+    font-family: 'FontAwesome';
+    content: "\f0d7";
+    position: absolute;
+    bottom: 3%;
+    left: calc(5% + -2px);
+    z-index: 2;
+    font-size: 24px;
+}
+.grid-9 {
+	display: grid;
+	grid-template-columns: 50% auto;
+	grid-gap: 10px;
+}
+.grid-9 > div:nth-of-type(5), .grid-9 > div:nth-of-type(6), .grid-9 > div:nth-of-type(7) {
+	grid-column: 1 / span 2;
+}
+.trippbo-dropdown > button {
+    border: none;
+    text-decoration: none;
+    text-align: center;
+	position: relative;
+	padding: 10px;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    white-space: nowrap;
+   -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.trippbo-dropdown > button:hover {
+    color: black;
+    background-color: white;
+}
+.trippbo-dropdown > div > ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.trippbo-dropdown > div > ul > li > a {
+		width: 100%;
+		text-align: left;
+}
+.trippbo-dropdown > div > ul > li > a:hover {
+		color: #fe2f70;
+		background-color: #fe2f7010;
+}
+.increamentor  {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.increamentor > div {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.increamentor > div:nth-of-type(3) {
+	text-align: end;
+}
+.increamentor > div > img {
+	height: 18px;
+	cursor: pointer;
+}
+.increamentor > div > img.increamentor-not-allowed {
+	cursor: not-allowed;
+}
+.increamentor > div > i {
+	font-size: 18px;
+	cursor: pointer;
+}
+.increamentor > div > i.increamentor-not-allowed {
+	cursor: not-allowed;
+}
+.increamentor > div > img.increamentor-opacity, .increamentor > div > i.increamentor-opacity, .increamentor > div > input.increamentor-opacity {
+	opacity: 0.5;
+}
+.increamentor > div > input {
+	width: 2em;
+    padding: 0;
+    margin: 0;
+	border: 0;
+	text-align: center;
+	font-family: 'Gilroy-SemiBold';
+}
+@keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+@media (max-width: 768px) {
+
+.container-with-background {
+    padding: 20px;
+}
+.container-with-background main > h4 {
+	font-size: 1rem!important;
+	color: black;
+	padding: 15px;
+}
+.container-with-background > div {
+	display: grid;
+	grid-template-columns: auto;
+}
+.container-with-background > div > section {
+	display: none;
+}
+.container-with-background > div > main {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 21;
+    top: 0;
+    right: 100%;
+    bottom: 0;
+    overflow-x: hidden;
+    transition: 0.4s;
+    background-color: white;
+}
+.trippbo-booking-aside {
+	padding: 16px;
+}
+.book-your-hotel {
+	width: 100%;
+}
+.grid-1 {
+	display: grid;
+	grid-template-columns: auto;
+	padding: 16px;
+	grid-gap: 16px;
+}
+.grid-3 {
+	display: grid;
+	grid-template-columns: auto;
+	grid-gap: 20px;
+}
+.grid-5, .grid-6 {
+	display: grid;
+	grid-template-columns: auto;
+	grid-column-gap: 20px;
+}
+.grid-6 > div:not(:last-child) {
+	margin-bottom: 1rem;
+}
+.grid-7 {
+	display: grid;
+	grid-template-columns: auto;
+	grid-column-gap: 10px;
+}
+.grid-7 > div:nth-of-type(1) {
+	 margin-bottom: 1rem;
+}
+.grid-7 > div:nth-of-type(1) > img {
+	height: 75px;
+}
+.grid-7 > div:nth-of-type(2) > div {
+	display: -ms-flexbox;
+    display: flex;
+}
+.grid-7 > div:nth-of-type(2) > div > div:nth-of-type(1) {
+	display: none;
+}
+.rent-a-car-card img {
+	width: 100%;
+}
+ul.list-4 > li:not(:nth-child(-n+4)) {
+    display: none;
+}
+ul.list-8 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul.list-8 > li {
+    padding: 8px;
+}
+ul.list-8 > li:not(:last-child) {
+	border-bottom: 1px solid #ddd;
+}
+ul.list-8 > li > div > div:not(:last-child){
+	margin-bottom: 1rem;
+}
+ul.grid-8 {
+	list-style-type: none;
+    padding: 0;
+	margin: 0;
+	display: grid;
+	grid-template-columns: auto;
+}
+ul.grid-8 > li:nth-of-type(1) > div > div:nth-of-type(1) {
+	margin-bottom: 1rem;
+}
+ul.grid-8 > li:not(:last-child) {
+	border-bottom: 1px dashed #ddd;
+	padding-bottom: 1rem;
+	margin-bottom: 1rem;
+}
+ul.grid-8 > li:nth-of-type(2) > div {
+	ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.trippbo-dropdown > div {
+	padding: 1rem;
+	box-shadow: 0px 0px 6px #00000028;
+    cursor: auto;
+    background-color: #fff;
+    display: none;
+    position: fixed;
+    top: 100px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    z-index: 21;
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.4s;
+}
+@keyframes fadeInOpacity {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+.trippbo-dropdown {
+	position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.trippbo-dropdown > div > p:nth-of-type(1) {
+	margin-bottom: 2rem!important;
+}
+.trippbo-dropdown > div > div:last-child {
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	padding: 0.5rem;
+}
+
+}
+
+@media (min-width: 769px) {
+
+.container-with-background {
+    background-image: url("../image/black.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 50px 125px 50px 125px;
+}
+.container-with-background > div {
+	display: grid;
+	grid-template-columns: 35% auto auto;
+	grid-column-gap: 20px;
+}
+.container-with-background > div > section {
+	padding: 0;
+}
+.container-with-background > div > section:nth-of-type(1) {
+	grid-column: 1 / span 2;
+}
+.container-with-background > div > section:nth-of-type(2) {
+	grid-column: 1 / span 1;
+}
+.container-with-background > div > aside {
+	grid-column: 1 / span 1;
+}
+.container-with-background > div > main {
+	grid-column: 2 / span 2;
+}
+.container-with-background main > h4 {
+	font-size: 2.125rem;
+	margin-bottom: 3rem;
+	color: white;
+}
+.trippbo-booking-aside {
+	padding: 0;
+}
+.book-your-hotel {
+	width: 50%;
+}
+.grid-1 {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 16px;
+	grid-gap: 16px;
+}
+.grid-1 > div:nth-of-type(1) {
+	grid-column: 1 / span 1;
+}
+.grid-1 > div:nth-of-type(2) {
+	grid-column: 2 / span 2;
+}
+.grid-3 {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 20px;
+}
+.grid-3 > div:nth-of-type(1) {
+	grid-column: 1 / span 1;
+}
+.grid-3 > div:nth-of-type(2) {
+	grid-column: 2 / span 1;
+}
+.grid-5 > div:nth-of-type(1) {
+	border-right: 1px dashed #ddd;
+}
+.grid-5, .grid-6 {
+	display: grid;
+	grid-template-columns: 50% auto;
+	grid-column-gap: 20px;
+}
+.grid-7 {
+	display: grid;
+	grid-template-columns: 10% auto;
+	grid-column-gap: 10px;
+}
+.grid-7 > div:nth-of-type(1) {
+ 	text-align: center;
+}
+.grid-7 > div:nth-of-type(1) > img {
+
+}
+.grid-7 > div:nth-of-type(2) > div {
+	display: -ms-flexbox;
+    display: flex;
+}
+ul.list-8 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul.list-8 > li {
+    padding: 8px;
+}
+ul.list-8 > li:not(:last-child) {
+	border-bottom: 1px solid #ddd;
+}
+ul.list-8 > li > div > div:not(:last-child) {
+	margin-right: 3rem;
+}
+ul.grid-8 {
+	list-style-type: none;
+    padding: 0;
+    margin: 0;
+	display: grid;
+	grid-template-columns: 50% auto;
+}
+ul.grid-8 > li:nth-of-type(2) {
+	display: -ms-flexbox;
+    display: flex;
+	ms-flex-pack: end;
+    justify-content: flex-end;
+	ms-flex-align: center;
+    align-items: center;
+}
+ul.grid-8 > li:not(:last-child) {
+	border-right: 1px dashed #ddd;
+}
+ul.grid-8 > li:nth-of-type(1) > div > div:nth-of-type(1) {
+	margin-right: 1.5rem;
+}
+ul.grid-8 > li:nth-of-type(2) p {
+	text-align: right;
+}
+ul.grid-8 > li:nth-of-type(2) > div {
+	ms-flex-pack: end;
+    justify-content: flex-end;
+}
+ul.grid-8 > li > div > div:nth-of-type(1) {
+	margin-right: 1rem;
+}
+.rent-a-car-card img {
+	width: 100%;
+	height: 175px;
+}
+.timeline-accordion {
+	width: 50%;
+}
+.trippbo-dropdown {
+	position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.trippbo-dropdown:hover > div {
+    display: block;
+	padding: 1rem;
+}
+.trippbo-dropdown > div {
+	box-shadow: 0px 0px 6px #00000028;
+	cursor: auto;
+	background-color: #fff;
+	display: none;
+	position: absolute;
+	right: 0;
+	min-width: 250px;
+	margin: 0;
+	padding: 1rem;
+	z-index: 2;
+}
+
+}

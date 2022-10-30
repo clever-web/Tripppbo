@@ -1,0 +1,1519 @@
+@media(min-width: 1400px){
+    /* landing page */
+        .l_travel_box_right img {
+            width: 80%;
+            display: block;
+            margin: 0 auto;
+            margin-top: -110px;
+        }
+}
+
+@media(min-width: 1250px){
+    #f_hero_img_xl{
+        display: block;
+    }
+    #f_hero_img{
+        display: none;
+    }
+}
+
+@media(min-width: 1201px) and (max-width: 1400px){
+    /* about us */
+        .ticketGallery_right img {
+            display: block;
+            width: 110%;
+        }
+    /* landing page */
+        .container_slider_2{
+            margin-right: 0;
+            padding-right: 0;
+            max-width: none;
+            margin-left: 120px;
+        }
+}
+
+@media(min-width: 1200px){
+    /* My Account */
+        .my_account_slide:hover{
+            border-color: var(--dark_blue);
+            color: var(--dark_blue);
+        }
+        .my_account_slide:hover > svg path{
+            fill: var(--dark_blue);
+        }
+}
+
+@media(max-width: 1350px){
+    /* landing page */
+        .container_slider_2{
+            margin-left: 100px;
+        }
+}
+
+@media(max-width: 1300px){
+    /* landing page */
+        .container_slider_2{
+            margin-left: 80px;
+        }
+    /* My Account Page > My Balance Section */
+        .available_balance {
+            width: 33%;
+        } 
+        .recent_transactions {
+            width: 40%;
+        }
+}
+
+@media(max-width: 1250px){
+    /* landing page */
+        .container_slider_2{
+            margin-left: 60px;
+        }
+}
+
+@media(max-width: 1200px){
+    /* ticket gallery */
+        .ticketGallery_row {
+            align-items: flex-end;
+        }
+        .wrap_ticket_gallery{
+            overflow: hidden;
+        }
+        .ticketGallery_right img{
+            width: auto;
+            height: 360px;
+            margin-left: -3vw;
+        }
+    /* landing page */
+        .l_travel_box_right img {
+            width: 102%;
+            margin-top: -110px;
+        }
+        .nav_landing button:not(:last-child){
+            margin-right: 10px;
+        }
+        .landing_ticket_form  .ticket_input_1, .landing_ticket_form .ticket_input_3 {
+            margin-bottom: 0 !important;
+        }
+        .landing_grid_1::after {
+            background-position: center bottom;
+        }
+        /* landing page */
+        .hero_landing_left{
+            flex: none;
+            width: 100%;
+            padding-top: 70px;
+        }
+        .hero_landing_right {
+            width: 90vw;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .landing_tabs{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .landing_ticket_box {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .inspiration_right_img > img {
+            top: 50%;
+            left: auto;
+            right: -5%;
+            transform: translateY(-47%) translateX(0);
+            width: 100%;
+            -webkit-transform: translateY(-47%) translateX(0);
+            -moz-transform: translateY(-47%) translateX(0);
+            -ms-transform: translateY(-47%) translateX(0);
+            -o-transform: translateY(-47%) translateX(0);
+        }
+        .landing_grid_box2 {
+            grid-template-areas:
+              'land_grid_2_1 land_grid_2_1 land_grid_2_1 land_grid_2_1 land_grid_2_1 land_grid_2_1'
+              'land_grid_2_2 land_grid_2_2 land_grid_2_2 land_grid_2_2 land_grid_2_2 land_grid_2_2'
+              'land_grid_2_3 land_grid_2_3 land_grid_2_3 land_grid_2_3 land_grid_2_3 land_grid_2_3';
+        }
+        .land_grid_2_1 ,
+        .land_grid_2_2 {
+            min-height: 400px;
+        }
+        .land_grid_2_1 > img{
+            object-position: top center;
+        }
+        .container_slider_2{
+            margin-left: auto;
+        }
+    /* fund my trip */
+        .fund_girds{
+            grid-template-columns: repeat(3, 1fr);
+        }
+    /* My Account page */
+        .wrap_acc_buttons{
+            display: flex;
+            margin-left: 10px;
+        }
+    /* manage booking - dashboard (1) */
+        .manage_booking_1{
+            flex-direction: column;
+        }
+        .manage__1_left{
+            width: 100%;
+            margin-right: 0;
+            margin-bottom: 30px;
+        }
+        .manage__1_right{
+            width: 100%;
+        }
+    /* tickets lottery */
+        .ticket_lottery_right img{
+            position: absolute;
+            right: 0;
+        }   
+    /* select trip - overview */
+        .wrap_pagination_image{
+            flex-direction: column-reverse;
+            align-items: flex-end;
+        }
+        .wrap_pagination_image .swiper-pagination .swiper-pagination-bullet {
+            width: 90px;
+            height: 90px;
+        }
+        .slide_user_details{
+            width: 100%;
+        }
+    /* Overview > Joined requests */
+        .member_request_item {
+            width: 99%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+    /* Trip Member section */
+        .trip_member_items_wrapper {
+            justify-content: center;
+        }
+        .trip_member_item {
+            width: 23.5%;
+            margin-right: 1.5%;
+        }
+    /* select tirip -> trip collapse */
+        .trip_user_date_btn{
+            width: 72%;
+            align-items: flex-start;
+            flex-direction: column;
+        }
+        .trip_user_date_btn > div:not(:last-chind){
+            margin-bottom: 15px;
+        }
+        .trip_accr_bottom_row {
+            flex-direction: column;
+        }
+        .trip_accr_bottom_left {
+            width: 100%;
+            padding: 30px 0 !important;
+            margin-bottom: 15px;
+            justify-content: center;
+        }
+        .trip_accr_bottom_left::after{
+            display: none;
+        }
+        .trip_accr_bottom_left::before{
+            display: block;
+        }
+    /* tickets lottery - details */
+        .lottery_details_hero_left {
+            width: 36%;
+        }
+        .lottery_details_hero_left_child {
+            padding: 20px 18px;
+        }
+    /* guest_box_1 (landing page) */
+        .guest_box_1{
+            right: 0;
+            left: auto;
+        }
+}
+
+@media(max-width: 1100px){
+    /* ticket gallery */
+        .ticketGallery_right img{
+            width: auto;
+            height: 350px;
+            margin-left: -3vw;
+        }
+}
+
+@media(max-width: 992px){
+    .pad_x_0 {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .pad_y_0 {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    /* contact us */
+        .contact_centerHeading_child{
+            display: none;
+        }
+        .contact_center_left{
+            max-width: none;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .contact_center_box_sm{
+            width: 49%;
+        }
+        .contact_center_right{
+            margin-left: 0;
+        }
+        .contact_centerHeading h2 {
+            margin-left: 0;
+            text-align: center;
+        }
+    /* ticket gallery */
+        .ticketGallery_left{
+            padding-top: 50px;
+            padding-bottom: 0;
+        }
+        .ticketGallery_right img{
+            width: 100%;
+            height: auto;
+            margin-left: 0;
+        }
+    /* landing page */
+        .value_grid_item_2 {
+            flex: none;
+            width: 25%;
+        }
+        .value_grid_item_1{
+            margin-bottom: 10px;
+        }
+        .get_inspiration_future {
+            padding: 50px 30px;
+        }
+        .p_inspiration_right_img{
+            display: flex;
+            align-self: stretch;
+        }
+        .inspiration_right_img{
+            width: 100%;
+        }
+        .inspiration_right_img > img {
+            right: -2%;
+            width: 95%;
+        }
+        .l_travel_box .row {
+            min-height: auto;
+            align-items: center;
+        }
+        .l_travel_box_right img {
+            width: 430px;
+            margin-top: -100px;
+        }
+    /* create trip */
+        #popup_create_trip_box{
+            flex-direction: column-reverse;
+        }
+        #popup_create_trip_box .row_sign_left,
+        #popup_create_trip_box .row_sign_right{
+            width: 100%;
+        }
+
+        #popup_create_trip_box .row_sign_right img {
+            width: 100%;
+            height: auto;
+            aspect-ratio: 1 / .7;
+        }
+
+    /* My Account Page > top profile and hero section */
+        .profile_right_content {
+            padding-top: 40px !important;
+            padding-left: 30px !important;
+            padding-right: 30px !important;
+            width: 100%;
+            margin-right: 0;
+            border-radius: 0;
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            -ms-border-radius: 0;
+            -o-border-radius: 0;
+        }
+        .profile_left_content_hero {
+            padding-top: 40px !important;
+            padding-bottom: 30px !important;
+            width: 100%;
+            border-radius: 0;
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            -ms-border-radius: 0;
+            -o-border-radius: 0;
+            min-height: 270px;
+            align-items: flex-start !important;
+        }
+
+    /* My Account Page > Dashboard Section */
+        .maccount_dashboard_header_item {
+            width: 25%;
+            margin-bottom: 10px;
+        }
+        .maccount_dashboard_header {
+            justify-content: center;
+        }
+
+    /* My Account Page > content wrapper 3 content */
+        .maccount_my_shopping_coupons {
+            width: 59%;
+            margin-right: 1%;
+            margin-bottom: 1.5%;
+        }
+        .maccount_cash {
+            width: 40%;
+            margin-right: 0;
+            margin-bottom: 1.5%;
+        }
+        .maccount_notification {
+            width: 100%;
+        }
+
+    /* My Account Page > My Balance Section */
+        .available_balance {
+            width: 100%;
+            margin-right: 0;
+            margin-bottom: 2%;
+        }
+        .recent_transactions {
+            width: 100%;
+        }
+
+    /* My Account Page > Coupons */
+        .shopping_coupons_wrapper {
+            width: 100%;
+        }
+        .txt_align_none_res {
+            text-align: start !important;
+        }
+
+    /* My Account Page */
+        .child_payment_account {
+            padding: 20px;
+        }
+    /* manage booking - dashboard (1) */
+        .manage_book_1_start{
+            flex: 1;
+        }
+        .manage_book_1_middle{
+            width: 200px !important;
+        }
+    /* manage booking - dashboard (2) */  
+        .row_1_manage_2{
+            flex-direction: column;   
+        }
+        .row_1_manage_2 > div{
+            width: 100%;
+            padding-left: 0;
+            padding-right: 0;
+        }
+    /* select trip - trip collapse */
+        .trip_accr_bottom_right_1 {
+            flex-wrap: wrap;
+        }
+        .trip_accr_bottom_right_1_left, .trip_accr_bottom_right_1_right {
+            flex: 100%;
+        }
+        .trip_accr_bottom_line{
+            display: none;
+        }
+        .trip_plan_before_accr {
+            flex-wrap: wrap;
+            width: 100%;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-top: 50px;
+        }
+        .add_hf_wrapper{
+            width: 100%;
+            margin-top: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .add_hf_wrapper .hf_btn_green{
+            width: 48%;
+            min-width: auto;
+        } 
+    /* SELECTED TRIP SOLOR */
+        .s_trip_content_item_wrapper {
+            width: 100%;
+            margin-bottom: 35px;
+        }
+        .s_trip_content_item_wrapper_2 {
+            width: 50%;
+        }
+    /* TICKETS LOTTERY */
+        .ticket_details_item {
+            width: 48%;
+        }
+}
+
+@media(max-width: 930px){
+    /* select trop -> trip collapse */
+    .trip_user_date_btn {
+        width: 68%;
+    }
+}
+
+@media(max-width: 900px){
+    /* about us > about_trip_box */
+        .about_trip_box{
+            width: 100%;
+        }
+        .about_trip_box:not(:last-child){
+            margin-bottom: 75px;
+        }
+    /* landing page */
+        .child_l_grid_1 {
+            padding-top: 150px;
+        }
+        .child_l_grid_2 {
+            padding-left: 25px;
+            padding-right: 20px;
+            padding-bottom: 20px;
+        }
+        .get_inspiration_future {
+            padding: 30px;
+        }
+        .l_travel_box {
+            margin-top: 70px;
+        }
+        .l_travel_box_right img {
+            width: 100%;
+            margin-top: -23%;
+        }
+    /* Trip Member section */
+        .trip_member_item { /* */
+            width: 31%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+        }
+}
+
+@media(max-width: 868px){
+    /* tickets lottery - details */
+        .lottery_details_hero_left {
+            width: 40%;
+        }
+}
+
+@media(max-width: 850px){
+    .trip_plan_img {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media(max-width: 800px){
+    /* landing page */
+        .inspiration_right_img > img {
+            right: -2%;
+            width: 100%;
+        }
+        .l_travel_box {
+            margin-top: 50px;
+        }
+    /* fund my trip */
+        .fund_girds{
+            grid-template-columns: repeat(2, 1fr);
+        }
+}
+
+@media(max-width: 870px){
+    /* landing page > value grids section */
+        .value_grids_wrapper{
+            justify-content: space-between;
+        }
+        .value_grid_item_2 {
+            width: 46%;
+            margin-right: 0;
+        }
+        .value_grid_item_1{
+            max-width: none;
+            width: 46%;
+            margin-right: 0;
+        }
+}
+
+@media(max-width: 787px){
+    /* tickets lottery - details */
+        .lottery_details_hero_left {
+            width: 45%;
+        }
+}
+
+@media(max-width: 768px){
+    /* faq page */
+        .faq__menu{
+            max-width: none;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .faq__menu ul{
+            height: 70px;
+            overflow: hidden;
+            transition: all 2s ease-in-out;
+            -webkit-transition: all 2s ease-in-out;
+            -moz-transition: all 2s ease-in-out;
+            -ms-transition: all 2s ease-in-out;
+            -o-transition: all 2s ease-in-out;
+        }
+        .faq_ul_active{
+            height: auto !important;
+        }
+        .faq_box_2_right {
+            margin-left: 0;
+            padding: 25px;
+        }
+        .faq_menu_expand{
+            display: block;
+        }
+    /* terms and condition > full page style */
+        .terms_and_condition_box_reponsive {
+            height: 3300px;
+            overflow: hidden;
+        }
+        .show_more_button_responsive {
+            display: flex;
+        }
+        .form_inputs_wrapper {
+            width: 90%;
+        }
+    /* landing page */
+        .landing_grids {
+            grid-template-areas: 'landing_grid_xl landing_grid_xl landing_grid_xl landing_grid_xl landing_grid_xl landing_grid_xl'
+              'landing_grid_lg landing_grid_lg landing_grid_lg landing_grid_lgb landing_grid_lgb landing_grid_lgb';
+            min-height: fit-content;
+        }
+        .landing_grid_1::after {
+            background-size: cover;
+            background-position: bottom center;
+            border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+        }
+        .landing_grid_1{
+            min-height: 430px;
+        }
+        .child_l_grid_1 {
+            background-size: 160% 160%;
+            background-position: 25% top;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 20px;
+            padding-top: 380px;
+        }
+        .landing_grid_2{
+            min-height: 300px;
+        }
+        .child_l_grid_2{
+            padding-left: 20px;
+        }
+        .get_inspiration_wrapper {
+            margin-bottom: 90px;
+        }
+        .get_inspiration_future {
+            padding-top: 40px;
+        }
+        .form_inputs_wrapper {
+            width: 100%;
+        }
+        .inspiration_right_img{
+            display: none;
+        }
+        .responsive_inspiration_right_img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            position: relative;
+            width: 100%;
+            min-height: 320px;
+        }
+        .responsive_inspiration_right_img img{
+            position: absolute;
+            bottom: -40%;
+            left: 50%;
+            transform: translateX(-50%);
+            max-width: 280px;
+            width: 100%;
+            -webkit-transform: translateX(-50%);
+            -moz-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            -o-transform: translateX(-50%);
+        }
+        .testimonial_slide {
+            padding: 25px;
+            padding-bottom: 20px;
+        }
+        .wrap_testimonials {
+            padding-top: 50px;
+            padding-bottom: 30px;
+        }
+    /* sign in */
+        .row_sign{
+            flex-direction: column-reverse;
+        }
+        .row_sign_left,
+        .row_sign_right{
+            max-width: none;
+            width: 100%;
+        }
+        .row_sign_right img {
+            aspect-ratio: 1 / .9 !important;
+            object-position: center;
+        }
+    /* require to sign in */
+        .popup_bottom_grid{
+            width: 100%;
+        }
+        .popup_bottom_grid1{
+            margin-bottom: 20px;
+        }
+    /* fund my trip - fund my trip solo - tickets lottery  */
+        .fund_hero{
+            flex-direction: column;
+        }
+        .child_fund_hero{ 
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 40px;
+        }
+        .f_hero_child_right{
+            width: 100%;
+            position: static;
+            top: 0;
+            left: 0;
+        }
+        .f_hero_child_right img{
+            height: auto;
+            width: 120%;
+            margin-left: -18vw;
+        }
+        .f_trip_solo{
+            width: 100%;
+            position: static;
+            top: 0;
+            right: 0;
+        }
+        .f_trip_solo img {
+            width: 100%;
+            height: auto;
+        }
+        .fund_solo_hero{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .fund_solo_hero .child_fund_hero{
+            padding-top: 40px !important;
+        }
+        .tickets_lottery_wrap .child_fund_hero{
+            padding-top: 70px !important;
+            padding-bottom: 30px !important;
+        }
+        .ticket_lottery_right img{
+            position: static;
+            right: 0;
+        }  
+
+    /* My Account Page */
+        #account_save_btn{
+            margin-top: 30px !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+    /* My Account Page > Dashboard Section */
+        .maccount_dashboard_header_item {
+            width: 33%;
+        }
+
+    /* My Account Page > content wrapper 3 content */
+        .maccount_my_shopping_coupons {
+            width: 100%;
+            margin-bottom: 2%;
+        }
+        .maccount_cash {
+            width: 100%;
+            margin-bottom: 2%;
+        }
+        .shoping_coupons_header {
+            flex-direction: column;
+        }
+        .shoping_coupons_header > h4 {
+            margin-bottom: 10px !important;
+        }
+
+    /* My Account Page > Coupons */
+        .coupons_accordion_btn {
+            width: 60%;
+        }  
+    /* manage booking - dashboard (1) */
+        .manage_1_gallery{
+            padding-bottom: 30px;
+        }
+        .manage_1_gallery .swiper-pagination{
+            bottom: -4px;
+            width: 100%;
+        }
+        .manage_1_gallery .swiper-pagination-bullet{
+            width: 10px;
+            height: 10px;
+        }
+        .manage_1_gallery .swiper-pagination-bullet-active{
+            background-color: var(--pink);
+        }
+        .manage_book_1_start{
+            flex: none;
+            width: 45%;
+        }
+        .manage_book_1_middle{
+            width: 150px !important;
+            margin-right: auto;
+        }
+        .manage_book_1_end{
+            width: 100px !important;
+        }
+
+    /* Overview > Overview */
+        .overview_heading_wrapper {
+            width: 100%;
+        }
+        .join_requests {
+            order: 1;
+            margin-top: 45px;
+            width: 100%;
+            text-align: center;
+        }
+
+    /* Overview > Joined requests */
+        .member_request_wrapper {
+            padding: 0;
+        }
+        .member_request_item {
+            margin-right: auto;
+            margin-left: 0;
+            width: 96%;
+        }
+        .member_request_item_name{
+            margin-right: 15px;
+        }
+    /* Trip Member section */
+        .trip_member_item {
+            width: 46%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+        }
+        .trip_member_items_wrapper {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            max-height: 1010px;
+            overflow-y: overlay;
+        }
+    /* select trip -> trip collapse */
+        .trip_accr_bottom_right_2_div{
+            flex-direction: column;
+        }
+        .trip_accr_bottom_right_22_div{
+            flex-direction: column;
+        }
+        .add_hf_wrapper .hf_btn_green {
+            width: 48%;
+            min-width: auto;
+            padding-left: 12px !important;
+            padding-right: 12px !important;
+        } 
+        .trip_plan_collapse_box {
+            width: 100%;
+        }
+        .trip_accr_bottom_row {
+            flex-direction: row;
+        }
+        .trip_accr_bottom_left {
+            width: 140px;
+            padding-right: 10px !important;
+            margin-bottom: 0;
+        }
+        .trip_accr_bottom_left::after{
+            display: block;
+            background-repeat: repeat;
+            width: 2px;
+        }
+        .trip_accr_bottom_right_1 {
+            flex-wrap: nowrap;
+        }
+        .trip_accr_bottom_right_2_div {
+            flex-direction: row;
+        }
+        .add_hf_wrapper .hf_btn_green {
+            width: fit-content;
+            min-width: auto;
+            padding-left: 14px !important;
+            padding-right: 14px !important;
+        }
+        .add_hf_wrapper .hf_btn_green:not(:last-child){
+            margin-right: 15px;
+        }
+        .add_hf_wrapper {
+            justify-content: flex-end;
+            width: fit-content;
+        }
+        .trip_user_date_btn {
+            width: 80%;
+        }
+        .collpase_line_after {
+            width: 230%;
+        }
+        .trip_accr_bottom_line {
+            display: block;
+        }
+    /* SELECTED TRIP SOLOR */
+        .s_trip_content_item_wrapper_2 {
+            width: 80%;
+            margin: auto;
+        }
+    /* TICKETS LOTTERY */
+        .ticket_details_item {
+            width: 100%;
+            margin-right: 0;
+        }
+        .ticket_details_item:not(:last-child){
+            margin-bottom: 20px;
+        }
+}
+
+@media(max-width: 700px){
+    /* ticket gallery */
+        .ticketGallery_left{
+            padding-top: 30px;
+        }
+        .ticketGallery_right img{
+            margin-top: -50px;
+        }
+    /* landing page */
+        .landing_grids {
+            grid-template-areas: 'landing_grid_xl landing_grid_xl landing_grid_xl landing_grid_xl landing_grid_xl landing_grid_xl'
+              'landing_grid_lg landing_grid_lg landing_grid_lg landing_grid_lg landing_grid_lg landing_grid_lg'
+              'landing_grid_lgb landing_grid_lgb landing_grid_lgb landing_grid_lgb landing_grid_lgb landing_grid_lgb';
+        }
+        .child_l_grid_1 {
+            background-size: 170% 160%;
+            background-position: 25% top;
+            padding-top: 380px;
+        }
+        .landing_grid_1,
+        .landing_grid_2,
+        .landing_grid_3{
+            min-height: 460px;
+        }
+        /* grid 2 */
+        .land_grid_2_1 ,
+        .land_grid_2_2 {
+            min-height: 460px;
+        }
+        .land_grid_2_3_1,
+        .land_grid_2_3_2{
+            width: 100%;
+            min-height: 460px;
+        }
+        .land_grid_2_3_1{
+            margin-bottom: 20px;
+        }
+    /* landing page */
+        .l_travel_box_right img {
+            width: 300px;
+            margin-top: -23%;
+        }
+}
+
+@media(max-width: 699px){
+    /* tickets lottery - details */
+        .lottery_details_hero{
+            flex-direction: column;
+        }
+        .lottery_details_hero_left {
+            width: 100%;
+        }
+        .lottery_details_hero_left::after, .lottery_details_hero_left::before,
+        .lottery_details_hero_left_child::after, .lottery_details_hero_left_child::before {
+            bottom: -26px;
+            width: 60px;
+            height: 60px;
+        }
+        .lottery_details_hero_left::after,
+        .lottery_details_hero_left_child::after{
+            top: auto;
+            left: -26px;
+        }
+        .lottery_details_hero_left_line {
+            position: absolute;
+            top: auto;
+            bottom: .5px;
+            right: 0;
+            width: 100%;
+            height: 1px;
+            background: url("../img/Line\ 1.svg");
+        }
+        .lottery_details_hero_right{
+            height: auto;
+        }
+        .lottery_details_hero_left_child{
+            padding-bottom: 10px;
+        }
+        .lottery_details_hero_right img{
+            width: 100%;
+            height: auto;
+            aspect-ratio: 1 / .8;
+        }
+        .l_d_h_l_md{
+            text-align: center;
+        }
+        .l_d_h_l_md:not(:last-child){
+            margin-bottom: 10px !important;
+        }
+}
+
+
+@media(max-width: 600px){
+    .wrap_booking_chart > .col{
+        flex: none;
+        width: 100% !important;
+    }
+    .wrap_booking_chart > .col:not(:last-child){
+        margin-bottom: 20px;
+    }
+    /* landing page */
+        .l_travel_box_right img {
+            width: 280px;
+            margin-top: -23%;
+            transform: translateX(-10px);
+            -webkit-transform: translateX(-10px);
+            -moz-transform: translateX(-10px);
+            -ms-transform: translateX(-10px);
+            -o-transform: translateX(-10px);
+        }
+    /* select trip -> trip collapse */
+        .trip_user_date_btn {
+            width: 76%;
+        }
+        .trip_accr_bottom_row {
+            flex-direction: column;
+        }
+        .trip_accr_bottom_left{
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .trip_accr_bottom_left::after {
+            display: none;
+        }
+        .trip_accr_bottom_left::before {
+            height: 2px;
+            display: block;
+        }
+        .trip_plan_before_accr_inner:not(:last-child){
+            margin-right: 10px;
+        }
+}
+
+@media(max-width: 575px){
+    /* landing page */
+        .l_travel_box_left {
+            padding-top: 50px;
+            padding-bottom: 30px;
+        }
+        .l_travel_box_right img {
+            display: block;
+            margin: 0 auto;
+            position: static;
+            top: 0;
+            left: 0;
+            width: 100%;
+            transform: translateX(0);
+            -webkit-transform: translateX(0);
+            -moz-transform: translateX(0);
+            -ms-transform: translateX(0);
+            -o-transform: translateX(0);
+    }
+}
+
+@media(max-width: 567px){
+    .pad_x_responsive_none {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .contact_center_box_sm{
+        width: 100%;
+    }
+
+    /* about us > white 2 boxes */
+        .about_trip_box img {
+            width: 150px;
+            height: 150px;
+        }
+    /* landing page */
+        .landing_tabs{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .nav_landing button:not(:last-child){
+            margin-right: 0;
+            margin-bottom: 15px;
+        }
+        .nav_landing{
+            position: relative;
+            width: fit-content;
+            height: 42px;
+            overflow: hidden;
+            flex-direction: column;
+            transition: all .3s ease-in-out;
+            -webkit-transition: all .3s ease-in-out;
+            -moz-transition: all .3s ease-in-out;
+            -ms-transition: all .3s ease-in-out;
+            -o-transition: all .3s ease-in-out;
+        }
+        .landing_tabs::-webkit-scrollbar {
+            display: none;
+        }
+        .arrow__tabs_active{
+            transform: rotate(180deg);
+            -webkit-transform: rotate(180deg);
+            -moz-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+            -o-transform: rotate(180deg);
+        }
+        .nav_landing button:not(:last-child) {
+            margin-right: 10px;
+        }
+        .arrow__tabs{
+            display: block;
+            position: absolute;
+            top: 6px;
+            right: 0;
+            transition: all .1s ease-in-out;
+            -webkit-transition: all .1s ease-in-out;
+            -moz-transition: all .1s ease-in-out;
+            -ms-transition: all .1s ease-in-out;
+            -o-transition: all .1s ease-in-out;
+        }
+        .nav_landing_active{
+            height: auto;
+        }
+        #l_f_row_1,
+        #l_f_row_2,
+        #l_f_row_3{
+            flex-wrap: wrap;
+        }
+        #l_f_row_1 .ticket_input_3,
+        #l_f_row_3 .ticket_input_3{
+            flex: none;
+            width: 100%;
+            margin-top: 16px !important;
+        }
+        #l_f_row_2 .l_form_2_input2{
+            flex: none;
+            width: 100%;
+            margin-top: 14px !important;
+        }
+        #change_direction .arrow_up_down img {
+            width: 80%;
+            transform: rotate(90deg);
+        }
+        .child_l_grid_1 {
+            background-size: 150% 150%;
+            background-position: 25% top;
+        }
+        .landing_grid_1::after{
+            height: 80%;
+        }
+        .landing_grid_1,
+        .landing_grid_2,
+        .landing_grid_3{
+            min-height: 480px;
+        }
+    /* landing page > value grids section */
+        .value_grid_item_1,
+        .value_grid_item_2{
+            width: 100%;
+            margin-bottom: 0;
+        }
+        .value_grid_item_2{
+            width: 100%;
+            margin-top: 10px;
+        }
+        .wrap_slider_btn > div {
+            width: 35px;
+            height: 35px;
+        }
+        .wrap_slider_btn > div img {
+            width: 25%;
+        }
+        #remember_check.checkmark {
+            transform: translateY(0);
+            -webkit-transform: translateY(0);
+            -moz-transform: translateY(0);
+            -ms-transform: translateY(0);
+            -o-transform: translateY(0);
+        }
+        .row_sign {
+            margin-bottom: 80px;
+        }
+    /* fund my trip */
+        .fund_grid {
+            width: 100%;
+        }
+    /* create trip */
+        #create_bg_right{
+            display: none !important;
+        }
+        #create_bg_right_r{
+            display: block;
+        }
+        .wrap_create_file_upload,
+        #create_account{
+            width: 100%;
+        }
+    /* row_sign_left */
+        .row_sign_left {
+            padding: 30px 25px;
+            padding-top: 30px;
+        }
+
+    /* My Account Page > top profile and hero section */
+        .profile_right_content {
+            border-radius: 0;
+        }
+        .profile_left_content_hero {
+            border-radius: 0;
+            height: 250px;
+            align-items: flex-start !important;
+        }
+
+    /* My Account Page > Dashboard Section */
+        .maccount_dashboard_header_item {
+            width: 50%;
+        }
+    /* select_account */
+        .select_account{
+            width: 100px;
+            margin: 0 !important;
+            margin-right: 10px !important;
+        }
+        .acc_personal_box{
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+        .acc_verify_label{
+            font-size: 14px !important;
+        }
+
+    /* payment_account */
+        .child_payment_account h4{
+            font-size: 20px;
+        }
+        .child_payment_account p{
+            font-size: 15px;
+        }
+    /* My Account */
+        .wrap_acc_buttons > div{
+            width: 35px;
+            height: 35px;
+        }
+        .wrap_acc_buttons > div img{
+            width: 25%;
+        }
+    /* manager booking */
+        .dashboard_search_input{
+            max-width: none;
+            width: 100%;
+        }
+        .manage_book_1_start{
+            padding-right: 0;
+        }
+        .manage_book_1_start img{
+            width: 50px;
+            margin-right: 10px !important;
+        }
+        .manage_book_1_middle{
+            width: 130px !important;
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .manage_book_1_end{
+            width: 100px !important;
+            padding-left: 0;
+        }
+        .row_sm_booking_1 img {
+            width: 50px;
+        }
+        .wrap_booking_1_rows1{
+            margin-top: -20px;
+            margin-bottom: 15px;
+        }
+        .wrap_booking_1_rows1,
+        .wrap_booking_1_rows2{
+            width: 100%;
+            overflow-x: scroll;
+        }
+        .wrap_booking_1_rows2::-webkit-scrollbar {
+            display: none;
+        }
+        .wrap_booking_1,
+        .wrap_booking_1_scrollbar{
+            width: 460px;
+        }
+        .wrap_booking_1_scrollbar{
+            height: 20px;
+        }
+        .wrap_booking_1_rows1::-webkit-scrollbar {
+            height: 5px;
+        }
+        .wrap_booking_1_rows1::-webkit-scrollbar-thumb {
+            -webkit-border-radius: 10px;
+            border-radius: 10px;
+            background: var(--pink); 
+        }
+        .wrap_booking_1_rows1::-webkit-scrollbar-track {
+            background-color: #ebebeb;
+            margin-top: 50px;
+        }
+        .wrap_pagination_image{
+            align-items: center !important;
+        }
+    /* member request */
+        .member_request_item {
+            flex-direction: column;
+            border-radius: 15px;
+            -webkit-border-radius: 15px;
+            -moz-border-radius: 15px;
+            -ms-border-radius: 15px;
+            -o-border-radius: 15px;
+        }
+        .member_request_item_name{
+            width: 100%;
+            margin-right: 15px;
+            margin-bottom: 30px;
+        }
+        .accept_decline_share_wrapper{
+            width: 100%;
+        }
+        .member_request_wrapper {
+            padding: 0 !important;
+            padding-right: 8px !important;
+        }
+    /* SELECTED TRIP SOLOR */
+        .s_trip_content_item_wrapper_2 {
+            width: 100%;
+            margin: auto;
+        }
+    /* fund */
+        .fund_girds{
+            grid-template-columns: repeat(1, 1fr);
+            gap: 25px 20px;
+        }
+    }
+
+@media(max-width: 530px){
+    /* select trip - overview */ 
+        .slide_user_details_left{
+            width: 55%;
+        }
+        .slide_user_details_right{
+            width: 45%;
+        }
+        .review_select_trip{
+            flex-direction: column;
+            align-items: flex-start !important;
+        }
+        .slide_user_details_left_img h3{
+            margin-top: 8px !important;
+            margin-bottom: 8px !important;
+        }
+    /* Trip Member section */
+        .trip_member_item {
+            width: 98%;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+}
+
+@media(max-width: 500px){
+    /* landing page */
+        #wrap_slider_btn2{
+            margin-top: 35px;
+            justify-content: center;
+        }
+        .container_slider_2{
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+        }
+        .wrap_testimonials .row_l_slider_top .col-7{
+            flex: none;
+            width: 100%;
+            text-align: center;
+        }
+        .wrap_testimonials {
+            padding-bottom: 10px;
+        }
+    /* select trip - overview */    
+        .slide_user_details{
+            flex-direction: column;
+            padding: 20px 30px;
+        } 
+        .slide_user_details_left{
+            width: 100%;
+        }
+        .slide_user_details_right{
+            width: 100%;
+            margin-top: 15px;
+        }
+        .review_select_trip{
+            flex-direction: row;
+        }
+        .slide_user_details_left_img h3{
+            margin-top: 8px !important;
+            margin-bottom: 8px !important;
+        }
+}
+
+@media(max-width: 480px){
+    /* landing page */
+        #landing_slider .swiper-wrapper {
+            flex-direction: column;
+        }
+        .l_grid_slide:not(:last-child){
+            margin-bottom: 15px;
+        }
+        .wrap_slider_btn1{
+            flex-direction: column;
+        }
+        .row_l_slider_top > div{
+            width: 100%;
+            text-align: center;
+        }
+        .row_l_slider_top > .col-5{
+            display: flex;
+            justify-content: center;
+        }
+        .wrap_col_before_slider{
+            margin-top: 10px !important;
+        }
+        #wrap_slider_btn1{
+            display: none;
+        }
+    /* require to sign in */
+        .require_btn{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .require_btn i{
+            margin-right: 10px !important;
+        }
+        .require_sign_in {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+    /* My Account Page > Dashboard Section */
+        .maccount_dashboard_header_item {
+            width: 100%;
+        }
+    /* manage booking - dashboard (1) */
+        /* .manage_book_1_start img{
+            width: 40px;
+        } */
+        .manage_book_1_middle{
+            width: 120px !important;
+        }
+        .manage_book_1_end {
+            width: 80px !important;
+        }
+        .manage_book_1_start a,
+        .manage_book_1_middle p,
+        .manage_book_1_end p{
+            font-size: 14px !important;
+        }
+        .box_booking_heading{
+            padding: 0;
+        }
+    /* manage booking - dashboard (1) */
+        .row_sm_booking_1{
+            flex-wrap: wrap;
+        }
+        .child_sm_booking_1_1{
+            width: 80%;
+        }
+        .row_sm_booking_1 > a{
+            margin-top: 10px;
+            margin-left: auto;
+        }
+        .manage_1_g_slide img {
+            aspect-ratio: 1 / .9;
+        }
+    /* select trip -> select collapse */
+        .trip_user_date_btn {
+            width: 72%;
+        }
+        .trip_accr_bottom_right_1 {
+            flex-wrap: wrap;
+        }
+        .trip_accr_bottom_line {
+            display: none;
+        }
+        .add_hf_wrapper {
+            width: 100%;
+        }
+        .add_hf_wrapper .hf_btn_green {
+            width: 48%;
+        }
+    /* ticketGallery_right */
+        .ticketGallery_right{
+            margin-top: 10px;
+        }
+}
+
+@media(max-width: 455px){
+    #landing_page_select_3.select_box{
+        margin-right: 0 !important;
+    }
+}
+
+@media(max-width: 450px){
+    /* manage booking - dashboard (1) */
+        /* .manage_book_1_start img{
+            width: 35px;
+        } */
+        .row_booking_1 .manage_book_1_start{
+            padding-left: 8px;
+        }
+        .btn_from_land_3{
+            width: 100%;
+            margin-top: 5px;
+            margin-left: 0 !important;
+            display: flex;
+            justify-content: center;
+        }
+}
+
+@media(max-width: 430px){
+    /* select trip -> trip collapse */
+    .trip_user_date_btn {
+        width: 70%;
+    }
+}

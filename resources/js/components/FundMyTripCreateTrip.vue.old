@@ -1,0 +1,465 @@
+<template>
+  <div>
+    <form id="create_trip_form" class="needs-validation" novalidate>
+      <div class="modal fade" id="fundmytrip-create-trip-modal">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content rounded-0 p-3">
+            <!-- Modal Header -->
+            <div class="modal-header border-0">
+              <h4 class="modal-title gilroy-semi text-000941 font-22">
+                Create Trip
+              </h4>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body pt-0">
+              <div class="grid-2">
+                <div>
+                  <div class="position-relative inputField-box">
+                    <input
+                      required
+                      v-on:input="title = $event.target.value"
+                      type="text"
+                      class="
+                        inputField inputField-withicon
+                        pl-3
+                        gilroy-medium
+                        font-14
+                      "
+                      placeholder="Title"
+                    />
+                  </div>
+                </div>
+                <div style="position: relative">
+                  <div class="position-relative icon-right">
+                    <input
+                      required
+                      v-model="destination"
+                      v-on:input="destination = $event.target.value"
+                      type="text"
+                      class="
+                        inputField inputField-withicon
+                        pl-3
+                        gilroy-medium
+                        font-14
+                      "
+                      placeholder="Destination"
+                    />
+                    <img src="/image/location-pink.png" />
+                  </div>
+                  <div
+                    style="
+                      position: absolute;
+                      z-index: 10;
+                      background-color: white;
+                    "
+                  >
+                    <autocomplete-component
+                      @autocomplete_result_selected="
+                        selectDestinationResult($event)
+                      "
+                      :keyword="destination"
+                    ></autocomplete-component>
+                  </div>
+                </div>
+
+                <div style="position-relative">
+                  <div class="position-relative icon-right">
+                    <vc-date-picker
+                      v-model="selectedDate"
+                      :min-date="new Date()"
+                      color="pink"
+                      :masks="{ iso: 'YYYY-MM-DD', input: ['YYYY, MMM, DD'] }"
+                    >
+                      <template v-slot="{ inputValue, inputEvents }">
+                        <div class="flex justify-center items-center">
+                          <input
+                            required
+                            type="text"
+                            :value="inputValue"
+                            v-on="inputEvents"
+                            class="
+                              inputField inputField-withicon
+                              pl-3
+                              gilroy-medium
+                              font-14
+                            "
+                            placeholder="Trip Date"
+                          />
+                          <img
+                            src="/image/expiration.png"
+                            style="
+                              border-radius: 0px !important;
+                              position: absolute;
+                              width: 20px;
+                              right: 16px;
+                              top: 13px;
+                            "
+                          />
+                        </div>
+                      </template>
+                    </vc-date-picker>
+                  </div>
+                  <div style="position: absolute; z-index: 13">
+                    <v-app v-if="tripDateCalendarOnFocus || tripDateOnFocus">
+                      <v-row justify="center">
+                        <v-date-picker
+                          color="pink"
+                          v-model="month"
+                          type="month"
+                        ></v-date-picker>
+                      </v-row>
+                    </v-app>
+                  </div>
+                </div>
+                <div>
+                  <div class="position-relative icon-right">
+                    <select
+                      required
+                      name="duration"
+                      v-model="duration"
+                      type="number"
+                      class="
+                        inputField inputField-withicon
+                        pl-3
+                        gilroy-medium
+                        font-14
+                      "
+                      placeholder="Duration"
+                    >
+                      <option disabled selected>Select Duration</option>
+                      <option value="1">1 week</option>
+                      <option value="2">2 weeks</option>
+                      <option value="3">3 weeks</option>
+                      <option value="4">4 weeks</option>
+                      <option value="5">Weekend / Short Vacation</option>
+                      <option value="6">Long Vacation</option>
+                    </select>
+                    <!--     <img src="/image/expiration.png" /> -->
+                  </div>
+                </div>
+                <div>
+                  <div class="position-relative inputField-box">
+                    <textarea
+                      required
+                      class="
+                        inputField inputField-withicon
+                        pl-3
+                        gilroy-medium
+                        font-14
+                      "
+                      name=""
+                      id=""
+                      rows="5"
+                      placeholder="Description"
+                      v-on:input="description = $event.target.value"
+                    ></textarea>
+                  </div>
+                </div>
+                <div>
+                  <v-app class="m-0 p-0">
+                    <v-container class="m-0 p-0" fluid>
+                      <v-radio-group class="m-0 p-0" v-model="type_of_trip">
+                        <template v-slot:label>
+                          <div>
+                            <strong>Type of traveler</strong>
+                          </div>
+                        </template>
+                        <div class="row">
+                          <div
+                            class="
+                              col-3
+                              justify-content-center
+                              align-items-center
+                            "
+                          >
+                            <v-radio value="0" color="pink">
+                              <template v-slot:label>
+                                <div
+                                  class="
+                                    d-flex
+                                    justify-content-center
+                                    align-items-center
+                                  "
+                                >
+                                  <strong class="pink--text">Host</strong>
+                                </div>
+                              </template>
+                            </v-radio>
+                          </div>
+                          <div
+                            class="
+                              col-3
+                              justify-content-center
+                              align-items-center
+                            "
+                          >
+                            <v-radio value="1" color="indigo darken-4">
+                              <template v-slot:label>
+                                <div
+                                  class="
+                                    d-flex
+                                    justify-content-center
+                                    align-items-center
+                                  "
+                                >
+                                  <strong style="color: #1a237e">Guest</strong>
+                                </div>
+                              </template>
+                            </v-radio>
+                          </div>
+                        </div>
+                      </v-radio-group>
+                    </v-container>
+                  </v-app>
+                </div>
+                <div>
+                  <div class="grid-3">
+                    <div class="d-flex align-items-center">
+                      <span class="upload-text gilroy-medium pl-3">Image</span
+                      ><input
+                        type="file"
+                        @input="preview_image($event)"
+                        id="upload"
+                        hidden
+                      />
+                    </div>
+                    <div class="ml-1">
+                      <label
+                        class="btn-upload gilroy-medium"
+                        for="upload"
+                        style="
+                          background-color: #fe2f70 !important;
+                          color: white;
+                        "
+                        >Upload Image</label
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div
+                    class="
+                      d-flex
+                      flex-column
+                      justify-content-center
+                      align-items-center
+                    "
+                  >
+                    <img
+                      :src="imageUrl"
+                      class="img-fluid"
+                      style="object-fit: cover; height: auto"
+                    />
+                    <!--   <span class="gilroy-medium font-16">Plz Upload Image</span> -->
+                  </div>
+                </div>
+                <div
+                  class="d-flex flex-row justify-content-end align-items-end"
+                >
+                  <div class="d-flex justify-content-end">
+                    <div class="mr-2">
+                      <button
+                        type="button"
+                        data-dismiss="modal"
+                        class="
+                          btn btn-outline-dark
+                          rounded-0
+                          gilroy-medium
+                          font-12
+                          px-4
+                        "
+                      >
+                        Close
+                      </button>
+                    </div>
+                    <div>
+                      <button
+                        type="button"
+                        class="btn gilroy-medium btn-fe2f70 font-12 px-4"
+                        v-on:click="create_trip"
+                      >
+                        Post
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</template>
+
+<script>
+import AutocompleteComponent from "./AutocompleteComponent.vue";
+
+export default {
+  components: { AutocompleteComponent },
+  vuetify: new Vuetify(),
+  data: function () {
+    return {
+      selected_result: {},
+      title: "",
+      destination: "",
+      description: "",
+      image: "",
+
+      duration: "",
+      tripDateVisible: false,
+      tripDateOnFocus: false,
+      tripDateCalendarOnFocus: false,
+      imageUrl: "/image/63171.png",
+      type_of_trip: "0",
+      selectedDate: {},
+    };
+  },
+  props: {},
+  watch: {
+    month: function () {
+      this.tripDateCalendarOnFocus = false;
+    },
+  },
+
+  methods: {
+    show: function () {
+      $("#fundmytrip-create-trip-modal").modal("show");
+    },
+    hide: function () {
+      $("#fundmytrip-create-trip-modal").modal("hide");
+    },
+    selectDestinationResult: function (event) {
+      this.destination = event.city_name + ", " + event.country_name;
+      this.selected_result = event;
+    },
+    preview_image: function (event) {
+      const file = event.target.files[0];
+      this.imageUrl = URL.createObjectURL(file);
+    },
+    create_trip: async function () {
+      $("#create_trip_form").addClass("was-validated");
+      if ($("#create_trip_form")[0].checkValidity() === false) {
+        return;
+      }
+
+      let formData = new FormData();
+      formData.append("title", this.title);
+      formData.append("description", this.description);
+      formData.append("duration", this.duration);
+      formData.append("trip_img", document.getElementById("upload").files[0]);
+
+      formData.append("destination_city_code", this.selected_result.city_code);
+      formData.append("date", moment(this.selectedDate).format('YYYY-MM-DD'));
+      formData.append("type_of_trip", this.type_of_trip);
+      try {
+        this.hide();
+        let response = await axios.post("/trips/create", formData, {
+          headers: {
+            "Content-Type": "multipart/form-data",
+          },
+        });
+
+        window.location = response.data;
+      } catch (ex) {}
+    },
+  },
+};
+</script>
+
+<style scoped>
+.was-validated input:invalid {
+  border: 1px solid red;
+}
+.was-validated textarea:invalid {
+  border: 1px solid red;
+}
+.was-validated select:invalid {
+  border: 1px solid red;
+}
+@media (max-width: 768px) {
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 50% auto;
+    column-gap: 5px;
+    row-gap: 5px;
+  }
+
+  .grid-2 > div:nth-of-type(5),
+  .grid-2 > div:nth-of-type(6),
+  .grid-2 > div:nth-of-type(7),
+  .grid-2 > div:nth-of-type(8),
+  .grid-2 > div:nth-of-type(9) {
+    grid-column: 1 / span 2;
+  }
+
+  .grid-2 > div:nth-of-type(8) > div {
+    border: 1px solid #d2d2d2;
+    padding: 10px 5px;
+  }
+
+  .grid-2 > div:nth-of-type(8) > div > img {
+    height: 100px;
+  }
+}
+
+@media (min-width: 769px) {
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    column-gap: 50px;
+    row-gap: 10px;
+  }
+
+  .grid-2 > div:nth-of-type(1) {
+    grid-area: 1 / 1 / span 1 / span 1;
+  }
+
+  .grid-2 > div:nth-of-type(2) {
+    grid-area: 2 / 1 / span 1 / span 1;
+  }
+
+  .grid-2 > div:nth-of-type(3) {
+    grid-area: 3 / 1 / span 1 / span 1;
+  }
+
+  .grid-2 > div:nth-of-type(4) {
+    grid-area: 4 / 1 / span 1 / span 1;
+  }
+
+  .grid-2 > div:nth-of-type(5) {
+    grid-area: 5 / 1 / span 3 / span 1;
+  }
+
+  .grid-2 > div:nth-of-type(6) {
+    grid-area: 8 / 1 / span 1 / span 1;
+  }
+
+  .grid-2 > div:nth-of-type(7) {
+    grid-area: 1 / 2 / span 1 / span 1;
+  }
+
+  .grid-2 > div:nth-of-type(8) {
+    grid-area: 2 / 2 / span 6 / span 1;
+    position: relative;
+  }
+
+  .grid-2 > div:nth-of-type(9) {
+    grid-area: 8 / 2 / span 1 / span 1;
+  }
+
+  .grid-2 > div:nth-of-type(8) > div {
+    position: absolute;
+    border: 1px solid #d2d2d2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .grid-2 > div:nth-of-type(8) > div > img {
+    height: 150px;
+  }
+}
+</style>

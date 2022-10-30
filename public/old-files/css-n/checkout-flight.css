@@ -1,0 +1,663 @@
+
+/*
+===========  General CSS ===========
+*/
+ body {
+  font-family: 'Gilroy';
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #23242C;
+  background: #ffffff;
+  overflow-x: hidden;
+}
+
+/* Custom Container */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1616px;
+  }
+}
+
+/* Common CSS */
+ h1, h2, h3, h4, h5, h6 {
+  font-family: 'Gilroy';
+  color: #23242C;
+  line-height: 1.3;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  text-transform: capitalize;
+}
+h1{
+  font-size:60px;
+}
+
+h2{
+  font-size:40px;
+}
+
+h3{
+  font-size:32px;
+}
+
+h4{
+  font-size:24px;
+}
+
+h5{
+  font-size:20px;
+}
+
+h6{
+  font-size:16px;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+a:focus, a:hover {
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+/* Placeholder CSS */
+ ::-moz-placeholder {
+     color: #333333 !important;
+}
+ ::-o-placeholder {
+     color: #333333 !important;
+}
+ :-ms-input-placeholder {
+     color: #333333 !important;
+}
+ input:-moz-placeholder {
+     color: #333333 !important;
+}
+::-webkit-input-placeholder {
+  color: #333333 !important;
+}
+
+
+.subscribe-row ::-moz-placeholder {
+  color: #ffffff !important;
+  opacity: 0.45;
+}
+.subscribe-row ::-o-placeholder {
+  color: #ffffff !important;
+  opacity: 0.45;
+}
+.subscribe-row :-ms-input-placeholder {
+  color: #ffffff !important;
+  opacity: 0.45;
+}
+.subscribe-row input:-moz-placeholder {
+  color: #ffffff !important;
+  opacity: 0.45;
+}
+.subscribe-row ::-webkit-input-placeholder {
+  color: #ffffff !important;
+  opacity: 0.45;
+}
+
+
+
+/* Selection CSS */
+ ::-moz-selection {
+  color: #ffffff;
+  background: #00c0d6;
+}
+ ::selection {
+  color: #ffffff;
+  background: #00c0d6;
+}
+
+
+
+
+/* Form CSS */
+.form-control {
+  height: 45px;
+  margin-bottom: 30px;
+  box-shadow: none;
+  border: 1px solid #e4e4e4;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+}
+.form-control:focus {
+  border-color: #666666;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+
+/* Overlay CSS */
+.overlay-black {
+  position: relative;
+}
+.overlay-black:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: rgba(34, 34, 34, 0.8);
+}
+.overlay-white {
+  position: relative;
+}
+.overlay-white:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+
+/* Theme btn CSS */
+.my-btn {
+  font-family: 'Merriweather', serif;
+  position: relative;
+  z-index: 0;
+  padding: 18px 60px 15px;
+  background: #cda248;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  text-transform: capitalize;
+  height: 60px;
+  overflow: hidden;
+  border: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+.my-btn:hover {
+  border: none;
+  color: #ffffff;
+  background: #cda248;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+.my-btn:before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  z-index: -1;
+  width: 80%;
+  height: 1px;
+  background: #ffffff;   
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+.my-btn:after {
+  content: "";
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  z-index: -1;
+  width: 80%;
+  height: 1px;
+  background: #ffffff;   
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+.my-btn:hover:before {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+.my-btn:hover:after {
+  right: 50%;
+  -webkit-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  -o-transform: translateX(50%);
+  transform: translateX(50%);
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: none;
+}
+
+
+
+/* Title CSS */
+.my-title {
+  margin-top: -10px;
+  margin-bottom: 60px;
+}
+.my-title h2 {
+  color: #1b1a17;
+  font-size: 40px;
+  line-height: 55px;
+  margin-bottom: 20px;
+}
+.my-title p {
+  color: #1b1a17;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+
+
+
+
+/*.animated{
+  opacity:1;
+}*/
+
+/* Back to top */
+#back-to-top {
+    position: fixed;
+    bottom: 50%;
+    right: 60px;
+    z-index: 9999;
+    width: 66px;
+    height: 66px;
+    text-align: center;
+    line-height: 62px;
+    background: #000941;
+    color: #ffffff;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    text-decoration: none;
+    opacity: 0;
+    -webkit-transition: all .8s ease-out;
+    -moz-transition: all .8s ease-out;
+    transition: all .8s ease-out;
+}
+#back-to-top:hover {
+  background-color: #FE2F70;
+  border-color: #FE2F70;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+#back-to-top.show {
+    opacity: 1;
+    bottom: 80px;
+    -webkit-transition: all .8s ease-out;
+    -moz-transition: all .8s ease-out;
+    transition: all .8s ease-out;
+}
+
+
+/* Pagination CSS */
+.my-pagination {
+  margin-bottom: 30px;
+  float: right;
+}
+.my-pagination ul li a {
+  display: inline-block;
+  background: transparent;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 5px;
+  border: 1px solid transparent;
+  width: 50px;
+  height: 48px;
+  line-height: 32px;
+  font-size: 21px;
+  color: #23242C;
+}
+.my-pagination ul li a:hover,
+.my-pagination ul li a.active {
+  background: #FFE5EE;
+  border: 1px solid #FE2F70;
+  color: #FE2F70;
+}
+.my-pagination .page-item.disabled .page-link {
+  border-color: transparent;
+}
+.container-fluid {
+  padding: 0 60px;
+}
+.custom-container-fluid {
+  padding: 0 150px;
+}
+
+
+
+/* 
+=========== Review And checkout CSS Start ===========
+*/
+.reviewcheckout-area {
+  padding-bottom: 50px;
+}
+.page-name {
+  padding: 35px 0;
+}
+.page-name ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+.page-name ul li a {
+  color: #1F2223;
+  font-size: 16px;
+}
+.page-name ul li:last-child a {
+  color: #FE2F70;
+}
+.reviewcheckout-title h2 {
+  font-size: 35px;
+  color: #22232A;
+  font-weight: normal;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.reviewcheckout-title h2 img {
+  position: relative;
+  top: -3px;
+  margin-right: 10px;
+}
+.both-cols {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.left-col {
+  width: 63%;
+}
+.covid-box {
+  padding: 30px 80px 30px 90px;
+  background-color: #000941;
+  position: relative;
+  margin-bottom: 15px;
+}
+.covid-box img {
+  position: absolute;
+  left: 30px;
+  top: 50%;
+  z-index: 0;
+  transform: translateY(-50%);
+}
+.covid-box-text p {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 19px;
+  margin-bottom: 15px;
+}
+.covid-box-text a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+.change-flights-box {
+  padding: 30px 20px 30px 90px;
+  border: 1px solid #D2D2D2;
+  position: relative;
+  margin-bottom: 15px;
+}
+.change-flights-box .change-flights-box-img {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  z-index: 0;
+  transform: translateY(-50%);
+  background-color: #EDEDED;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 56px;
+}
+.change-flights-box-text p {
+  font-size: 16px;
+  line-height: 21px;
+  margin-bottom: 0;
+}
+.change-flights-box-text span {
+  font-size: 14px;
+  line-height: 19px;
+}
+.flight-box {
+  padding: 40px 40px;
+  border: 1px solid #D2D2D2;
+  margin-bottom: 15px;
+}
+.top-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-title-text h2 {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.top-title-text p {
+  font-size: 16px;
+  line-height: 21px;
+  margin-bottom: 30px;
+}
+.flight-box-item {
+  position: relative;
+  padding-left: 40px;
+}
+.flight-box-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+.flight-box-item p {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.flight-box-item span {
+  font-size: 14px;
+  line-height: 20px;
+  display: block;
+  font-weight: 500;
+}
+.subtext {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.subtext ul {
+  margin: 10px 0;
+}
+.subtext ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+.subtext-two {
+  padding: 20px 0;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  border-top: 1px solid #D2D2D2;
+  border-bottom: 1px solid #D2D2D2;
+}
+.subtext-two p {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+}
+.subtext-link {
+  margin-top: 40px;
+}
+.subtext-link a {
+  font-size: 18px;
+  line-height: 24px;
+  color: #FE2E6F;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.economy-box {
+  padding: 40px 40px;
+  border: 1px solid #D2D2D2;
+  margin-bottom: 15px;
+}
+.economy-box h2 {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+.economy-box a {
+  font-size: 18px;
+  line-height: 24px;
+  color: #FE2E6F;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.economy-box ul {
+  margin-bottom: 40px;
+}
+.economy-box ul li {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 19px;
+}
+.economy-box ul li span {
+  width: 40px;
+}
+.economy-box ul li img {
+  margin-right: 10px;
+}
+
+
+
+.right-col {
+  width: 36%;
+}
+.right-col-content {
+  border: 1px solid #D2D2D2;
+  padding: 40px 30px;
+  background-color: #FAFAFA;
+  margin-bottom: 25px;
+}
+.right-col-content h2 {
+  font-size: 25px;
+  line-height: 33px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+.right-col-content h2 a {
+  font-weight: normal;
+  color: #000941;
+  font-size: 16px;
+  line-height: 22px;
+  text-decoration: underline;
+  float: right;
+}
+.right-col-content ul li {
+  margin-bottom: 25px;
+  font-size: 16px;
+  line-height: 21px;
+}
+.right-col-content ul li span {
+  float: right;
+}
+.right-col-content h4 {
+  font-size: 22px;
+  line-height: 30px;
+  border-top: 1px solid #D2D2D2;
+  border-bottom: 1px solid #D2D2D2;
+  padding: 25px 0;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.right-col-content h4 span {
+  float: right;
+}
+.right-col-content .btn-primary {
+  font-size: 16px;
+  line-height: 40px;
+  margin-top: 30px;
+  border-radius: 0;
+  width: 100%;
+  height: 51px;
+  background-color: #FE2F70;
+  border: none;
+  -webkit-box-shadow: 0px 5px 40px 0px rgba(254, 47, 112, 0.7);
+  -moz-box-shadow: 0px 5px 40px 0px rgba(254,47,112, 0.7);
+  box-shadow: 0px 5px 40px 0px rgba(254, 47, 112, 0.7);
+}
+.cancelation-box {
+  border: 1px solid #D2D2D2;
+  padding: 40px 30px;
+  background-color: #FAFAFA;
+}
+.cancelation-box {
+  padding: 30px 20px 30px 100px;
+  position: relative;
+}
+.cancelation-box img {
+  position: absolute;
+  top: 50%;
+  left: 25px;
+  z-index: 0;
+  transform: translateY(-50%);
+}
+.cancelation-box p {
+  font-size: 16px;
+  line-height: 21px;
+  margin-bottom: 5px;
+}
+.cancelation-box span {
+  display: block;
+  font-size: 14px;
+  line-height: 19px;
+}

@@ -1,0 +1,47 @@
+@media only screen and (max-width:1680px) { 
+    .tourist-person-box-two .tourist-person-buttons-two .btn-primary {
+		max-width: 125px;
+		margin-left: 5px;
+	}
+}
+
+@media only screen and (max-width:991px) {
+  .withline:before {
+		display: none;
+	}
+	.activities-col-3 {
+		margin-right: 20px;
+	}
+
+
+}
+
+@media only screen and (max-width:767px) {
+    .tourist-person-box-two .tourist-person-buttons p {
+		margin-bottom: 20px;
+	}
+	.activities-cols {
+		display: block;
+	}
+	.activities-col-1,
+	.activities-col-2,
+	.activities-col-3 {
+		margin-bottom: 30px;
+	}
+	.plan-activities {
+		margin-left: 10px;
+	}
+}
+
+@media only screen and (max-width:575px) {
+      .ticket-table-bottom {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.ticket-table-btn {
+		width: 100%;
+	}
+	.ticket-table-price {
+		width: 100%;
+	}
+}

@@ -1,0 +1,241 @@
+/*
+===========  General CSS ===========
+*/
+
+body {
+    font-family: 'Gilroy';
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: normal;
+    color: #23242C;
+    background: #ffffff;
+    overflow-x: hidden;
+}
+
+
+/* Custom Container */
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1616px;
+    }
+}
+
+
+/* Common CSS */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Gilroy';
+    color: #23242C;
+    line-height: 1.3;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.popup-btn {
+    text-align: center;
+    padding-top: 200px;
+}
+
+.popup-btn a {
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #FE2F70;
+    border-radius: 5px;
+    text-align: center;
+    padding: 12px 30px;
+}
+
+
+/* sign-in-required CSS */
+
+.singin-required-popup {}
+
+.singin-required-popup .modal-body-top {
+    background-image: url(../images-n/bg/popup-header-bg.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.singin-required-popup .modal-header .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background-color: transparent;
+    margin: 0;
+    opacity: 1;
+    font-size: 40px;
+}
+
+.modal-body-top p {
+    background-color: #C8C8CB;
+    color: #FE2F70;
+    width: 100%;
+    max-width: 440px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 15px 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.modal-body-top p img {
+    margin-right: 10px;
+}
+
+.twoboxs {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    gap: 10px;
+}
+
+.signinbox,
+.createaccount-box {
+    width: 50%;
+    border: 1px solid #D2D2D2;
+    padding: 40px 30px;
+}
+
+.twoboxs p {
+    min-height: 215px;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.twoboxs .btn-block {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #000941;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 600;
+    border-radius: 0;
+    border: none;
+}
+
+.twoboxs .btn-block:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.twoboxs .createaccount-box .btn-block {
+    background-color: #FE2F70;
+}
+
+@media only screen and (max-width: 991px) {
+    .twoboxs {
+        display: block;
+    }
+    .signinbox,
+    .createaccount-box {
+        width: 100%;
+    }
+    .signinbox {
+        margin-bottom: 30px;
+    }
+    .twoboxs p {
+        min-height: auto;
+        margin-bottom: 80px;
+    }
+    .signinbox,
+    .createaccount-box {
+        border: 1px solid #D2D2D2 !important;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .twoboxs {
+        padding: 15px;
+    }
+    .signinbox,
+    .createaccount-box {
+        padding: 25px 10px;
+    }
+    .signinbox {
+        margin-bottom: 15px;
+    }
+}
+
+.singin-required-popup, .singin-required-popup * {
+    border-radius: 15px !important;
+}

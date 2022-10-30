@@ -1,0 +1,16 @@
+.v-application--wrap
+{
+    min-height: unset;
+}
+.v-picker__title__btn.v-date-picker-title__date.v-picker__title__btn--active > div{
+    color: white !important;
+}
+.bell-dropdown > .bell-dropdown-content
+{
+    min-width: 400px !important;
+}
+.bell-dropdown > .bell-dropdown-content {
+
+    top: 24px !important;
+
+}

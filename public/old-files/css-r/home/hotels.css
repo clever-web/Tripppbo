@@ -1,0 +1,378 @@
+.trippbo-dropdown {
+	position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.trippbo-dropdown:hover > div {
+    display: block;
+	padding: 1rem;
+}
+.trippbo-dropdown > button {
+    border: none;
+    text-decoration: none;
+    text-align: center;
+	position: relative;
+	padding: 10px;
+    cursor: pointer;
+    color: black;
+    background-color: white;	
+    white-space: nowrap;	
+   -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.trippbo-dropdown > button:hover {
+    color: black;
+    background-color: white;
+}
+.trippbo-dropdown > div {
+	box-shadow: 0px 0px 6px #00000028;
+	cursor: auto;
+	background-color: #fff;
+	display: none;
+	position: absolute;
+	right: 0;
+	min-width: 250px;
+	margin: 0;
+	padding: 1rem;
+	z-index: 2;	
+}
+.trippbo-checkbox, .trippbo-checkbox-title {
+	display: block;
+	position: relative;
+	padding-left: 30px;
+	margin-bottom: 0;
+	cursor: pointer;
+	font-size: 12px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.trippbo-checkbox > input, .trippbo-checkbox-title > input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+.trippbo-checkbox > span, .trippbo-checkbox-title > span {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 15px;
+	width: 15px;
+	background-color: #fff;
+	border: 1px solid #000941;
+}
+.trippbo-checkbox-title > span {
+	margin-top: 5px;
+}
+.trippbo-checkbox:hover > input ~ span, .trippbo-checkbox-title:hover > input ~ span {
+	background-color: #fff;
+}
+.trippbo-checkbox > input:checked ~ span, .trippbo-checkbox-title > input:checked ~ span {
+	background-color: #000941;
+}
+.trippbo-checkbox > span:after, .trippbo-checkbox-title > span:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+.trippbo-checkbox > input:checked ~ span:after, .trippbo-checkbox-title > input:checked ~ span:after {
+  display: block;
+}
+.trippbo-checkbox > span:after, .trippbo-checkbox-title > span:after {
+	left: 4px;
+	top: 1px;
+	width: 5px;
+	height: 9px;
+	border: solid white;
+	border-width: 0 2px 2px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.trippbo-radio {
+	display: block;
+	position: relative;
+	padding-left: 30px;
+	margin-bottom: 0;
+	cursor: pointer;
+	font-size: 12px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.trippbo-radio > input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+.trippbo-radio > span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 15px;
+	width: 15px;
+	background-color: #fff;
+	border: 1px solid #000941;
+	border-radius: 50%;
+}
+.trippbo-radio:hover > input ~ span {
+	background-color: #fff;
+}
+.trippbo-radio > input:checked ~ span {
+	background-color: white;
+}
+.trippbo-radio > span:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+.trippbo-radio > input:checked ~ span:after {
+  display: block;
+}
+.trippbo-radio > span:after {
+	left: 2px;
+	top: 2px;
+	width: 9px;
+	height: 9px;
+	background-color: #000941;
+	border-radius: 50%;
+}
+
+.container-hotels {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.container-hotels > li {
+	background-color: #fff;
+	padding: .5rem;
+	border: 1px solid #d2d2d2;
+	margin-bottom: 1rem;
+}
+.container-hotels > li > div.hotels-grid {
+	display: grid;
+	grid-template-columns: 40% 30% 30%;
+	
+}
+div.hotels-grid > div:nth-of-type(2) {
+	padding: 5px 10px;
+}
+ul.trippbo-pagination {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+	display: flex;
+	align-items: center;
+}
+ul.trippbo-pagination > li > a {
+	color: black;
+	float: left;
+	padding: 4px 12px;
+	text-decoration: none;
+	transition: background-color .3s;
+	font-size: 18px;
+}
+ul.trippbo-pagination > li > a > i {
+	font-weight: bold;
+	font-size: 24px;
+	padding: 0 5px;
+}
+ul.trippbo-pagination > li > a.trippbo-pagination-disabled {
+ 	opacity: 0.3;	
+}
+ul.trippbo-pagination > li > a.trippbo-pagination-active {
+ 	border: 1px solid #F50057;
+	border-radius: 4px;
+	color: #fe2f70;
+	background-color: #fe2f7030; 
+}
+ul.trippbo-pagination > li > a:hover {
+ 	text-decoration: none;
+}
+ul.trippbo-pagination > li > a:hover:not(.trippbo-pagination-active):not(.trippbo-pagination-disabled):not(.trippbo-pagination-dots) {
+	background-color: #fff;
+	border-radius: 4px;
+	text-decoration: none;
+	color: #fe2f70;
+}
+ul.trippbo-pagination > li > a.trippbo-pagination-dots:hover {
+	cursor: context-menu;
+}
+ul.trippbo-pagination > li > a.trippbo-pagination-disabled:hover {
+	cursor: not-allowed;
+}
+#total-flight, #container-total-flight {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 10px;
+}
+#total-flight > div:nth-of-type(1), #container-total-flight > div:nth-of-type(1) {
+	grid-column: 1 / span 2;
+}
+#total-flight > div:nth-of-type(2), #container-total-flight > div:nth-of-type(2) {
+	grid-column: 3 / span 1;
+}
+
+.increamentor  {
+	display: -ms-flexbox;
+	display: flex;	
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-ms-flex-align: center;
+	align-items: center;	
+}
+.increamentor > div {
+	padding: 0 5px;
+	display: -ms-flexbox;
+	display: flex;	
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-ms-flex-align: center;
+	align-items: center;	
+}
+.container-star {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+	grid-gap: 5px;
+}
+.container-star > div {
+	display: -ms-flexbox;
+	display: flex;	
+	-ms-flex-align: center;
+	align-items: center;
+}
+.container-star > div > button {
+	display: -ms-flexbox;
+	display: flex;	
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border: 1px solid rgba(0,0,0,.1);
+	border-radius: 0;
+	padding: 5px 10px!important;
+
+}
+.container-star > div > button:hover {
+	color: white;
+	background-color: #000941;
+}
+.container-star > div > button.star-active {
+	color: white;
+	background-color: #000941;
+}
+.container-star > div > button > span {
+	margin-right: 5px;	
+}
+.container-star > div > button > i{
+	font-size: 16px;
+}
+.btn-grid {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 5px;	
+}
+.btn-pink {
+	border: 1px solid #F50057 !important;
+	color: #fe2f70 !important;
+    background-color: #fe2f7030 !important;	
+}
+
+div.hotels-grid-sm {
+	display: grid;
+	grid-template-columns: 30% 35% 35%;
+}
+div.hotels-grid-sm > div:nth-of-type(1) > img {
+	height: 100%;
+}
+div.hotels-grid-sm > div:nth-of-type(1) {
+	grid-column: 1 / span 1;
+}
+div.hotels-grid-sm > div:nth-of-type(2) {
+	grid-column: 2 / span 2;
+}
+
+@media (max-width: 768px) {
+	
+ul.trippbo-pagination {
+	justify-content: center;	
+}		
+#container-total-flight, #container-2, #h4-1, #container-7 {
+	display: none !important;
+}
+.sticky-top {
+	position: fixed;
+    top: 0;
+	left: 0;
+    right: 0;    
+	width: 100%;
+    z-index: 1;
+}
+.sticky-top + #aside {
+  padding-top: 60px;
+}
+.sticky-bottom {
+	position: fixed;
+    bottom: 0;
+	left: 0;
+    right: 0;    
+	width: 100%;
+    z-index: 1;
+}
+.sticky-bottom + #container-5 {
+	padding-bottom: 60px;
+}
+#aside, #container-8 {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: 21;
+	top: 0;
+	right: -100%;
+	bottom: 0;
+	overflow-x: hidden;
+	transition: 0.4s;
+	background-color: white;
+}
+div.hotels-grid > div:nth-of-type(1) {
+	grid-column: 1 / span 3;
+}
+div.hotels-grid > div:nth-of-type(2) {
+	grid-column: 1 / span 3;
+}
+
+}
+
+@media (min-width: 769px) {
+	
+ul.trippbo-pagination {
+	justify-content: flex-end;	
+}
+#aside, #container-8 {
+	right: 0% !important;
+}	
+#container-3, #container-4 ,#container-6, #container-8 {
+	display: none !important;
+}
+div.hotels-grid > div:nth-of-type(1) > img {
+	width: 275px;
+	height: 175px;	
+}
+div.hotels-grid > div:nth-of-type(1) {
+	grid-column: 1 / span 1;
+}
+div.hotels-grid > div:nth-of-type(2) {
+	grid-column: 2 / span 2;
+}
+
+}

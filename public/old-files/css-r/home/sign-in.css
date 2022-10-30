@@ -1,0 +1,131 @@
+:root {
+    --checkbox-size: 15px;
+    --check-size: calc(var(--checkbox-size) / 3);
+    --check-color: white;
+    --checkbox-color: #000941;
+}
+.trippbo-checkbox {
+    display: block;
+    position: relative;
+    margin-bottom: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    height: var(--checkbox-size);
+    width: var(--checkbox-size);
+}
+.trippbo-checkbox > input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: var(--checkbox-size);
+    width: var(--checkbox-size);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.trippbo-checkbox > span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: var(--checkbox-size);
+	width: var(--checkbox-size);
+	background-color: #fff;
+}
+.trippbo-checkbox:hover > input ~ span {
+	background-color: #fff;
+}
+.trippbo-checkbox > input:checked ~ span {
+	background-color: var(--checkbox-color);
+}
+.trippbo-checkbox > input:checked ~ span:after {
+  display: block;
+}
+.trippbo-checkbox > span:after {
+    content: "";
+	position: absolute;
+	display: none;
+    top: 50%;
+    left: 50%;
+    width: var(--check-size);
+    height: calc(var(--check-size) * 1.8);
+    border: calc(var(--check-size) * 0.5) solid var(--check-color);
+    border-width: 0 calc(var(--check-size) * 0.5) calc(var(--check-size) * 0.5) 0;
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+    -ms-transform: translate(-50%, -50%) rotate(45deg);
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.btn-close {
+    display: inline-block;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    padding: .375rem .75rem;
+    border: 0;
+}
+.grid-1 > div {
+    padding: 10px;
+}
+.grid-1 form {
+    padding: 1rem;
+}
+@media (max-width: 768px) { 
+	
+    .grid-1 {
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 20px;
+    }
+    .grid-2 {
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 20px;
+    }
+
+}
+
+@media (min-width: 769px) {           
+
+    .gradient-background {
+        background: transparent linear-gradient(180deg, #FD843D 0%, #FE2F70 100%) 0% 0% no-repeat;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-align: center;
+        align-items: center;
+
+    }
+    .gradient-background > div {
+        width: calc(100% - 40%);
+    }
+    .grid-1 {
+        display: grid;
+        grid-template-columns: 50% auto;
+        column-gap: 10px;
+    }
+    .grid-1 form {
+        padding: 1.5rem 2.5rem;
+    }
+    .grid-1 > div:nth-of-type(2) img {
+        height: 475px;
+    }
+    .grid-2 {
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 20px;
+    }
+
+}

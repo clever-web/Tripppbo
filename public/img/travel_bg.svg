@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="557" viewBox="0 0 1920 557">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.972" y1="0.68" x2="0.111" y2="0.699" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fe2f70"/>
+      <stop offset="1" stop-color="#fd843d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-0.023" y1="-0.189" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fe2f70"/>
+      <stop offset="1" stop-color="#fd843d"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <path id="Path_697" data-name="Path 697" d="M1265.417,0s-203.228,553.835-576.5,295.465S16.468,375.107,0,504.721H1265.417Z" transform="translate(0 -0.001)" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_841" data-name="Rectangle 841" width="1265.417" height="504.721" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Rectangle_840" data-name="Rectangle 840" width="987.673" height="299.339" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <path id="Path_698" data-name="Path 698" d="M1156.581,424.1V124.9S1001.07,431.8,168.908,424.1Z" transform="translate(-168.908 -124.902)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1424" data-name="Group 1424" transform="translate(0 -6051)">
+    <rect id="Rectangle_837" data-name="Rectangle 837" width="1920" height="557" transform="translate(0 6051)" fill="url(#linear-gradient-2)"/>
+    <g id="Group_1267" data-name="Group 1267" transform="translate(-125.862 569.279)">
+      <g id="Group_1259" data-name="Group 1259" transform="translate(780.445 5534.001)">
+        <g id="Group_1258" data-name="Group 1258" transform="translate(0 0)" clip-path="url(#clip-path)">
+          <rect id="Rectangle_838" data-name="Rectangle 838" width="1265.417" height="553.835" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+        </g>
+      </g>
+      <g id="Group_1266" data-name="Group 1266" transform="translate(780.445 5534)">
+        <g id="Group_1265" data-name="Group 1265" clip-path="url(#clip-path-2)">
+          <g id="Group_1264" data-name="Group 1264" transform="translate(277.744 205.382)" opacity="0.25">
+            <g id="Group_1263" data-name="Group 1263">
+              <g id="Group_1262" data-name="Group 1262" clip-path="url(#clip-path-3)">
+                <g id="Group_1261" data-name="Group 1261" transform="translate(0 0)">
+                  <g id="Group_1260" data-name="Group 1260" clip-path="url(#clip-path-4)">
+                    <image id="Rectangle_839" data-name="Rectangle 839" width="989.898" height="309.138" transform="translate(-1.493 -1.577)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAloAAAC8CAYAAACg2QBcAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOpSURBVHhe7dYxTkNREATBD/e/M7BOiCx5MW3pyVXRJJP3x9eP69cje7zic/p/bD+n/8f28+7/sf2c/h/bz+n/sf08+x/bz709XvF59j+2n9P/Y/t59//Yfv78/7xNAAD+ndACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAiNACAIgILQCAxHV9A2b0v7mAlSUBAAAAAElFTkSuQmCC"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <rect id="Rectangle_842" data-name="Rectangle 842" width="1265.417" height="504.721" transform="translate(780.445 5534)" fill="none"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,46 @@
+{ "Hotels": [ { "Hotel Provider Search Id": "53371", "Priority": true, "Show Calendar": true, "Hotel Name": "Al Manar Hotel Apartments", "Description": "bla bla", "L Book Price": 2925.55, "H Book Price":
+5556.55, "Book Currency": "AED", "Hotel Services": [ { "Bo": true, "Provider Name":
+"IOUhz4kEHShbVnNaNZ5gwi3YpN7rm2OIWT", "Hotel M Provider Identifer": "45715", "Service Price": 3632.4, "Status": "OK",
+"Service Price Before Promotion": 0, "Tax Inclusive": true, "Service Identifer": "636686571045669255Hotel", "OptionalToken": "1712|$$~$$|USD|$$~$$|0.272479564033|$$~$$|AED|$$~$$|9|$$~$$|IN", "Has Promotion": false, "Board Code": "BB",
+"Refundable Stay": "True", "Rooms": [ { "Room Id": "1", "Room Desc": "Apartment", "Room Code": "152672", "Room Name":
+"Apartment", "Room Category": "", "Adults": 2, "Child": 1, "Board Code": "BB", "Refundable Stay": "False", "Offer Name":
+"", "Paxs": [ { "Pax Id": 0, "Pax Type": "C", "Age": "8", "DOB": "0001-01-01T00:00:00", "Room Id": 1 } ], "CancellationRules": [ { "Date From": "1900-01-01", "Date To": "2018-08-03", "Deduction Unit": "FLAT", "Deduction Amt": "0.0000" }, {
+"Date From": "2018-08-04", "Date To": "2018-08-13", "Deduction Unit": "FLAT", "Deduction Amt": "1089.7200" }, { "DateFrom": "2018-08-14", "Date To": "2018-08-22", "Deduction Unit": "FLAT", "Deduction Amt": "1816.2000" }, { "Date From":
+"2018-08-23", "Date To": "2018-08-24", "Deduction Unit": "FLAT", "Deduction Amt": "3632.4000" } ], "FYI": [] } ] }, {
+"Bo": true, "Provider Name": "IOUhz4kEHShbVnNaNZ5gwi3YpN7rm2OIWT", "Hotel M Provider Identifer": "45715", "ServicePrice": 4182.15, "Status": "OK", "Service Price Before Promotion": 0, "Tax Inclusive": true, "Service Identifer":
+"636686571045669255Hotel", "Optional Token": "5959|$$~$$|USD|$$~$$|0.272479564033|$$~$$|AED|$$~$$|9|$$~$$|IN", "HasPromotion": false, "Board Code": "BB", "Refundable Stay": "True", "Rooms": [ { "Room Id": "1", "Room Desc": "Suite",
+"Room Code": "432594", "Room Name": "Suite", "Room Category": "", "Adults": 2, "Child": 1, "Board Code": "BB",
+"Refundable Stay": "False", "Offer Name": "", "Paxs": [ { "Pax Id": 0, "Pax Type": "C", "Age": "8", "DOB":
+"0001-01-01T00:00:00", "Room Id": 1 } ], "Cancellation Rules": [ { "Date From": "1900-01-01", "Date To": "2018-08-03",
+"Deduction Unit": "FLAT", "Deduction Amt": "0.0000" }, { "Date From": "2018-08-04", "Date To": "2018-08-13", "DeductionUnit": "FLAT", "Deduction Amt": "1254.6500" }, { "Date From": "2018-08-14", "Date To": "2018-08-22", "Deduction Unit":
+"FLAT", "Deduction Amt": "2091.0800" }, { "Date From": "2018-08-23", "Date To": "2018-08-24", "Deduction Unit": "FLAT",
+"Deduction Amt": "4182.1500" } ], "FYI": [] } ] }, { "Bo": true, "Provider Name": "IOUhz4kEHShbVnNaNZ5gwi3YpN7rm2OIWT",
+"Hotel M Provider Identifer": "45715", "Service Price": 5006.8, "Status": "OK", "Service Price Before Promotion": 0,
+"Tax Inclusive": true, "Service Identifer": "636686571045669255Hotel", "Optional Token":
+"1714|$$~$$|USD|$$~$$|0.272479564033|$$~$$|AED|$$~$$|9|$$~$$|IN", "Has Promotion": false, "Board Code": "FB",
+"Refundable Stay": "True", "Rooms": [ { "Room Id": "1", "Room Desc": "Apartment", "Room Code": "152672", "Room Name":
+"Apartment", "Room Category": "", "Adults": 2, "Child": 1, "Board Code": "FB", "Refundable Stay": "False", "Offer Name":
+"", "Paxs": [ { "Pax Id": 0, "Pax Type": "C", "Age": "8", "DOB": "0001-01-01T00:00:00", "Room Id": 1 } ], "CancellationRules": [ { "Date From": "1900-01-01", "Date To": "2018-08-03", "Deduction Unit": "FLAT", "Deduction Amt": "0.0000" }, {
+"Date From": "2018-08-04", "Date To": "2018-08-13", "Deduction Unit": "FLAT", "Deduction Amt": "1502.0400" }, { "DateFrom": "2018-08-14", "Date To": "2018-08-22", "Deduction Unit": "FLAT", "Deduction Amt": "2503.4000" }, { "Date From":
+"2018-08-23", "Date To": "2018-08-24", "Deduction Unit": "FLAT", "Deduction Amt": "5006.8000" } ], "FYI": [] } ] } ],
+"Amenities": [ { "Amenity Id": "2063", "Description": "24-hour front desk", "Type": "Property Amenity", "Sub Type":
+"Property Amenity", "Icon": "signia-desk", "Important": false }, { "Amenity Id": "2420", "Description": "Accessiblebathroom", "Type": "Property Amenity", "Sub Type": "Property Amenity", "Icon": "signia -bathroom", "Important": false },
+{ "Amenity Id": "1", "Description": "Air conditioning", "Type": "Room Amenity", "Sub Type": "Room Amenity", "Icon":
+"signia-air-conditioning", "Important": false }, { "Amenity Id": "56", "Description": "Airport transportation(surcharge)", "Type": "Property Amenity", "Sub Type": "Property Amenity", "Icon": "signia-airport-transportation",
+"Important": false } ], "Hotel Images": [ "http://media.signix.online/hotels/192000019119511911951_46_b.jpg", "" ],
+"Hotel Image Count": 30, "Hotel Floor Count": 0, "Hotel Room Count": 84, "Hotel Resturant Count": 0, "Hotel BuildingCount": 0, "Hotel Address": { "Latitude": "25.28022", "Longitude": "55.35120", "Address": "Near Al-MaktoumStadium\r\nthe corner 24th and 9th street,near Al Qiyadah Metro Station", "Postal Code": "", "City": "Dubai", "WeatherCity": "Dubai", "City Code": "DXB", "Phone": "", "Fax": "", "Email": "", "Website": "", "Hotel Location": "NearAl-Maktoum Stadium", "Zone Id": 0, "Zone Name": "" }, "Attractions": [ "The closest major airports to Al Manar HotelApa " ],
+"Features": [ { "Type": "Policy Description", "Display": "Policy Description", "Description": "bla bla", "Display": "Fees Description", "Description": "<p>The following fees and deposits aredwadaw" } ],
+"Trip Advisor Detail": { "TA Partner ID": "1066274", "TAURL": "", "Recommended Text": "", "Recommended Percent": "75",
+"Rating": "4", "Rating URL": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.0-22321-5.png", "ReviewCount": "171", "Review Excellent": "60", "Review Very Good": "75", "Review Average": "22", "Review Poor": "8", "ReviewTerrible": "6", "Review Sleep Quality": "2", "Review Location": "3", "Review Rooms": "4", "Review Service": "5", "ReviewValue": "3", "Review Cleanliness": "1" }, "Trip Advisor Reviews": [], "Check In Time": "2:00 PM", "Check Out Time":
+"noon", "Property Category": "Hotel", "Chain Name": "Independent", "Hotel Theme": "", "Internal Rating": "0.0", "MealPlans": [ "BB", "FB", "HB", "RO" ], "Is Mapped": true } ], "Total Pages": 81, "Current Page": 1, "Total Hotels": 399,
+"Total Hotels Merged": 161, "Total Mapped": 399, "Total Un Mapped": 0, "Filter": { "Max Responses": 2147483647, "MinPrice": 1040.65,
+"Max Price": 143646.05,
+ "Meal Plans": "BB,FB,HB,RO", "Star Ratings": "2.0,3.0,4.0,4.5,5.0",
+"Localities": "kjopsposopos", "Hotels": "" }, "Hotels Search Request": { "Rooms": [ { "Room Id": 0, "Adults": 2, "Teens": 0, "Children":
+1, "Infants": 0, "Paxs": [ { "Pax Id": 0, "Pax Type": "C", "Age": "8", "DOB": "0001-01-01T00:00:00", "Room Id": 0 } ] }
+], "Credential": { "Domain": "Doc", "Login ID": "DOC001", "Password": "DOCUMENTATION", "Type": "C", "Module": "B",
+"Language Locale": "e n-US" }, "Show Detail": true, "City Id": "20984", "Hotel Id": "", "City Name": "Dubai, United ArabEmirates", "Check In Date": "2018-08-24T00:00:00", "Check Out Date": "2018-08-29T00:00:00", "Currency": "AED",
+"Traveller Nationality": "IN", "l st Hotels": [], "Page No": 1, "Page Size": 2 }, "Authenticated": "True", "Session Id":
+"636686571862613407Hotel", "Log Reference Id": "21cddcdcb5274741bcc6d868dcf068f8", "Client Code": "DOC001", "Entity Id":
+1, "Client Id": "11", "Language Locale": "e n-US", "Language Name": "English (United States)", "Status Type": "Success",
+"Status Code": "S0001", "Status Message": "Operation Was Successful"}

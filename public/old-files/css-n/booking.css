@@ -1,0 +1,951 @@
+
+/*
+===========  General CSS ===========
+*/
+ body {
+  font-family: 'Gilroy';
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #23242C;
+  background: #ffffff;
+  overflow-x: hidden;
+}
+
+/* Custom Container */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1616px;
+  }
+}
+
+/* Common CSS */
+ h1, h2, h3, h4, h5, h6 {
+  font-family: 'Gilroy';
+  color: #23242C;
+  line-height: 1.3;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  text-transform: capitalize;
+}
+h1{
+  font-size:60px;
+}
+
+h2{
+  font-size:40px;
+}
+
+h3{
+  font-size:32px;
+}
+
+h4{
+  font-size:24px;
+}
+
+h5{
+  font-size:20px;
+}
+
+h6{
+  font-size:16px;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+a:focus, a:hover {
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+/* Placeholder CSS */
+ ::-moz-placeholder {
+     color: #333333 !important;
+}
+ ::-o-placeholder {
+     color: #333333 !important;
+}
+ :-ms-input-placeholder {
+     color: #333333 !important;
+}
+ input:-moz-placeholder {
+     color: #333333 !important;
+}
+::-webkit-input-placeholder {
+  color: #333333 !important;
+}
+
+
+.subscribe-row ::-moz-placeholder {
+  color: #ffffff !important;
+  opacity: 0.45;
+}
+.subscribe-row ::-o-placeholder {
+  color: #ffffff !important;
+  opacity: 0.45;
+}
+.subscribe-row :-ms-input-placeholder {
+  color: #ffffff !important;
+  opacity: 0.45;
+}
+.subscribe-row input:-moz-placeholder {
+  color: #ffffff !important;
+  opacity: 0.45;
+}
+.subscribe-row ::-webkit-input-placeholder {
+  color: #ffffff !important;
+  opacity: 0.45;
+}
+
+
+
+/* Selection CSS */
+ ::-moz-selection {
+  color: #ffffff;
+  background: #00c0d6;
+}
+ ::selection {
+  color: #ffffff;
+  background: #00c0d6;
+}
+
+
+
+
+/* Form CSS */
+.form-control {
+  height: 45px;
+  margin-bottom: 30px;
+  box-shadow: none;
+  border: 1px solid #e4e4e4;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+}
+.form-control:focus {
+  border-color: #666666;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+
+/* Overlay CSS */
+.overlay-black {
+  position: relative;
+}
+.overlay-black:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: rgba(34, 34, 34, 0.8);
+}
+.overlay-white {
+  position: relative;
+}
+.overlay-white:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+
+/* Theme btn CSS */
+.my-btn {
+  font-family: 'Merriweather', serif;
+  position: relative;
+  z-index: 0;
+  padding: 18px 60px 15px;
+  background: #cda248;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  text-transform: capitalize;
+  height: 60px;
+  overflow: hidden;
+  border: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+.my-btn:hover {
+  border: none;
+  color: #ffffff;
+  background: #cda248;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+.my-btn:before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  z-index: -1;
+  width: 80%;
+  height: 1px;
+  background: #ffffff;   
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+.my-btn:after {
+  content: "";
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  z-index: -1;
+  width: 80%;
+  height: 1px;
+  background: #ffffff;   
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+.my-btn:hover:before {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+.my-btn:hover:after {
+  right: 50%;
+  -webkit-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  -o-transform: translateX(50%);
+  transform: translateX(50%);
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: none;
+}
+
+
+
+/* Title CSS */
+.my-title {
+  margin-top: -10px;
+  margin-bottom: 60px;
+}
+.my-title h2 {
+  color: #1b1a17;
+  font-size: 40px;
+  line-height: 55px;
+  margin-bottom: 20px;
+}
+.my-title p {
+  color: #1b1a17;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+
+
+
+
+/*.animated{
+  opacity:1;
+}*/
+
+/* Back to top */
+#back-to-top {
+    position: fixed;
+    bottom: 50%;
+    right: 60px;
+    z-index: 9999;
+    width: 66px;
+    height: 66px;
+    text-align: center;
+    line-height: 62px;
+    background: #000941;
+    color: #ffffff;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    text-decoration: none;
+    opacity: 0;
+    -webkit-transition: all .8s ease-out;
+    -moz-transition: all .8s ease-out;
+    transition: all .8s ease-out;
+}
+#back-to-top:hover {
+  background-color: #FE2F70;
+  border-color: #FE2F70;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+#back-to-top.show {
+    opacity: 1;
+    bottom: 80px;
+    -webkit-transition: all .8s ease-out;
+    -moz-transition: all .8s ease-out;
+    transition: all .8s ease-out;
+}
+
+
+/* Pagination CSS */
+.my-pagination {
+  margin-bottom: 30px;
+  float: right;
+}
+.my-pagination ul li a {
+  display: inline-block;
+  background: transparent;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 5px;
+  border: 1px solid transparent;
+  width: 50px;
+  height: 48px;
+  line-height: 32px;
+  font-size: 21px;
+  color: #23242C;
+}
+.my-pagination ul li a:hover,
+.my-pagination ul li a.active {
+  background: #FFE5EE;
+  border: 1px solid #FE2F70;
+  color: #FE2F70;
+}
+.my-pagination .page-item.disabled .page-link {
+  border-color: transparent;
+}
+.container-fluid {
+  padding: 0 60px;
+}
+.custom-container-fluid {
+  padding: 0 150px;
+}
+
+
+
+/* 
+=========== Review And checkout CSS Start ===========
+*/
+.booking-area {
+  padding-bottom: 100px;
+}
+.page-name {
+  padding: 35px 0;
+}
+.page-name ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+.page-name ul li a {
+  color: #1F2223;
+  font-size: 16px;
+}
+.page-name ul li:last-child a {
+  color: #FE2F70;
+}
+.booking-title h2 {
+  font-size: 35px;
+  color: #22232A;
+  font-weight: normal;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.booking-title h2 img {
+  position: relative;
+  top: -3px;
+  margin-right: 10px;
+}
+.covid-box {
+  background-color: #000941;
+  padding: 30px 30px 30px 100px;
+  margin-bottom: 40px;
+  position: relative;
+}
+.covid-box img {
+  position: absolute;
+  left: 35px;
+  top: 50%;
+  z-index: 0;
+  transform: translateY(-50%);
+}
+.covid-box-text p {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 19px;
+  margin-bottom: 10px;
+}
+.covid-box-text p a {
+  float: right;
+  margin-left: 20px;
+}
+.covid-box-text a {
+  text-decoration: underline;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 19px;
+}
+.both-cols {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.left-col {
+  width: 63%;
+}
+.cancelation-box {
+  display: flex;
+  align-items: center;
+  padding: 25px 20px;
+  background-color: #FAFAFA;
+  margin-bottom: 35px;
+}
+.cancelation-box-text {
+  padding-left: 15px;
+}
+.cancelation-box-text p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.cancelation-box-text span {
+  font-size: 14px;
+}
+.traveling-box {
+  border: 1px solid #D2D2D2;
+  padding: 50px 30px;
+  margin-bottom: 20px;
+}
+.traveling-box h2 {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 500;
+}
+.traveling-box p {
+  font-size: 14px;
+  line-height: 20px;
+}
+.traveling-box form {
+  margin-top: 30px;
+}
+.traveling-box form .form-control {
+  height: 51px;
+  padding-left: 30px;
+  font-size: 14px;
+  line-height: 19px;
+}
+.gender-box {
+  margin-bottom: 30px;
+}
+.gender-box p {
+  font-size: 14px;
+  line-height: 19px;
+  margin-bottom: 30px;
+}
+.gender-box .custom-control {
+  padding-left: 50px;
+  margin-right: 55px;
+}
+.custom-control-label::before {
+  width: 26px;
+  height: 26px;
+}
+.custom-control-label::after {
+  width: 15px;
+  height: 15px;
+  margin-left: -1px !important;
+  top: 1px;
+  left: -44px;
+  background-size: cover;
+}
+.custom-radio .custom-control-label::before {
+  left: -50px;
+  top: -4px;
+}
+.custom-control-input:checked~.custom-control-label::before {
+  background-color: #FE2F70 !important;
+  border-color: #FE2F70 !important;
+}
+.gender-box .custom-control-label {
+  font-size: 14px;
+  line-height: 19px;
+}
+.datepicker.form-control {
+  border-right: none;
+}
+.gj-datepicker-bootstrap [role=right-icon] button {
+  background-image: url(../images/icons/date.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-color: #e4e4e4;
+  border-right-color: transparent;
+  width: 60px;
+  background-color: transparent;
+  padding-left: 0;
+}
+.gj-datepicker.input-group .input-group-append {
+  margin-left: 0;
+  margin-right: 0;
+  border: none;
+  border-radius: 0;
+}
+.gj-datepicker-bootstrap [role=right-icon] button {
+  border-radius: 0 !important;
+  border: none;
+  height: 51px;
+  border: 1px solid #e4e4e4;
+}
+.traveling-box .btn-primary {
+  background-color: #000941;
+  color: #ffffff;
+  border-radius: 0;
+  width: 185px;
+  height: 51px;
+  line-height: 37px;
+  border: none;
+}
+.traveling-box .btn-primary:hover {
+  background-color: #FE2F70;
+}
+.accordion-box {
+  margin-top: 50px;
+}
+.accordion-box .btn {
+  font-size: 22px;
+  line-height: 26px;
+  color: #FE2F70;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.accordion-box .btn:focus {
+  box-shadow: none;
+}
+.accordion-box .btn.collapsed {
+
+}
+.accordion-box .btn.collapsed img {
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.accordion-box .btn img {
+  margin-left: 10px;
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+.accordion-box .card-body {
+  border-radius: 0;
+  padding: 0;
+  border: none;
+}
+.accordion-box .card-body p {
+  font-size: 16px;
+  line-height: 21px;
+  margin-bottom: 15px;
+}
+
+.protect-box {
+  border: 1px solid #D2D2D2;
+  padding: 50px 30px;
+  margin-bottom: 20px;
+}
+.protect-box-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.protect-box-title h2 {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 500;
+}
+.protect-box-title .btn-primary {
+  background-color: #56D18F;
+  color: #ffffff;
+  width: 190px;
+  height: 45px;
+  border-radius: 8px;
+  font-size: 18px;
+  line-height: 24px;
+  border: none;
+  line-height: 31px;
+}
+.important-box {
+  background-color: #FAFAFA;
+  position: relative;
+  padding: 40px 30px 30px 150px;
+}
+.important-box .important-icon {
+  position: absolute;
+  top: 50%;
+  left: 40px;
+  z-index: 0;
+  text-align: center;
+  transform: translateY(-50%);
+}
+.important-box .important-icon img {
+  margin-bottom: 10px;
+}
+.important-icon p {
+  font-size: 14px;
+  margin-bottom: 0 !important;
+}
+.important-box p {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+.important-box a {
+  font-size: 14px;
+  line-height: 20px;
+  color: #FE2F70;
+}
+.accordion-box-two .card-body p {
+  font-size: 18px;
+}
+.accordion-box-two .card-body ul {
+  margin-bottom: 20px;
+}
+.accordion-box-two .card-body ul li {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.accordion-box-two .card-body a {
+  color: #000941;
+  font-size: 18px;
+}
+.accordion-box-two .card-body a img {
+  margin-left: 20px;
+}
+.accordion-box-two .card-body .subtxt {
+  display: block;
+  margin-top: 15px;
+  opacity: 0.5;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+.booking-radio-boxs .custom-radio {
+  border: 1px solid transparent;
+}
+.booking-radio-boxs .custom-radio.active {
+  border-color: #FE2F70;
+}
+.booking-radio-boxs .custom-control-label {
+  padding: 40px 50px;
+  width: 100%;
+}
+.booking-radio-boxs .custom-radio .custom-control-label::before {
+  width: 26px;
+  height: 26px;
+  border-radius: 50% !important;
+  background-color: transparent !important;
+  border-color: #FE2F70 !important;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.booking-radio-boxs .custom-radio.active .custom-control-label::before{
+  background-color: #FE2F70 !important;
+  border-color: #FE2F70 !important;
+}
+.booking-radio-boxs .custom-control-label::after {
+  width: 15px;
+  height: 15px;
+  margin-left: -1px !important;
+  top: 50%;
+  left: 6px;
+  transform: translateY(-50%);
+}
+.booking-radio-boxs .custom-control-label span {
+  color: #FE2F70;
+  float: right;
+}
+.pay-box {
+  border: 1px solid #D2D2D2;
+  padding: 40px 30px;
+  margin-bottom: 20px;
+}
+.pay-box h2 {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.pay-box ul.my-list li {
+  position: relative;
+  padding-left: 30px;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 15px;
+}
+.pay-box ul.my-list li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 3px;
+  z-index: 0;
+  width: 22px;
+  height: 13px;
+  background-image: url(../images/icons/checked-2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pay-box .nav-pills {
+  border-bottom: 2px solid #D2D2D2;
+  margin-bottom: 35px;
+}
+.pay-box .nav-pills .nav-link {
+  border-radius: 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: #23242C;
+  background-color: transparent;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  padding: 12px 30px;
+  padding-left: 60px;
+  margin-right: 30px;
+  height: 52px;
+  position: relative;
+}
+.pay-box .nav-pills .nav-link.active, .pay-box .nav-pills .show>.nav-link {
+  background-color: transparent;
+  color: #FE2F70;
+  border-bottom: 2px solid #FE2F70;
+}
+.pay-box .nav-pills .nav-link img {
+  margin-right: 10px;
+  position: absolute;
+  top: 12px;
+  left: 25px;
+  z-index: 0;
+}
+.pay-box .nav-pills .nav-link.active .icon-black {
+  display: none;
+}
+.icon-black {
+  display: block;
+}
+.pay-box .nav-pills .nav-link.active .icon-pink {
+  display: block;
+}
+.icon-pink {
+  display: none;
+}
+.pay-box .tab-content .form-control {
+  padding-left: 20px;
+  height: 51px;
+}
+.pay-box .btn-primary {
+  font-size: 16px;
+  margin-top: 30px;
+  border-radius: 0;
+  width: 100%;
+  max-width: 392px;
+  height: 51px;
+  background-color: #FE2F70;
+  border: none;
+  -webkit-box-shadow: 0px 5px 40px 0px rgba(254, 47, 112, 0.7);
+  -moz-box-shadow: 0px 5px 40px 0px rgba(254,47,112, 0.7);
+  box-shadow: 0px 5px 40px 0px rgba(254, 47, 112, 0.7);
+}
+.paypal-content p {
+  font-size: 14px;
+  line-height: 19px;
+}
+.booking-box {
+  border: 1px solid #D2D2D2;
+  padding: 40px 30px;
+  margin-bottom: 20px;
+}
+.booking-box h2 {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.booking-box p {
+  font-size: 16px;
+  line-height: 21px;
+  margin-bottom: 15px;
+}
+.booking-box .form-control {
+  height: 51px;
+  padding-left: 20px;
+}
+.trip-box {
+  padding: 50px 30px;
+  margin-bottom: 20px;
+  background-color: #FAFAFA;
+}
+.trip-box h2 {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.trip-box p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.trip-box p span {
+  color: #FE2F70;
+}
+.trip-box p img {
+  margin-right: 10px;
+}
+.trip-box ul li {
+  margin-bottom: 20px;
+}
+.trip-box p a {
+  color: #FE2F70;
+}
+.trip-box .btn-primary {
+  font-size: 16px;
+  width: 254px;
+  height: 51px;
+  border-radius: 0;
+  border: none;
+  color: #ffffff;
+  background-color: #FE2E70;
+  margin-top: 10px;
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(254, 47, 112, 0.5);
+  -moz-box-shadow: 0px 5px 20px 0px rgba(254,47,112, 0.5)
+  box-shadow: 0px 5px 20px 0px rgba(254, 47, 112, 0.5);
+}
+.lastline {
+  display: block;
+  margin-top: 40px;
+}
+.lastline img {
+  margin-right: 10px;
+  position: relative;
+  top: -4px;
+}
+
+
+
+.right-col {
+  width: 36%;
+}
+.right-col-top-content {
+  border: 1px solid #D2D2D2;
+  padding: 40px 30px;
+  background-color: #FAFAFA;
+  margin-bottom: 20px;
+}
+.right-col h4 {
+  font-size: 25px;
+  line-height: 33px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.right-col p {
+
+}
+.right-col h5 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.right-col span {
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+}
+.right-col .btn-primary {
+  margin-top: 30px;
+  background-color: #56D18F;
+  width: 150px;
+  border-radius: 10px;
+  height: 36px;
+  color: #ffffff;
+  border: none;
+  font-size: 14px;
+  line-height: 24px;
+}
+.right-col .bdr {
+  width: 100%;
+  height: 1px;
+  background-color: #D2D2D2;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.right-col a {
+  color: #FE2F70;
+  font-size: 14px;
+  line-height: 20px;
+}
+.right-col a img {
+  margin-left: 10px;
+}
+.right-col ul {
+  margin-top: 40px;
+}
+.right-col ul li {
+  font-size: 16px !important;
+  line-height: 21px;
+  margin-bottom: 20px;
+}
+.right-col ul li span {
+  float: right;
+}
+.right-col h4 span {
+  display: inline-block;
+  float: right;
+  font-size: 25px;
+}

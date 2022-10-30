@@ -1,0 +1,453 @@
+.grid-2 > div > div.grid-2-card {
+    padding: 20px;
+    background-color: #000941;
+    position: relative;
+}
+.grid-2 > div > div.grid-2-card > span.grid-2-badge {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    padding: 5px 10px;
+    background-color: #fe2f70;
+    color: white;
+    font-size: 26px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    line-height: normal;
+}
+.grid-2 > div:nth-of-type(2) {
+    position: relative;
+}
+.grid-2 button.portfolio-badge {
+    padding: 6px 16px;
+    color: white;
+    background-color: #fe2f70;
+    border-radius: 8px 0px 0px 8px;
+    position: absolute;
+    right: 0;
+    top: 25px;
+    cursor: pointer;
+    width: auto;
+    transition: 0.6s ease;
+    user-select: none;
+    border: none;
+
+}
+div.grid-2-dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+div.grid-2-dropdown > div {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    min-width: 170px;
+    z-index: 1;
+}
+div.grid-2-dropdown > div > div {
+    background-color: white;
+    margin-right: 15px;
+    padding: 5px;
+    position: relative;
+
+}
+div.grid-2-dropdown > div > div::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 5px;
+    width: 0;
+    z-index: 1;
+    right: -5px;
+    border: medium solid white;
+    border-width: 5px 0 5px 5px;
+    border-color: transparent transparent transparent white;
+}
+div.grid-2-dropdown > div > div > a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+}
+div.grid-2-dropdown:hover > div {
+    display: block;
+}
+div.grid-2-dropdown > div > div > a:hover {
+    color: white;
+    background-color: #000941;
+}
+.portfolio-1-navigation button {
+    cursor: pointer;
+    width: auto;
+    padding: 2px 9px;
+    background-color: #000941;
+    font-weight: bold;
+    transition: 0.6s ease;
+    user-select: none;
+    border-color: #000941;
+}
+.portfolio-1-navigation button:disabled {
+    opacity: .3;
+}
+.portfolio-1-navigation > div:not(:last-child) {
+    margin-right: 5px;
+}
+.portfolio-1-navigation button > i {
+    color: white;
+    font-size: 12px;
+}
+.portfolio-1 > div a {
+    text-decoration: none;
+    color: inherit;
+}
+.portfolio-1 figure {
+    margin: 0;
+    position: relative;
+    border: 1px solid transparent;
+}
+.portfolio-1 figure > div, .portfolio-1 figure > figcaption {
+    border: 1px solid #ddd;
+    padding: 5px;
+    position: relative;
+}
+.portfolio-1 figure > div {
+    border-bottom-style: none;
+}
+.portfolio-1 figure > figcaption {
+    padding: 20px 10px;
+    border-top-style: none;
+    position: relative;
+
+}
+.portfolio-1 figure > figcaption > span.portfolio-badge {
+    padding: 6px 16px;
+    color: white;
+    background-color: #fe2f70;
+    border-radius: 8px 0px 0px 8px;
+    position: absolute;
+    right: 0;
+    bottom: 25px;
+
+}
+.portfolio-1 figure > div > div {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.portfolio-1 figure > div > div > span {
+    box-shadow: 0px 0px 6px #00000029;
+}
+.portfolio-1 img.arrow {
+    height: 20px;
+}
+.fa-stack { font-size: 1em; }
+.fa-stack > i { vertical-align: middle; }
+.portfolio-dots {
+    margin: 1rem 0 !important;
+}
+.portfolio-dots .portfolio-dot {
+    background: gray;
+    border: 0;
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    margin: 0 .25rem;
+    outline: 0;
+    padding: 0;
+    transition: background-color .2s ease;
+    width: 10px;
+}
+.portfolio-dots .portfolio-dot.is-active {
+    background: #000941;
+}
+.portfolio-dots .portfolio-dot:hover, .portfolio-dot.is-active {
+    transform: scale(1.4);
+    transform-origin: center center;
+    background-color: #000941;
+}
+div.join-request-card {
+    background-color: #f9f9f9;
+    padding: 1rem;
+}
+div.join-request-card > div.join-request-grid {
+    display: grid;
+    grid-template-columns: 20% auto;
+    column-gap: 10px;
+}
+div.join-request-card > div.join-request-grid > div:nth-of-type(2) {
+    padding: 10px;
+}
+div.join-request-card > div.join-request-grid .avatar {
+    min-width: 100px;
+    min-height: 100px;
+    object-fit: cover;
+}
+div.e-ticket-grid {
+
+}
+
+.days {
+    padding: 10px;
+    border-left: 5px solid #000941;
+}
+.timeline {
+	display: -ms-flexbox;
+    display: flex;
+	ms-flex-direction: column;
+    flex-direction: column;
+}
+.timeline > div:not(:last-child) {
+	margin-bottom: 1.5rem;
+}
+.timeline div.timeline-container {
+	display: grid;
+	grid-template-columns: 15% 12px auto;
+	column-gap: 15px;
+}
+.timeline div.timeline-container > div:nth-of-type(1) {
+	display: -ms-flexbox;
+    display: flex;
+	ms-flex-direction: column;
+    flex-direction: column;
+	-ms-flex-align: end;
+    align-items: flex-end;
+}
+.timeline div.timeline-container > div:nth-of-type(2) {
+	position: relative;
+}
+.timeline > div:first-child > div.timeline-container > div:nth-of-type(2)::before {
+    content: '';
+    position: absolute;
+    background-color: #fe2f70;
+    width: 4px;
+    top: 0;
+    /* add margin-bottom from .timeline > div:not(:last-child) so that line touches the bottom circle */
+    height: calc(100% + 1.5rem);
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.timeline > div:first-child > div.timeline-container > div:nth-of-type(2)::after, .timeline > div:last-child > div.timeline-container > div:nth-of-type(2)::before {
+    font-family: "FontAwesome";
+    font-size: 14px;
+    content: '\f078';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: #fe2f70;
+    color: white;
+    border-radius: 50%;
+    top: 0;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    display: -ms-flexbox;
+    display: flex;
+    ms-flex-pack: center;
+    justify-content: center;
+	-ms-flex-align: end;
+    align-items: flex-end;
+    z-index: 2;
+}
+.timeline-card {
+    border: 1px solid #dee2e6;
+    padding: 1rem;
+}
+.timeline-btn-grid {
+    display: grid;
+    grid-template-columns: 50% auto;
+    column-gap: 20px;
+}
+.grid-4 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    border: 1px solid #dee2e6;
+}
+.grid-4 > div {
+    padding: 8px;
+}
+.grid-4 > div:not(:last-child) {
+    border-right: 1px solid #dee2e6;
+}
+.grid-4 .th {
+    font-size: 10px;
+    color: gray;
+    text-transform: capitalize;
+}
+.grid-4 .qty {
+    color: gray;
+}
+.grid-4 .td {
+    font-size: 10px;
+    text-transform: capitalize;
+}
+.grid-5 {
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 10px;
+}
+.grid-6 {
+    display: grid;
+    grid-template-columns: 30% 30% 20% auto;
+}
+.grid-6 > div:nth-of-type(1) {
+    grid-column: 1 / span 3;
+    border: 1px solid #d2d2d2;
+}
+.grid-6 > div:nth-of-type(2) {
+    grid-column: 4 / span 1;
+}
+.btn-upload {
+    display: inline-block;
+    background-color: #d2d2d2;
+    color: #23242c50;
+    padding: 10px;
+    font-family: sans-serif;
+    cursor: pointer;
+    margin: 0;
+    border: 1px solid #d2d2d2;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+.upload-text {
+    font-size: 14px;
+    padding: 10px;
+}
+.radio-container {
+	display: block;
+	position: relative;
+	padding-left: 30px;
+	cursor: pointer;
+	font-size: 22px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.radio-container input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+}
+.radio-container .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.radio-container:hover input ~ .checkmark {
+	border: 1px solid #1f2223;
+	background-color: #fff;
+}
+.radio-container input:checked ~ .checkmark {
+	background-color: #ffffff;
+	border: 1px solid #fe2f70;
+}
+.radio-container .checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+.radio-container input:checked ~ .checkmark:after {
+	display: block;
+}
+.radio-container .checkmark:after {
+    top: 3px;
+    left: 3px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #fe2f70;
+}
+@media (max-width: 768px) {
+    .section-1 > div {
+        width: 100%;
+    }
+    .grid-2 {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+    }
+    .grid-2 > div {
+        border: 1px solid #ddd;
+        padding: 10px;
+    }
+    .portfolio-1 {
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 10px;
+    }
+    .portfolio-1 figure > div > img {
+        width: 100%;
+    }
+    .grid-3 {
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 20px;
+    }
+}
+
+@media (min-width: 769px) {
+    .section-1 > div {
+        width: 25%;
+    }
+    .grid-2 {
+        display: grid;
+        grid-template-columns: 30%;
+        padding: 5px;
+        border: 1px solid #ddd;
+    }
+    .grid-2 > div:nth-of-type(1) {
+        grid-column: 1 / span 1;
+    }
+    .grid-2 > div:nth-of-type(2) {
+        grid-column: 2 / span 3;
+        border-left-style: none;
+    }
+    .grid-2 > div:nth-of-type(2) > img {
+        height: 100%;
+    }
+    .grid-2 > div {
+        position: relative;
+    }
+    .portfolio-1 {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        column-gap: 5px;
+        row-gap: 5px;
+    }
+    .portfolio-1 figure:hover {
+        border: 1px solid #fe2f70;
+    }
+    .portfolio-1 figure > div > img {
+        height: 185px;
+        width: 100%;
+    }
+    .grid-3 {
+        display: grid;
+        grid-template-columns: 50% auto;
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+    .grid-5 {
+        display: grid;
+        grid-template-columns: 50% auto;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+    .grid-5 > div:nth-of-type(3),
+    .grid-5 > div:nth-of-type(4),
+    .grid-5 > div:nth-of-type(5),
+    .grid-5 > div:nth-of-type(6),
+    .grid-5 > div:nth-of-type(7) {
+        grid-column: 1 / span 2;
+    }
+
+}

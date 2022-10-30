@@ -1,0 +1,359 @@
+/*
+===========  General CSS ===========
+*/
+
+body {
+    font-family: 'Gilroy';
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: normal;
+    color: #23242C;
+    background: #ffffff;
+    overflow-x: hidden;
+}
+
+
+/* Custom Container */
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1616px;
+    }
+}
+
+
+/* Common CSS */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Gilroy';
+    color: #23242C;
+    line-height: 1.3;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Live Chat CSS Start */
+
+.live-chat-col {
+    width: 435px;
+    float: right;
+    position: relative;
+}
+
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+
+.open-button {
+    width: 100%;
+    color: #F2A98E;
+    cursor: pointer;
+    z-index: 99999;
+    border: none;
+    background-color: #ffffff;
+    border: 1px solid #D2D2D2;
+    border-bottom: none;
+    padding: 15px 15px;
+    border-radius: 15px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.open-button ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.open-button ul li p {
+    position: relative;
+    color: #23242C;
+    font-weight: 600;
+}
+
+.open-button ul li p img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.open-button ul li p span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #10B552;
+    position: absolute;
+    left: 32px;
+    top: 15px;
+    z-index: 0;
+    border: 2px solid #ffffff;
+}
+
+.open-button ul li a img {
+    margin-left: 20px;
+}
+
+.open-button ul li:first-child {
+    width: 60%;
+    text-align: left;
+}
+
+
+/* The popup chat - hidden by default */
+
+.chat-popup {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 9999;
+    display: none;
+}
+
+
+/* Add styles to the form container */
+
+.form-container {
+    background-color: white;
+}
+
+.live-chat-header {
+    background-color: #ffffff;
+    border: 1px solid #D2D2D2;
+    padding: 15px 15px;
+    -webkit-box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+.live-chat-header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.live-chat-header ul li:first-child {
+    width: 60%;
+    text-align: left;
+}
+
+.live-chat-header ul li p {
+    position: relative;
+    color: #23242C;
+    font-weight: 600;
+}
+
+.live-chat-header ul li p span.is_online {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #10B552;
+    position: absolute;
+    left: 32px;
+    top: 25px;
+    z-index: 0;
+    border: 2px solid #ffffff;
+}
+
+.live-chat-header ul li p img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.live-chat-header ul li a img {
+    margin-left: 20px;
+}
+
+.live-chat-content {
+    padding: 15px;
+    max-height: 340px;
+    min-height: 340px;
+    overflow-y: scroll;
+    border: 1px solid #D2D2D2;
+    border-top: none;
+}
+
+.live-chat-text {
+    position: relative;
+    padding-left: 45px;
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+.live-chat-text img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    z-index: 0;
+    object-fit: cover;;
+}
+
+.live-chat-text p {
+    background-color: #EFEFF1;
+    padding: 20px 20px;
+    border-radius: 25px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.live-chat-text p.receiver {
+    border-bottom-left-radius: 0;
+}
+
+.live-chat-text p.sender {
+    border-bottom-right-radius: 0;
+}
+
+.live-chat-text span {
+    font-size: 12px;
+    line-height: 20px;
+    color: #23242C;
+    opacity: 0.5;
+    display: block;
+    text-align: right;
+}
+
+.live-chat-text.live-chat-right {
+    padding-left: 0;
+    padding-right: 45px;
+    margin-left: 42px;
+}
+
+.live-chat-text.live-chat-right img {
+    left: auto;
+    right: 0;
+}
+
+.live-chat-text.live-chat-right p {
+    background-color: #000941;
+    color: #ffffff;
+}
+
+.live-chat-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 25px;
+    border: 1px solid #D2D2D2;
+    border-top: none;
+}
+
+.live-chat-footer .my-icon {
+    margin-right: 20px;
+}
+
+.live-chat-footer .input-group .form-control {
+    border: none;
+    padding-left: 0;
+}
+
+.live-chat-footer .input-group .input-group-text {
+    border: none;
+    background-color: transparent;
+}
+
+@media only screen and (max-width: 575px) {
+    .live-chat-col {
+        width: 100vw;
+    }
+}
+
+.chat-area {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 2000;
+}
+
+.chat-popup {
+    display: block;
+}
+
+.hidden-chat {
+    display: none;
+}
+
+.invisible {
+    display: none;
+}

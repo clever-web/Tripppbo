@@ -1,0 +1,70 @@
+@media only screen and (max-width:1199px) {
+    .header-nav ul li a {
+        margin-right: 25px;
+    }
+    .theme-logo {
+        margin-right: 10px;
+    }
+    .user-col select {
+        width: 80px;
+    }
+    .header-area .container-fluid {
+        padding: 0 15px;
+    }
+    .header-area .navbar-brand {
+        margin-right: 30px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .header-nav ul li a {
+        padding-bottom: 12px;
+    }
+    .header-area {
+        min-height: 90px;
+    }
+    .header-left-col {
+        margin-top: 20px;
+    }
+    .header-area .navbar {
+        justify-content: space-between;
+        width: 100%;
+    }
+    .header-area .col-lg-2 {
+        position: absolute;
+        top: 6px;
+        right: 70px
+    }
+    .header-area .navbar-light .navbar-toggler {
+        border-color: #ffffff;
+        padding: 8px 12px;
+    }
+    .header-area .navbar-light .navbar-toggler-icon {
+        background-image: url(../images/nav.png);
+        width: 24px;
+        height: 22px;
+    }
+    .header-area .navbar-nav {
+        padding: 25px 20px 5px;
+        background: rgba(0, 0, 0, 0.2);
+    }
+    .header-nav ul li {
+        display: block;
+        margin-bottom: 25px;
+    }
+    .header-nav ul li:nth-child(3) a {
+        padding-bottom: 12px;
+    }
+    .header-area .col-lg-2 {
+        right: 50px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .header-area .navbar-brand img {
+        width: 80px;
+    }
+    .header-left-col {
+        margin-top: 30px;
+    }
+}

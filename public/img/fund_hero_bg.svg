@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1775" height="441.001" viewBox="0 0 1775 441.001">
+  <defs>
+    <clipPath id="clip-path">
+      <rect x="99" y="140" width="1775" height="441.001" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.186" y1="0.074" x2="0.6" y2="0.836" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fd843d"/>
+      <stop offset="1" stop-color="#fe2f70"/>
+    </linearGradient>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_834" data-name="Rectangle 834" width="367" height="172" transform="translate(821.626 410.491)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Scroll_Group_1" data-name="Scroll Group 1" transform="translate(-99 -140)" clip-path="url(#clip-path)" style="isolation: isolate">
+    <g id="Group_1425" data-name="Group 1425" transform="translate(53 22)">
+      <rect id="Rectangle_832" data-name="Rectangle 832" width="1920" height="472" transform="translate(0 118)" fill="url(#linear-gradient)"/>
+      <circle id="Ellipse_250" data-name="Ellipse 250" cx="153.5" cy="153.5" r="153.5" transform="translate(-53 -22)" fill="#fff" opacity="0.13"/>
+      <g id="Mask_Group_23" data-name="Mask Group 23" transform="translate(-265.626 7.51)" clip-path="url(#clip-path-2)">
+        <circle id="Ellipse_252" data-name="Ellipse 252" cx="84.5" cy="84.5" r="84.5" transform="translate(988.626 475.491)" fill="#fff" opacity="0.13"/>
+      </g>
+    </g>
+  </g>
+</svg>

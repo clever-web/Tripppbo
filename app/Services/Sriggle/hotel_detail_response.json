@@ -1,0 +1,203 @@
+{
+    "HotelDetail": {
+        "HotelRooms": [
+            {
+                "Name": "Studio",
+                "Image": {
+                    "ImageUrl": "http://media.signix.online/hotels/2000000/1920000/1912000/1911951/75630aa4_s.jpg"
+                },
+                "Description": "<strong>1 King Bed or 2 Twin Beds</strong><br />245-sqfoot (23-sq-meter) room with city views<br /><br /><b>Internet</b> - Free WiFi <br /> <b>Entertainment</b> - Cable channels <br /><b>Food & Drink</b> -Kitchen with refrigerator, stovetop, microwave, and cookware/dishware<br /><b>Bathroom</b> - Private bathroom, free toiletries, and a shower<br /><b>Practical</b> - Safe, free newspaper, and iron/ironing board; rollaway/extra beds and cribs/infant bedsavailable on request<br /><b>Comfort</b> - Air conditioning and daily housekeeping<br />Smoking/Non Smoking<br />&nbsp;"
+            },
+            {
+                "Name": "Suite, 1 Bedroom",
+                "Image": {
+                    "ImageUrl": "http://media.signix.online/hotels/2000000/1920000/1912000/1911951/1911951_37_s.jpg"
+                },
+                "Description": "<strong>1 King Bed or 2 Twin Beds</strong><br />400-sqfoot (37-sq-meter) room, balcony with city views<br /><br /><b>Internet</b> -Free WiFi <br /> <b>Entertainment</b> -Cable channels <br /><b>Food & Drink</b> - Kitchen with refrigerator, stovetop, microwave, and cookware/dishware<br /><b>Bathroom</b> - Private bathroom, free toiletries, and a shower<br /><b>Practical</b> - Safe, free newspaper, and iron/ironing board; rollaway/extra beds and cribs/infant beds available on request<br /><b>Comfort</b> - Air conditioning and daily housekeeping<br />Smoking/Non Smoking<br />&nbsp;"
+            },
+            {
+                "Name": "Apartment, 2 Bedrooms",
+                "Image": {
+                    "ImageUrl": "http://media.signix.online/hotels/2000000/1920000/1912000/1911951/1911951_18_s.jpg"
+                },
+                "Description": "<strong>1 King Bed</strong><br />735-sq-foot (68-sqmeter) room, balcony with city views<br /><br /><b>Layout</b> - 2 bedrooms <br /><b>Internet</b> - Free WiFi <br /> <b>Entertainment</b> - Cable channels <br /><b>Food & Drink</b> - Kitchen with refrigerator, stovetop, microwave, and cookware/dishware<br /><b>Bathroom</b> -Private bathroom, free toiletries, and a shower<br /><b>Practical</b> - Safe, free newspaper, and iron/ironing board; rollaway/extra beds and cribs/infant beds available on request<br /><b>Comfort</b> - Air conditioning and daily housekeeping<br />Smoking/Non Smoking<br />&nbsp;"
+            }
+        ],
+        "HotelProviderSearchId": "53371",
+        "Priority": false,
+        "ShowCalendar": false,
+        "HotelName": "Al Manar Hotel Apartments",
+        "Description": "<p><b>Property Location</b> <br />With a stay at Al Manar Hotel Apartments in Dubai (Deira), you'll be convenient to Al-Maktoum Stadium and Sahara Centre. This aparthotel is within close proximity of Reef Mall and Fish Roundabout.</p><p><b>Rooms</b> <br />Make yourself at home in one of the 84 airconditioned rooms featuring kitchens with full-sized refrigerators/freezers and stovetops. Complimentary wireless Internet access keeps you connected, and cable programming is available for your entertainment. Conveniences include safes and desks, and housekeeping is provided daily.</p><p><b>Amenities</b> <br />Don't miss out on recreational opportunities including a health club and an outdoor pool. Additional amenities at this aparthotel include complimentary wireless Internet access and concierge services.</p><p><b>Dining</b> <br />Enjoy a meal at a restaurant, or stay in and take advantage of the aparthotel's 24-hour room service.</p><p><b>Business, Other Amenities</b> <br />Featured amenities include complimentary wired Internet access, a business center, and complimentary newspapers in the lobby. A roundtrip airport shuttle is provided for a surcharge (available 24 hours), and free self parking is available onsite.</p>",
+        "LBookPrice": 2925.55,
+        "HBookPrice": 5556.55,
+        "BookCurrency": "AED",
+        "HotelServices": [],
+        "Amenities": [
+            {
+                "AmenityId": "2063",
+                "Description": "24-hour front desk",
+                "Type": "PropertyAmenity",
+                "SubType": "PropertyAmenity",
+                "Icon": "signia-desk",
+                "Important": false
+            },
+            {
+                "AmenityId": "2420",
+                "Description": "Accessible bathroom",
+                "Type": "PropertyAmenity",
+                "SubType": "PropertyAmenity",
+                "Icon": "signia-bathroom",
+                "Important": false
+            },
+            {
+                "AmenityId": "1",
+                "Description": "Air conditioning",
+                "Type": "RoomAmenity",
+                "SubType": "RoomAmenity",
+                "Icon": "signia-airconditioning",
+                "Important": false
+            }
+        ],
+        "HotelImages": [
+            "http://media.signix.online/1912000191195951_46_b.jpg",
+            ""
+        ],
+        "HotelImageCount": 30,
+        "HotelFloorCount": 0,
+        "HotelRoomCount": 84,
+        "HotelResturantCount": 0,
+        "HotelBuildingCount": 0,
+        "HotelAddress": {
+            "Latitude": "25.28022",
+            "Longitude": "55.35120",
+            "Address": "Near Al-Maktoum Stadium\r\nthe corner 24th and 9th street,near Al Qiyadah Metro Station",
+            "PostalCode": "",
+            "City": "Dubai",
+            "WeatherCity": "Dubai",
+            "CityCode": "DXB",
+            "Phone": "",
+            "Fax": "",
+            "Email": "",
+            "Website": "",
+            "HotelLocation": "Near Al-Maktoum Stadium",
+            "ZoneId": 0,
+            "ZoneName": ""
+        },
+        "Attractions": [
+            "The closest major airports to Al Manar Hotel Apartments are:<br />Dubai (DXB-Dubai Intl.) - 3.5 km / 2.2 mi<br />Sharjah (SHJ-Sharjah Intl.) - 17.6 km / 11 mi<br />Dubai (DWC-Al Maktoum Intl.) -47.9 km / 29.8 mi<br /><p>The preferred airport for Al Manar Hotel Apartments is Dubai (DXB-Dubai Intl.). </p><p>Distances are calculated in a straight line from the property's location to the point of interest or airport and may not reflect actual travel distance. <br /><br />Distances are displayed to the nearest0.1 km and mile. </p>"
+        ],
+        "Features": [
+            {
+                "Type": "PolicyDescription",
+                "Display": "Policy Description",
+                "Description": "<p><b>Fees</b> <br /><p>The following fees and deposits are charged by the property at time of service, check-in, or check-out. </p> <ul> <li>Fee for buffet breakfast: AED35.00 per person (approximately)</li> <li>Airport shuttle fee: AED 75 per person (one way)</li> <li>Crib (infant bed) fee: AED 50 per night</li><li>Rollaway bed fee: AED 120 per night</li> </ul> <p>The above list may not be comprehensive. Fees and deposits may not include tax and are subject to change. </p></p><p><b>Mandatory Fees and Taxes</b> <br /><p>You'll be asked to pay the following charges at the property:</p> <ul><li>Tourism fee: AED 20 per accommodation, per night</li></ul> <p>We have included all charges provided to us by the property. However, charges can vary, for example, based on length of stay or the room you book. </p> A tourism fee is imposed by the city and collected at the property. The fee is AED 20 for the first bedroom per night, and increases by AED 20 per night for each additional bedroom. For further details, please contact the property using the information contained in your confirmation email.</p>"
+            },
+            {
+                "Type": "PropertyFeesDescription",
+                "Display": "Fees Description",
+                "Description": "<p>The following fees and deposits are charged by the property at time of service, check-in, or check-out. </p> <ul> <li>Fee for buffet breakfast: AED 35.00 per person (approximately)</li> <li>Airport shuttle fee: AED 75 per person (one way)</li> <li>Crib (infant bed) fee: AED 50 per night</li><li>Rollaway bed fee: AED 120 per night</li> </ul> <p>The above list may not be comprehensive. Fees and deposits may not include tax and are subject to change. </p>"
+            },
+            {
+                "Type": "PropertyMandatoryFeesDescription",
+                "Display": "Mandatory Fees Description",
+                "Description": "<p>You'll be asked to pay the following charges at the property:</p> <ul><li>Tourism fee: AED 20 per accommodation, per night</li></ul> <p>We have included all charges provided to us by the property. However, charges can vary, for example, based on length of stay or the room you book. </p> A tourism fee is imposed by the city and collected at the property. The fee is AED 20 for the first bedroom per night, andincreases by AED 20 per night for each additional bedroom. For further details, please contact the property using the information contained in your confirmation email."
+            }
+        ],
+        "TripAdvisorDetail": {
+            "TAPartnerID": "1066274",
+            "TAURL": "",
+            "RecommendedText": "",
+            "RecommendedPercent": "75",
+            "Rating": "4",
+            "RatingURL": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.0-22321-5.png",
+            "ReviewCount": "171",
+            "ReviewExcellent": "60",
+            "ReviewVeryGood": "75",
+            "ReviewAverage": "22",
+            "ReviewPoor": "8",
+            "ReviewTerrible": "6",
+            "ReviewSleepQuality": "2",
+            "ReviewLocation": "3",
+            "ReviewRooms": "4",
+            "ReviewService": "5",
+            "ReviewValue": "3",
+            "ReviewCleanliness": "1"
+        },
+        "TripAdvisorReviews": [
+            {
+                "TripAdvisorID": "1066274",
+                "ReviewNum": 1,
+                "UserName": "Emma B",
+                "Location": "",
+                "Title": "Cosy, comfortable",
+                "Rating": "4",
+                "Date": "December 30, 2016",
+                "Text": "<p>\nEnjoyed my suite and found it to be quite generous... bathroom was gorgeous and I enjoyed a bubble bath and wine after my work conference was complete for the day. <br/><br/>Didn't check out much of the facilities but was great for the business function and party afterward. <br/><br/>My friend and I went to the downstairs restaurant - the menu was divine - I had the fish special and my friend had the pork and wine list was excellent. We were really impressed. <br/><br/>I have the included buffet one morning for breakfast and there were plenty of options including vegan and vegetarian choices. The fresh fruit and barista coffee was nice they made me an almond milk latte especially :) winning... <br/><br/>The hotel was nice to come to - beautiful surroundings and a nice drive to get there. Nice outdoor areas for the hotel and seemed pretty family friendly. Good stay\n</p>"
+            },
+            {
+                "TripAdvisorID": "1066274",
+                "ReviewNum": 2,
+                "UserName": "aussietim1979",
+                "Location": "Melbourne, Australia",
+                "Title": "Pleasant stay and great Golf",
+                "Rating": "4",
+                "Date": "December 25, 2016",
+                "Text": "<p>\nDid a golf trip with a few mates. The rooms are very homely and clean. The staff are friendly and helpful. Its a real golf enthusiasts retreat with a Pro shop, Carts and sports bar. The golf course is well maintained and is a bit of a challenge. Great weekend\n</p>"
+            },
+            {
+                "TripAdvisorID": "1066274",
+                "ReviewNum": 3,
+                "UserName": "Lewanuya",
+                "Location": "Melbourne, Australia",
+                "Title": "Very helpful and friendly staff, beautiful setting",
+                "Rating": "5",
+                "Date": "December 25, 2016",
+                "Text": "<p>\nI prefer bush settings to beach settings, and this place being backed by state forest was lovely. We traveled with a two year old, and he loved the place. There was a little play room for him and lots of outdoor area to play in (via the golf course). The pool was quite small, but with a toddler you don't really want much of a big space.<br/>The staff were lovely from phone call booking to check out. They were friendly and personable. Their managers should be proud of them.\n</p>"
+            },
+            {
+                "TripAdvisorID": "1066274",
+                "ReviewNum": 4,
+                "UserName": "Nikko60",
+                "Location": "Melbourne, Australia",
+                "Title": "Great Potential but needs a lot of improvement",
+                "Rating": "2",
+                "Date": "December 11, 2016",
+                "Text": "<p>\nGreat room and good value but staff need more training, no room in the venue to relax when there is a lot of people staying. Breakfast facilitation of food and seating poor. Dinner menu and quality poor. <br/>Compared to RACV club venues such as Healesville this venue could be a lotbetter. Check in was very well managed. Teenage children wanted to play 8 ball but the table was jammed in the corner of the golf bar and no one available to move the table. We booked Dinner for my wife's birthday. Two of us had calamari entree. The calamari had been boiled to then grilled. It had the texture of toothpaste. Told waitress but she thanked us for the feedback. Breakfast was badly managed a lot of people, but no proper management of seating. Would stay again but would eat somewhere elsewhere\n</p>"
+            },
+            {
+                "TripAdvisorID": "1066274",
+                "ReviewNum": 5,
+                "UserName": "Tantaylor",
+                "Location": "Melbourne",
+                "Title": "Lovely surprise",
+                "Rating": "5",
+                "Date": "December 7, 2016",
+                "Text": "<p>\nStayed here for our anniversary weekend away after seeing it in The Royalauto magazine and was very surprised at how lovely the resort and location was. Breakfast was great with a good variety. Sunday morning was super busy ,they obviously had a few events on on the Saturday night, but the food was kept topped up and other than waiting for toast the queue moved quickly. Would highly recommend and stay again.\n</p>"
+            }
+        ],
+        "CheckInTime": "2:00 PM",
+        "CheckOutTime": "noon",
+        "PropertyCategory": "Hotel",
+        "ChainName": "Independent",
+        "HotelTheme": "",
+        "InternalRating": "0.0",
+        "MealPlans": [
+            "BB",
+            "FB",
+            "HB",
+            "RO"
+        ],
+        "IsMapped": true
+    },
+    "Authenticated": "True",
+    "SessionId": "636686593951813374Hotel",
+    "LogReferenceId": "2ad8038bf48242a3bc971df282aee910",
+    "ClientCode": "DOC001",
+    "EntityId": 1,
+    "ClientId": "11",
+    "LanguageLocale": "en-US",
+    "LanguageName": "English (United States)",
+    "StatusType": "Success",
+    "StatusCode": "S0001",
+    "StatusMessage": "Operation Was Successful"
+}

@@ -1,0 +1,967 @@
+@media(max-width: 1400px) {
+    /* index > flight */
+        .trip_footer_bar_reponsive_column {
+            flex-direction: column;
+        }
+    /* HOTEL PAGE > index */
+        .hotel_content_item_img {
+            display: flex;
+            align-items: center;
+        }    
+        .hotel_features_item {
+            width: 30%;
+        }
+        .hotel_content_desc_features {
+            padding: 15px 0;
+        }
+}
+
+@media(max-width: 1200px) {
+    /* index > flight */
+        .trip_main_box_wrapper {
+            flex-direction: column;
+        }
+        .trip_box_item {
+            width: 100%;
+        }
+        .trip_box_item:not(:last-child) {
+            margin-bottom: 30px;
+        }  
+        .trip_footer_bar_reponsive_column {
+            flex-direction: unset;
+        }
+        .accr_list_item_1 {
+            min-width: 10%;
+        }
+        .flight_sidebar{
+            width: 250px;
+        }
+        .trip_submit_wrapper {
+            margin-top: 15px;
+        }
+    /* review trip > form btn */
+        .continue_submit_btn{
+            margin-top: 25px;
+        }
+    /* hotel > ticket box */
+        .wrap_inputs:not(:last-child){
+            margin-right: 10px;
+        }
+        .wrap_inputs .ticket__input{
+            margin-bottom: 0 !important;
+        }
+        .wrap_inputs{
+            flex: 1;
+        }
+        .wrap_date_input{
+            flex: none;
+            width: 70%;
+        }
+        .guest_box_body {
+            left: 0;
+            width: 60%;
+            min-width: 400px;
+        }
+    /* HOTEL PAGE > index */
+        .trip_main_box_wrapper {
+            flex-direction: column;
+        }
+        .hotel_content_item_img {
+            width: 100%;
+            margin-right: 0;
+            margin-bottom: 25px;
+        }
+        .heading_rating_stars {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .hotel_right_content {
+            width: 100%;
+        }
+        .eye_illustration_custom_icons {
+            width: 50%;
+            margin-right: 0;
+            align-items: flex-start;
+
+        }
+        .hotel_content_desc_features {
+            justify-content: center;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            padding: 10px 0;
+            order: 1;
+        }
+        .hotel_features_item {
+            width: 33%;
+        }    
+        .button_wrapper {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            order: 1;
+        }
+        .btn__hotel{
+            width: 90%;
+        }
+    /* form sidebar */
+        .rating__box i {
+            font-size: 32px;
+        }
+    /* hotel details > our shop  */
+        .our_shop_maps,
+        .all_shops{
+            flex: none;
+            width: 100%;
+        }
+        .our_shop_maps iframe{
+            height: auto;
+            min-height: 200px;
+            aspect-ratio: 1 / .30;
+        }
+        .our_shop_maps{
+            margin-bottom: 20px;
+        }
+    /* HOTEL PAGE > review */
+        .review_progress_txt_wrapper {
+            width: 30%;
+        }
+        .hotel_review_top .hotel_heading_details {
+            flex: 1;
+        }
+        .hotel_review_top .flight_details_right{
+            width: fit-content;
+            margin-left: 20px;
+            align-self: flex-start;
+        }
+    /* hotel details > reviews */
+        .review_progress_txt_tag_wrapper {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+        .review_tag_wrapper {
+            width: 100%;
+        }
+        .review_progress_wrapper {
+            width: auto;
+            flex: 1;
+            margin-right: 0;
+            margin-left: 30px;
+        }
+        .review_progress_txt_wrapper {
+            min-width: 150px;
+            margin-right: auto;
+        }
+}
+
+
+@media(max-width: 992px){
+    .pad_lg{
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    /* index > flight */
+        .flight_box{
+            position: relative;
+        }
+        .trip_selection_wrapper {
+            width: 100%;
+        }
+        .flight_sidebar{
+            width: 280px;
+            position: absolute;
+            top: 0;
+            left: -100px;
+            z-index: 99;
+            visibility: hidden;
+            opacity: 0;
+            box-shadow: 0 1px 8px rgba(0, 0, 0, 0.171);
+            transition: all .2s ease-in-out;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            -ms-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+        }
+        .flight_sidebar_active{
+            visibility: visible;
+            opacity: 1;
+            left: 0 !important;
+        }
+        .flight_fillter_btn{
+            display: flex;
+        }
+        .flight_details {
+            margin-left: 0;
+        }
+    /* hotel home > flight sidebar */
+        .child_flight_sidebar_hotel{
+            padding-top: 20px;
+            box-shadow: none;
+        }
+        .map__box{
+            padding-top: 30px;
+            margin-bottom: 0 !important;
+            border-bottom: 1px solid #e4e4e4;
+            border-radius: 12px 12px 0 0;
+            -webkit-border-radius: 12px 12px 0 0;
+            -moz-border-radius: 12px 12px 0 0;
+            -ms-border-radius: 12px 12px 0 0;
+            -o-border-radius: 12px 12px 0 0;
+            box-shadow: none;
+        }
+        .child_flight_sidebar_hotel{
+            border-radius: 0 0 12px 12px;
+            -webkit-border-radius: 0 0 12px 12px;
+            -moz-border-radius: 0 0 12px 12px;
+            -ms-border-radius: 0 0 12px 12px;
+            -o-border-radius: 0 0 12px 12px;
+        }
+    /* hotel > hotel details */
+        .hotel_details_left {
+            width: 100%;
+            margin-right: 0;
+        }
+        .hotel_details_right {
+            width: 100%;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+        .hotel_details_left {
+            margin-top: 20px;
+        }
+        .reponsive_text_center {
+            text-align: center;
+        }
+        .hotel_details_twocontent_wrapper {
+            padding-bottom: 10px;
+        }
+        .details_features_lists .btn_pink{
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+    /* hotel details > avaliable */
+        .room_option{
+            flex-direction: column;
+        }
+        .option_box_right{
+            margin-left: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: none;
+            width: 100%;
+        }
+        .member_box_yellow,
+        .book__room{
+            width: 48%;
+        }
+    /* HOTEL PAGE > review */
+        .review_rating_wrapper {
+            padding-top: 30px;
+        }
+        .hotel_review_top{
+            flex-wrap: wrap;
+        }
+        .hotel_review_top .hotel_heading_details{
+            width: 100%;
+            flex: none;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        .child_details_right {
+            margin-right: 0 !important;
+        }
+        .hotel_review_top .flight_details_right .select_box {
+            margin-right: 0 !important;
+        }
+        .hotel_review_top .flight_details_right{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            margin-top: 20px;
+            padding-top: 20px;
+            margin-left: 0;
+        }
+        .hotel_review_top .flight_details_right::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+            -moz-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            -o-transform: translateX(-50%);
+            width: 70%;
+            max-width: 400px;
+            height: 4px;
+            background: var(--dark_blue);
+        }
+        .hotel_review_top.hotel_details_top::after {
+            display: none;
+        }
+        .hotel_review_top{
+            padding-bottom: 10px;
+            border-bottom: 0;
+        }
+        .review_txt_after_progress {
+            text-align: right;
+        }
+    /* amenities_box */
+        .amenities_box{
+            order: 2;
+        }
+        .amenities_box_active{
+            margin-bottom: 30px;
+        }
+        .hotel_details_right {
+            order: 3;
+        }
+}
+
+@media(max-width: 880px){
+    /* amenities box */
+        .amenities_ul:not(:last-child){
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+}
+
+@media(max-width: 850px){
+    /* hotel details > avaliable */
+        .avaliable_rooms{
+            flex-direction: column;
+        }
+        .room_details {
+            width: 100%;
+        }
+        .room_details_img {
+            aspect-ratio: 1 / .5;
+        }
+        .wrap_room_details{
+            display: flex;
+            margin-top: 0 !important;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .wrap_room_details ul{
+            margin-top: 0 !important;
+            margin-bottom: 0 !important;
+            margin-left: 60px;
+        }
+        .room_options{
+            margin-left: 0;
+        }
+}
+
+@media(max-width: 768px){
+    .pad_lg{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    /* index > flight */
+        .trip_submit_wrapper {
+            flex-direction: column;
+        }
+        .trip_submit_txt {
+            margin-bottom: 20px;
+        }
+    /* passenger details > form */
+        .quick_registation{
+            flex-wrap: wrap;
+        }
+        .quick_registation_right,
+        .quick_registation_left{
+            width: 100%;
+        }
+        .quick_registation_right{
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .quick_registation_right a{
+            width: 48%;
+            margin-bottom: 0 !important;
+        }
+    /* htel details > our shop */
+        .list_shop li{
+            align-items: flex-start !important;
+        }
+        .list_shop li:not(:last-child){
+            margin-bottom: 15px !important;
+        }
+        .list_shop li span{
+            width: 150px;
+            text-align: right;
+        }
+    /* hotel details > hero */
+        .hero_details .swiper-pagination .swiper-pagination-bullet {
+            width: 70px;
+            height: 70px;
+        }
+        .hero_slider .swiper-slide img {
+            min-height: 280px;
+        }
+        .swiper-button-next, .swiper-button-prev {
+            width: 35px;
+            height: 35px;
+        }
+    /* HOTEL PAGE > REVIEW */
+        .review_comment_wrapper {
+            width: 100%;
+        }
+        .review_comment_content {
+            margin-left: 0;
+        }
+        .review_tag_wrapper {
+            padding: 25px 20px;
+            padding-bottom: 5px;
+        }
+        .review_rating {
+            width: 45px;
+            height: 45px;
+        }
+    /* review your booking > child_white_grids_left */
+        .accr_grids_wrapper_2 .accr_features_grid_wrapper{
+            flex: none;
+            width: 50%;
+            padding-bottom: 25px;
+        }
+          
+}
+
+@media(max-width: 640px){
+    /* index > flight */
+        .trip_box_time_description:not(:last-child){
+            padding-right: 15px;
+        }
+        .flight_details_top{
+            flex-wrap: wrap;
+            justify-content: center;
+            border-bottom: 0;
+        }
+        .flight_details_top::after{
+            display: none;
+        }
+        .flight_details_right{
+            width: 100%;
+            justify-content: center;
+            margin-top: 25px;
+            padding-top: 25px;
+            position: relative;
+        }
+        .flight_details_right::after{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+            -moz-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            -o-transform: translateX(-50%);
+            min-width: 200px;
+            height: 4px;
+            background: var(--dark_blue);
+        }
+        .flight_sidebar {
+            top: 188px;
+        }
+        .flight_sidebar_hotel{
+            top: 168px;
+        }
+    /* HOTEL PAGE > index */
+        .hotel_details_top{
+            flex-wrap: wrap;
+            justify-content: center;
+            border-bottom: 0;
+        }
+        .hotel_details_top::after{
+            display: none;
+        }
+    /* no result found */
+        .no_result_found_wrapper {
+            padding-top: 0;
+        }
+        .no_rfw_img{
+            height: fit-content;
+        }
+        .no_rfw_img img{
+            aspect-ratio: 1 / 1;
+        }
+}
+
+@media(max-width: 700px){
+    .member_box_yellow,
+    .book__room{
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .member_box_yellow{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 768px){
+    .pad__x{
+        padding-left: 25px !important;
+        padding-right: 25px !important;
+    }
+    /* hotel details > our shops */
+        .our_shops{
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }
+}
+
+@media(max-width: 567px){
+    .pad_lg{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    /* index > ticket box */
+        .ticket_box_wrap {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        .flight_fillter_btn{
+            margin-top: 10px;
+        }
+    /* replace padding all white boxes */
+        .pad__x{
+            padding-left: 20px !important;
+            padding-right: 20px !important;
+        }
+    /* index > flight */
+        .trip_footer_bar_reponsive_column {
+            flex-direction: column;
+            text-align: center;
+        }
+        .trip_box_responsive_order {
+            width: 100%;
+            order: 4;
+            margin-top: 25px;
+        }
+        .accr_list_item_1 {
+            width: 15%;
+        }
+    /* review trip >  */
+        .a_package {
+            width: 100%;
+        }
+        .a_package:not(:last-child){
+            margin-bottom: 20px;
+        }
+        .luggage_box_right {
+            margin-left: 20px;
+        }
+        .btn_toggle_pink {
+            width: 55px;
+            height: 30px;
+        }
+        .btn_toggle_pink span::before {
+            position: absolute;
+            content: "";
+            height: 23px;
+            width: 23px;
+            left: 3px;
+            bottom: 2px;
+        }
+        .btn_toggle_pink input:checked + span:before {
+            transform: translateX(24px);
+            -webkit-transform: translateX(24px);
+            -moz-transform: translateX(24px);
+            -ms-transform: translateX(24px);
+            -o-transform: translateX(24px);
+        }
+        .luggage_inc_dec_wrap li {
+            align-items: flex-start;
+        }
+        .luggage_inc_dec_box {
+            width: 120px;
+        }
+        .luggage_inc_dec_wrap li p{
+            flex: 1;
+            margin-right: 5px;
+        }
+    /* passenger details > form */
+        .quick_registation_right{
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+        }
+        .quick_registation_right a{
+            width: 95%;
+            max-width: 450px;
+            margin: 0 auto !important;
+        }
+        .quick_registation_right a:not(:last-child){
+            margin-bottom: 20px !important;
+        }
+        .wrap_p_details_bottom_row > a {
+            display: block;
+            width: 150px;
+            margin-top: 15px;
+        }
+        .wrap_p_details_bottom_row {
+            flex-wrap: wrap;
+        }
+        .wrap_p_details_bottom_row_2 .checkmark {
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    /* next > ticket_txt_email */
+        .ticket_txt_email {
+            width: 100%;
+            margin-top: 20px;
+        }
+    /* review and pay form */
+        .row_discount{
+            flex-direction: column;
+        }
+        .row_discount_left,
+        .row_discount_right{
+            width: 100%;
+        }
+        .row_discount_right{
+            width: 100%;
+            margin-top: 15px;
+        }
+        .pay_list_wrapper{
+            padding-left: 20px;
+        }
+    /* hotel home > ticket box */
+        .wrap_inputs{
+            flex: 1;
+        }
+        .wrap_date_input{
+            flex: none;
+            width: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        .wrap_date_input .wrap_inputs{
+            flex: none;
+            max-width: 100%;
+        }
+        .wrap_inputs:not(:last-child){
+            margin-bottom: 25px;
+        }
+        .form_btn_hotel{
+            flex: none;
+            width: 100%;
+            padding-top: 6px;
+            padding-bottom: 6px;
+        }
+        .guest_box_body {
+            min-width: 100%;
+        }
+    /* hotel page > hotel details */
+        .btn__hotel{
+            width: 95%;
+        }
+        .hotel_content_desc_features {
+            justify-content: flex-start;
+            flex-wrap: wrap;
+        }
+        .hotel_features_item {
+            width: 40%;
+        }
+        .hotel_features_item:not(:last-child){
+            margin-bottom: 15px;
+        }
+        .image_wrapper_illustration {
+            margin-right: 10px;
+        }
+        .hotel_content_rating {
+            width: 45px;
+            height: 45px;
+            margin-right: 10px;
+        }
+        .eye_illustration_custom_icons {
+            width: fit-content;
+            margin-right: auto;
+        }
+        .hotel_content_rating_score {
+            margin-right: 0;
+            margin-left: 10px;
+        }
+    /* HOTEL > HOTEL DETAILS */
+        .hotel_details_right {
+            width: 100%;
+        }
+    /* hotel details > room avaliable */
+        .option__box_left{
+            margin-right: 30px;
+        }
+        .option__box {
+            width: fit-content;
+            max-width: none;
+            flex: 1;
+            padding-right: 20px;
+        }
+    /* hotel details > hero */
+        .hero_details .swiper-pagination .swiper-pagination-bullet {
+            width: 55px;
+            height: 55px;
+        }
+        .hero_slider .swiper-slide img {
+            min-height: 240px;
+        }
+        .swiper-button-next, .swiper-button-prev {
+            width: 30px;
+            height: 30px;
+        }
+        .swiper-button-next i, .swiper-button-prev i {
+            font-size: 14px;
+        }
+    /* HOTEL > REVIEW */
+        .flight_details_right {
+            flex-direction: column;
+        }
+        .review_rating_progress_tags {
+            padding: 10px 0;
+        }
+        .review_rating_wrapper {
+            padding: 30px;
+        }
+        .review_progress_txt_wrapper {
+            width: 35%;
+        }
+        .review_user_txt {
+            flex-direction: column;
+            align-items: flex-start;
+        }  
+        .review_user_txt_desc {
+            flex-wrap: wrap;
+            padding-right: 10px;
+        }
+        .review_comment_image_image > img {
+            max-width: 40px;
+        }
+        .review_progress_star img{
+            width: 22px;
+        }
+        .review_progress_wrapper {
+            margin-left: 20px;
+        }
+        .review_tag_item {
+            background: #ddd;
+            padding: 8px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+        .review_comment_wrapper {
+            width: 100%;
+            padding-left: 20px;
+            padding-right: 20px;
+            background-color: var(--white);
+        }
+        .review_tag_wrapper {
+            padding: 20px 15px;
+            padding-bottom: 5px;
+        }
+    /* amenities */
+        .amenities_box {
+            padding: 25px 30px;
+            padding-bottom: 0;
+        }
+        .amenities_cross_btn{
+            top: 25px;
+            right: 25px;
+            width: 15px;
+            height: 15px;
+          }
+    /* review your booking > child_white_grids_left */
+        .accr_grids_wrapper_2 .accr_features_grid_wrapper{
+            width: 100%;
+            padding-bottom: 30px;
+        }
+    /* review you booking > form right*/
+        .review_row{
+            flex-wrap: wrap;
+        }
+        .review_row:first-child{
+            margin-bottom: 0 !important;
+        }
+        .select_review{
+            width: 100%;
+            margin-right: 0 !important;
+            margin-bottom: 10px !important;
+        }
+        .wrap_input_review{
+            flex: none;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    /* continue submit btn */
+        .continue_submit_btn {
+            display: block;
+            width: 80vw;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px !important;
+        }
+    /* review trip */
+        .luggage_box_top {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .luggage_box_right {
+            margin-left: 15px;
+            display: flex;
+            align-items: flex-start;
+        }
+        .sidebar_accordion_inner_content {
+            padding: 30px 16px;
+        }
+    /* hotel details >  hotel_details_left */
+        .hotel_details_left {
+            margin-top: 0;
+        }
+        .details_features_lists {
+            padding: 30px 20px;
+            padding-bottom: 25px;
+        }
+}
+
+@media(max-width: 500px){
+    /* hotel details > room avaliable */
+        .option__box_left{
+            margin-right: auto;
+            margin-bottom: 20px;
+        }
+        .option__box {
+            flex: none;
+        }
+}
+
+@media(max-width: 480px){
+    .pad_lg{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    /* index > flight */
+        .trip_box_time_baline {
+            max-width: 35px;
+            width: 35px;
+        }
+        .trip_box_time_baline:first-child {
+            margin-left: .5rem;
+        }
+        .trip_box_time_baline:last-child {
+            margin-right: .5rem;
+        }
+        .trip_box_time_txt_secondary > p {
+            margin-left: .5rem;
+            margin-right: .5rem;
+        }
+        .accordion_inner_content {
+            padding-right: 10px;
+            padding-left: 15px;
+        }
+        .accr_list_item_1 {
+            width: 55px;
+        }
+        .accr_list_item_3 {
+            width: 70%;
+        }
+        .accr_list_item_1 > h5, .accr_list_item_3 > h5 {
+            font-size: 1rem;
+        }
+        .accr_list_item_1 > p, .accr_list_item_3 > p {
+            font-size: .8rem;
+        }
+        .flight_details_right{
+            flex-wrap: wrap;
+        }
+        .trip_selection_wrapper {
+            margin-top: 20px;
+        }
+        .flight_sidebar {
+            width: 80%;
+            top: 210px;
+            left: 50%;
+            left: 50% !important;
+            transform: translateX(-50%);
+            padding-top: 70px;
+            background: var(--white);
+        }
+        .flight_sidebar_active{
+            visibility: visible;
+            opacity: 1 !important;
+            width: 100%;
+            top: 205px;
+        }
+        .sidebar_cross{
+            display: block;
+        }
+    /* flight_sidebar */
+        .flight_sidebar_hotel{
+            padding-top: 0;
+        }
+        .child_flight_sidebar_hotel{
+            padding-top: 20px;
+            box-shadow: none;
+        }
+        .map__box{
+            padding-top: 30px;
+            margin-bottom: 0 !important;
+            border-bottom: 1px solid #e4e4e4;
+            border-radius: 12px 12px 0 0;
+            -webkit-border-radius: 12px 12px 0 0;
+            -moz-border-radius: 12px 12px 0 0;
+            -ms-border-radius: 12px 12px 0 0;
+            -o-border-radius: 12px 12px 0 0;
+            box-shadow: none;
+        }
+    /* hotel details > room avaliable */
+        .wrap_room_details{
+            flex-direction: column;
+        }
+        .wrap_room_details ul {
+            margin-left: 0;
+        }
+        .room_txt{
+            margin-bottom: 15px;
+        }
+}
+
+
+@media(max-width: 430px){
+    /* hote page > hotel details */
+        .eye_illustration_custom_icons{
+            width: 100%;
+        }
+        .hotel_content_rating_score {
+            margin-left: 0;
+            margin-top: 20px;
+        }
+    /* hotel details > reviews */
+        .review_progress_txt_tag_wrapper{
+            flex-wrap: wrap;
+        }
+        .review_progress_txt_wrapper{
+            width: 100%;
+            height: fit-content;
+            padding: 15px 10px;
+            margin-bottom: 20px;
+        }
+        .review_rating {
+            width: 50px;
+            height: 40px;
+        }
+        .review_progress_wrapper{
+            width: 100%;
+            margin-left: 0;
+        }
+
+}

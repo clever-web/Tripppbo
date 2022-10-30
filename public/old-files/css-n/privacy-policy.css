@@ -1,0 +1,463 @@
+
+/*
+===========  General CSS ===========
+*/
+ body {
+  font-family: 'Gilroy';
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #23242C;
+  background: #ffffff;
+  overflow-x: hidden;
+}
+
+/* Custom Container */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1616px;
+  }
+}
+
+/* Common CSS */
+ h1, h2, h3, h4, h5, h6 {
+  font-family: 'Gilroy';
+  color: #23242C;
+  line-height: 1.3;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  text-transform: capitalize;
+}
+h1{
+  font-size:60px;
+}
+
+h2{
+  font-size:40px;
+}
+
+h3{
+  font-size:32px;
+}
+
+h4{
+  font-size:24px;
+}
+
+h5{
+  font-size:20px;
+}
+
+h6{
+  font-size:16px;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+a:focus, a:hover {
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+/* Placeholder CSS */
+ ::-moz-placeholder {
+     color: #333333 !important;
+}
+ ::-o-placeholder {
+     color: #333333 !important;
+}
+ :-ms-input-placeholder {
+     color: #333333 !important;
+}
+ input:-moz-placeholder {
+     color: #333333 !important;
+}
+::-webkit-input-placeholder {
+  color: #333333 !important;
+}
+
+
+.subscribe-row ::-moz-placeholder {
+  color: #ffffff !important;
+  opacity: 0.45;
+}
+.subscribe-row ::-o-placeholder {
+  color: #ffffff !important;
+  opacity: 0.45;
+}
+.subscribe-row :-ms-input-placeholder {
+  color: #ffffff !important;
+  opacity: 0.45;
+}
+.subscribe-row input:-moz-placeholder {
+  color: #ffffff !important;
+  opacity: 0.45;
+}
+.subscribe-row ::-webkit-input-placeholder {
+  color: #ffffff !important;
+  opacity: 0.45;
+}
+
+
+
+/* Selection CSS */
+ ::-moz-selection {
+  color: #ffffff;
+  background: #00c0d6;
+}
+ ::selection {
+  color: #ffffff;
+  background: #00c0d6;
+}
+
+
+
+
+/* Form CSS */
+.form-control {
+  height: 45px;
+  margin-bottom: 30px;
+  box-shadow: none;
+  border: 1px solid #e4e4e4;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+}
+.form-control:focus {
+  border-color: rgba(0,0,0,0.12);
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+
+/* Overlay CSS */
+.overlay-black {
+  position: relative;
+}
+.overlay-black:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: rgba(34, 34, 34, 0.8);
+}
+.overlay-white {
+  position: relative;
+}
+.overlay-white:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+
+/* Theme btn CSS */
+.my-btn {
+  font-family: 'Merriweather', serif;
+  position: relative;
+  z-index: 0;
+  padding: 18px 60px 15px;
+  background: #cda248;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  text-transform: capitalize;
+  height: 60px;
+  overflow: hidden;
+  border: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+.my-btn:hover {
+  border: none;
+  color: #ffffff;
+  background: #cda248;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+.my-btn:before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  z-index: -1;
+  width: 80%;
+  height: 1px;
+  background: #ffffff;   
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+.my-btn:after {
+  content: "";
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  z-index: -1;
+  width: 80%;
+  height: 1px;
+  background: #ffffff;   
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+.my-btn:hover:before {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+.my-btn:hover:after {
+  right: 50%;
+  -webkit-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  -o-transform: translateX(50%);
+  transform: translateX(50%);
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: none;
+}
+
+
+
+/* Title CSS */
+.my-title {
+  margin-top: -10px;
+  margin-bottom: 60px;
+}
+.my-title h2 {
+  color: #1b1a17;
+  font-size: 40px;
+  line-height: 55px;
+  margin-bottom: 20px;
+}
+.my-title p {
+  color: #1b1a17;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+
+
+
+
+/*.animated{
+  opacity:1;
+}*/
+
+/* Back to top */
+#back-to-top {
+    position: fixed;
+    bottom: 50%;
+    right: 60px;
+    z-index: 9999;
+    width: 66px;
+    height: 66px;
+    text-align: center;
+    line-height: 62px;
+    background: #000941;
+    color: #ffffff;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    text-decoration: none;
+    opacity: 0;
+    -webkit-transition: all .8s ease-out;
+    -moz-transition: all .8s ease-out;
+    transition: all .8s ease-out;
+}
+#back-to-top:hover {
+  background-color: #FE2F70;
+  border-color: #FE2F70;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+#back-to-top.show {
+    opacity: 1;
+    bottom: 80px;
+    -webkit-transition: all .8s ease-out;
+    -moz-transition: all .8s ease-out;
+    transition: all .8s ease-out;
+}
+
+
+/* Pagination CSS */
+.my-pagination {
+  margin-bottom: 30px;
+  float: right;
+}
+.my-pagination ul li a {
+  display: inline-block;
+  background: transparent;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 5px;
+  border: 1px solid transparent;
+  width: 50px;
+  height: 48px;
+  line-height: 32px;
+  font-size: 21px;
+  color: #23242C;
+}
+.my-pagination ul li a:hover,
+.my-pagination ul li a.active {
+  background: #FFE5EE;
+  border: 1px solid #FE2F70;
+  color: #FE2F70;
+}
+.my-pagination .page-item.disabled .page-link {
+  border-color: transparent;
+}
+.container-fluid {
+  padding: 0 60px;
+}
+
+
+
+/* 
+=========== Terms CSS Start ===========
+*/
+.terms-area {
+  padding: 70px 0 70px;
+  
+}
+.custom-container-fluid {
+  padding: 0 150px;
+}
+.terms-cols {
+  
+}
+.terms-col-left {
+  width: 100%;
+}
+.terms-title {
+  text-align: center;
+  padding-bottom: 50px;
+  margin-bottom: 70px;
+  border-bottom: 1px solid #EEEEEE;
+}
+.terms-title h2 {
+  position: relative;
+  font-size: 38px;
+  font-weight: 500;
+  display: block;
+}
+.terms-title span {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 26px;
+  background-color: #FE2F70;
+  padding: 10px 25px;
+}
+.terms-col-left h5 {
+  font-size: 25px;
+  color: #FE2F70;
+  font-weight: 500;
+  margin-top: 50px;
+}
+.terms-col-left p {
+  font-size: 17px;
+  line-height: 27px;
+  margin-bottom: 30px;
+  color: #23242C;
+}
+
+
+
+
+/* 
+=========== Subscribe CSS Start ===========
+*/
+.subscribe-area {
+  background-color: #F9F9F9;
+  padding: 160px 0;
+}
+.subscribe-box {
+  text-align: center;
+}
+.subscribe-box h2 {
+  font-size: 42px;
+  font-weight: 500;
+}
+.subscribe-box p {
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 70px;
+  color: #77838F;
+}
+.subscribe-box .input-group .form-control {
+  background-color: #ffffff;
+  height: 70px;
+  border: none;
+  padding-left: 30px;
+}
+.subscribe-box .input-group .input-group-text {
+  background-color: #ffffff;
+  border: none;
+}
+.subscribe-box .input-group .btn-primary {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+}

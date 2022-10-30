@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 13" width="19" height="13">
+	<title>New Project</title>
+	<style>
+		.s0 { fill: none;stroke: #ffffff;stroke-linecap: round;stroke-width: 1.5 } 
+	</style>
+	<g id="hamburger">
+		<path id="Path 419" class="s0" d="m1.5 1.3h16.2"/>
+		<path id="Path 420" class="s0" d="m14.1 6.7h-12.6"/>
+		<path id="Path 421" class="s0" d="m1.5 12.2h9"/>
+	</g>
+</svg>
