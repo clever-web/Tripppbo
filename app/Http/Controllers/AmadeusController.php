@@ -1,27 +1,27 @@
-<?php
+    <?php
 
-namespace App\Http\Controllers;
+    namespace App\Http\Controllers;
 
-use App\Services\Amadeus;
-use Illuminate\Http\Request;
+    use App\Services\Amadeus;
+    use Illuminate\Http\Request;
 
-class AmadeusController extends Controller
-{
-    public function autocomplete($keyword)
+    class AmadeusController extends Controller
     {
-        $a = new Amadeus();
+        public function autocomplete($keyword)
+        {
+            $a = new Amadeus();
 
-        return   $a->autocompleteAirport($keyword);
+            return   $a->autocompleteAirport($keyword);
 
-        // $a->test();
+            // $a->test();
+        }
+
+        public function autocompleteAirport($keyword)
+        {
+            $a = new Amadeus();
+
+            return   $a->autocompleteAirport($keyword);
+
+            // $a->test();
+        }
     }
-
-    public function autocompleteAirport($keyword)
-    {
-        $a = new Amadeus();
-
-        return   $a->autocompleteAirport($keyword);
-
-        // $a->test();
-    }
-}
