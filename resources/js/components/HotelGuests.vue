@@ -1,33 +1,33 @@
-<template>
-    <div>
+  <template>
+      <div>
 
-    </div>
-  </template>
+      </div>
+    </template>
 
-  <script>
-  export default {
-    data: function () {
-      return {
+    <script>
+    export default {
+      data: function () {
+        return {
 
-      };
-    },
-    props: {
+        };
+      },
+      props: {
 
 
-    },
-    watch: {
+      },
+      watch: {
 
-    },
+      },
 
-    methods: {
+      methods: {
 
-    },
-    mounted() {
+      },
+      mounted() {
 
-    },
-  };
-  </script>
+      },
+    };
+    </script>
 
-  <style scoped>
+    <style scoped>
 
-  </style>
+    </style>
